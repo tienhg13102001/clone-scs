@@ -3,6 +3,7 @@
   "description": "이것은 한국어 예제입니다.",
   "business-areas": "비즈니스 영역",
   "fast-charger-cooling": "Fast Charger Cooling",
+  "ICE": "ICE Bath Chiller/ Heater",
   "fastChargerCooling": {
     "titleSection1": "충전 시간 20% 단축, 100% 먼지 및 습기 제거",
     "infoCards": {
@@ -35,5 +36,9 @@
       }
     },
     "titleSection3": "SCS 열 관리 시스템의 이점"
+  },
+  "ICEItem": {
+    "titleImg1": "Cooling Mode",
+    "titleImg2": "Heating Mode"
   }
 }

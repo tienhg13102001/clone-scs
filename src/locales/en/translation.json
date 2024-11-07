@@ -3,6 +3,7 @@
   "description": "This is an example in English.",
   "business-areas": "Business Areas",
   "fast-charger-cooling": "Fast Charger Cooling",
+  "ICE": "ICE Bath Chiller/ Heater",
   "fastChargerCooling": {
     "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
     "infoCards": {
@@ -18,22 +19,26 @@
         "title": "Improved Reliability",
         "content": "Robust thermal management systems help maintain the structural integrity and performance of quick charger components, minimizing the risk of failures or malfunctions. This enhances the overall reliability and availability of the charging infrastructure, providing a seamless charging experience for electric vehicle owners."
       }
-    }
-  },
-  "titleSection2": "THERMAL MANAGEMENT SYSTEM",
-  "benefitsCard": {
-    "providesStability": {
-      "title": "PROVIDES STABILITY",
-      "content": "High-power fast chargers have overheating problems. \n \n Effective thermal management to prevent fire and explosion. Ensuring user safety."
     },
-    "reduceChargingTime": {
-      "title": "REDUCE CHARGING TIME",
-      "content": "Fast charger thermal management to reduce charging time. Maximum output can be maintained without overheating, providing user convenience."
+    "titleSection2": "THERMAL MANAGEMENT SYSTEM",
+    "benefitsCard": {
+      "providesStability": {
+        "title": "PROVIDES STABILITY",
+        "content": "High-power fast chargers have overheating problems. \n \n Effective thermal management to prevent fire and explosion. Ensuring user safety."
+      },
+      "reduceChargingTime": {
+        "title": "REDUCE CHARGING TIME",
+        "content": "Fast charger thermal management to reduce charging time. Maximum output can be maintained without overheating, providing user convenience."
+      },
+      "improveSystemEfficiency": {
+        "title": "IMPROVE SYSTEM EFFICIENCY",
+        "content": "Thermal management ensures the stability of electronic parts of the fast charger. Increase power conversion efficiency and increase energy efficiency of the entire system."
+      }
     },
-    "improveSystemEfficiency": {
-      "title": "IMPROVE SYSTEM EFFICIENCY",
-      "content": "Thermal management ensures the stability of electronic parts of the fast charger. Increase power conversion efficiency and increase energy efficiency of the entire system."
-    }
+    "titleSection3": "BENEFIT OF SCS THERMAL MANGEMENT SYSTEM"
   },
-  "titleSection3": "BENEFIT OF SCS THERMAL MANGEMENT SYSTEM"
+  "ICEItem": {
+    "titleImg1": "Cooling Mode",
+    "titleImg2": "Heating Mode"
+  }
 }

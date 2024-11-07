@@ -1,6 +1,5 @@
-import { FC, useEffect } from "react";
-import { Outlet, useNavigate } from "react-router-dom";
-import RoutesString from "../Utils/RoutesString";
+import { FC } from "react";
+import { Outlet } from "react-router-dom";
 import HeaderNavigation from "../../components/Molecules/HeaderNav";
 
 type Props = {
@@ -9,11 +8,7 @@ type Props = {
 };
 
 const BusinessAreas: FC<Props> = () => {
-  const navigate = useNavigate();
 
-  useEffect(() => {
-    navigate(RoutesString.FastChargerCooling);
-  }, [navigate]);
 
   return (
     <>
