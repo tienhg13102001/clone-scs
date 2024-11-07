@@ -8,7 +8,7 @@ interface NavItem {
 
 export const getNavItems = (t: (key: string) => string): NavItem[] => [
   {
-    title: t("scs"),
+    title: t("scsNav"),
     links: [
       {
         title: t("company-info"),
@@ -63,39 +63,39 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: "Fast Charger Cooling",
-        url: "/",
+        url: "/business-areas/fast-charger-cooling",
       },
       {
         title: "ICE Bath Chiller/ Heater",
-        url: "/",
+        url: "/business-areas/ICE",
       },
       {
         title: "Electric Vessel TMS",
-        url: "/",
+        url: "/business-areas/electric",
       },
-      {
-        title: "Roof (Golf Cart) AC",
-        url: "/",
-      },
+      // {
+      //   title: "Roof (Golf Cart) AC",
+      //   url: "/business-areas/elevator",
+      // },
       {
         title: "Elevator AC",
-        url: "/",
+        url: "/business-areas/elevator",
       },
       {
         title: "Residential HVAC",
-        url: "/",
+        url: "/business-areas/residential",
       },
       {
         title: "Water Capture HEX",
-        url: "/",
+        url: "/business-areas/water-capture",
       },
       {
         title: "UPS Battery System",
-        url: "/",
+        url: "/business-areas/USP",
       },
       {
         title: "A.I. System Manager",
-        url: "/",
+        url: "/business-areas/ai-monitoring",
       },
     ],
   },

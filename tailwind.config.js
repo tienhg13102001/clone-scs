@@ -4,10 +4,17 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/img/117224882771727831332.png')",
+      },
       container: {
-        center: true,
-        padding: {
-          DEFAULT: "16px",
+        // default breakpoints but with 40px removed
+        screens: {
+          sm: "600px",
+          md: "728px",
+          lg: "984px",
+          xl: "1240px",
+          "2xl": "1300px",
         },
       },
       borderRadius: {
@@ -65,9 +72,6 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
-        },
-        boxShadow: {
-          "text-custom": "3px 4px 5px rgba(0, 0, 0, 0.7)",
         },
       },
     },
