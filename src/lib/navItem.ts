@@ -29,15 +29,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: "ESS TMS",
-        url: "/",
+        url: "/ess-tms",
       },
       {
         title: "Battery TMS",
-        url: "/",
+        url: "/battery-tms",
       },
       {
         title: "Data Center Cooling",
-        url: "/",
+        url: "/data-cooling-center",
       },
     ],
   },
