@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const FastChargerCooling: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="mx-44 mt-10">
+    <>
       <div className="flex gap-5 flex-col md:flex-row">
         <img
           src="/img/geu-rim011730166869.jpg"
@@ -79,7 +79,7 @@ const FastChargerCooling: FC = () => {
       <div className="flex gap-10 justify-center pt-10">
         <img src="/img/ha-dan-ja1730166720.png" alt="" />
       </div>
-    </div>
+    </>
   );
 };
 

@@ -17,7 +17,9 @@ const BusinessAreas: FC<Props> = () => {
       <div className="wrap overflow-x-hidden">
         <Header />
         <HeaderNavigation title="Fast Charger Cooling" />
-        <Outlet />
+        <div className="mx-44 mt-10">
+          <Outlet />
+        </div>
       </div>
     </SidebarProvider>
   );

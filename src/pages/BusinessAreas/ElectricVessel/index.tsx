@@ -6,7 +6,7 @@ import { BenefitCard, InfoCard, SectionTitle } from "../components";
 const ElectricVessel: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="mx-44 mt-10">
+    <>
       <div className="flex gap-5 flex-col md:flex-row">
         <img
           src="/img/geu-rim0117301668691730170049.png"
@@ -78,7 +78,7 @@ const ElectricVessel: FC = () => {
       <div className="flex gap-10 justify-center pt-10">
         <img src="/img/ha-dan-ja1730166720.png" alt="" />
       </div>
-    </div>
+    </>
   );
 };
 
