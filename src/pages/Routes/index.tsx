@@ -1,8 +1,9 @@
-import { createBrowserRouter } from 'react-router-dom'
-import RoutesString from '../Utils/RoutesString'
-import HomePage from '../Home'
-import AdminPage from '../Admin'
-
+import { createBrowserRouter } from "react-router-dom";
+import RoutesString from "../Utils/RoutesString";
+import HomePage from "../Home";
+import AdminPage from "../Admin";
+import BusinessAreas from "../BusinessAreas";
+import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
 
 const router = createBrowserRouter([
   {
@@ -11,10 +12,20 @@ const router = createBrowserRouter([
     children: [
       {
         path: RoutesString.Admin,
-        element: <AdminPage />
-      }
-    ]
-  }
-])
+        element: <AdminPage />,
+      },
+      {
+        path: RoutesString.BusinessAreas,
+        element: <BusinessAreas />,
+        children: [
+          {
+            path: RoutesString.FastChargerCooling,
+            element: <FastChargerCooling />,
+          },
+        ],
+      },
+    ],
+  },
+]);
 
-export default router
+export default router;
