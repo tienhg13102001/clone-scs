@@ -5,10 +5,18 @@ import AdminPage from '../Admin'
 import CompanyInfo from '../CompanyInfo'
 import History from '../History'
 import SCSHeat from '../SCSHeat'
-import EssPage from '../Ess'
-import BatteryPage from '../Battery'
-import DataCoolingCenterPage from '../DataCoolingCenter'
-
+import BusinessAreas from "../BusinessAreas";
+import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
+import ICEComponent from "../BusinessAreas/ICE";
+import ElectricVessel from "../BusinessAreas/ElectricVessel";
+import Elevator from "../BusinessAreas/Elevator";
+import EssPage from "../Ess";
+import BatteryPage from "../Battery";
+import DataCoolingCenterPage from "../DataCoolingCenter";
+import Residential from "../BusinessAreas/Residential";
+import WaterCapture from "../BusinessAreas/WaterCapture";
+import USPComponent from "../BusinessAreas/USP";
+import AIMonitoring from "../BusinessAreas/AIMonitoring";
 
 const router = createBrowserRouter([
   {
@@ -17,21 +25,59 @@ const router = createBrowserRouter([
     children: [
       {
         path: RoutesString.Admin,
-        element: <AdminPage />
+        element: <AdminPage />,
       },
-    ]
+    ],
   },
   {
     path: RoutesString.Ess,
-    element: <EssPage />
+    element: <EssPage />,
   },
   {
     path: RoutesString.Battery,
-    element: <BatteryPage />
+    element: <BatteryPage />,
   },
   {
     path: RoutesString.DataCoolingCenter,
-    element: <DataCoolingCenterPage />
+    element: <DataCoolingCenterPage />,
+  },
+  {
+    path: RoutesString.BusinessAreas,
+    element: <BusinessAreas />,
+    children: [
+      {
+        path: RoutesString.FastChargerCooling,
+        element: <FastChargerCooling />,
+      },
+      {
+        path: RoutesString.ICE,
+        element: <ICEComponent />,
+      },
+      {
+        path: RoutesString.Electric,
+        element: <ElectricVessel />,
+      },
+      {
+        path: RoutesString.Elevator,
+        element: <Elevator />,
+      },
+      {
+        path: RoutesString.Residential,
+        element: <Residential />,
+      },
+      {
+        path: RoutesString.WaterCapture,
+        element: <WaterCapture />,
+      },
+      {
+        path: RoutesString.USP,
+        element: <USPComponent />,
+      },
+      {
+        path: RoutesString.AIMonitoring,
+        element: <AIMonitoring />,
+      },
+    ],
   },
   {
     path: RoutesString.CompanyInfo,
@@ -45,6 +91,6 @@ const router = createBrowserRouter([
     path: RoutesString.SCSHeat,
     element: <SCSHeat />
   }
-])
+]);
 
-export default router
+export default router;
