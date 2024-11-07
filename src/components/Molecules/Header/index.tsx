@@ -190,11 +190,13 @@ function Header() {
           <button onClick={() => changeLanguage("en")}>EN</button>
         </div>
       </div>
-      <div className="lg:hidden relative flex w-full justify-center items-center">
-        <button onClick={toggleSidebar} className="absolute inset-y-0 left-3">
-          <Menu />
-        </button>
-        <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+      <div className="lg:hidden fixed top-0 w-full bg-white">
+        <div className="relative flex w-full justify-center items-center">
+          <button onClick={toggleSidebar} className="absolute inset-y-0 left-3">
+            <Menu />
+          </button>
+          <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+        </div>
       </div>
     </>
   );

@@ -1,16 +1,16 @@
-import { AppSidebar } from "@/components/app-sidebar";
-import { SidebarProvider } from "@/components/ui/sidebar";
 import { motion } from "framer-motion";
 import Footer from "../../components/Molecules/Footer";
 import Header from "../../components/Molecules/Header";
+import { SidebarProvider } from "@/components/ui/sidebar";
+import { AppSidebar } from "@/components/app-sidebar";
 
 const HomePage = () => {
   return (
-    <SidebarProvider>
+    <SidebarProvider open={false}>
       <AppSidebar />
       <div className="wrap overflow-x-hidden">
         <Header />
-        <section className="relative mx-auto mb-0 bg-[url('/img/homepage-bg.png')] bg-repeat bg-transparent h-full lg:object-cover object-[center_center] lg:bg-fixed text-white p-5 lg:p-[100px_300px_150px_300px]">
+        <section className="mx-auto mb-0 bg-[url('/img/homepage-bg.png')] bg-repeat bg-transparent lg:object-cover object-[center_center] lg:bg-fixed text-white p-5 lg:p-[100px_300px_150px_300px] max-lg:mt-[50px]">
           <div className="lg:h-[200px] h-[35px]" />
           <div className="pb-[75px] lg:pb-[190px] text-center">
             <h1 className="lg:text-xl lg:tracking-[6px] text-base">
