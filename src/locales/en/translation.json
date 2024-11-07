@@ -1,4 +1,257 @@
 {
-    "welcome": "Welcome",
-    "description": "This is an example in English."
+  "welcome": "Welcome",
+  "description": "This is an example in English.",
+  "products": {
+    "ess_tms": {
+      "path": "products",
+      "main_path": "ess tms",
+      "title": "ESS ",
+      "title2": "(ENERGY STORAGE SYSTEM) THERMAL MANAGEMENT SYSTEM",
+      "subtitle": "THERMAL MANAGEMENT SYSTEM",
+      "item1": {
+        "name": "STABLE SUPPLY OF ENERGY",
+        "description": "It is essential to stably supply re- newable energy sources with high variability in power generation.",
+        "description2": "Effective thermal management is required to prevent overheat-ing of electronic components related to batteries."
+      },
+      "item2": {
+        "name": "BATTERY LIFE EXTENSION",
+        "description": "Heat management can extend the life of batteries that are weak to heat.",
+        "description2": "It improves the overall lifespan and economic feasibility of the energy storage system."
+      },
+      "item3": {
+        "name": "INCREASE ENERGY EFFICIENCY",
+        "description": "Minimizing heat loss through thermal management systems increases energy efficiency.",
+        "description2": "Increase in the storage of energy."
+      },
+      "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
+      "subtitle3": "ESS(ENERGY STORAGE SYSTEM) + AI THERMAL MANAGEMENT SYSTEM",
+      "subtitle4": "SPECIFICATION",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "ESS(Energy Storage System)"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "Flow Volume Max",
+            "type": "50LPM"
+          },
+          "item4": {
+            "name": "Heat fulid",
+            "type": "R134a or R1234yf/EG or Iso Oil"
+          },
+          "item5": {
+            "name": "Cooling Volume",
+            "type": "40kW @40°C 40%"
+          },
+          "item6": {
+            "name": "Heating Volume",
+            "type": "15kW"
+          },
+          "item7": {
+            "name": "Operating temp",
+            "type": "-20~55°C"
+          },
+          "item8": {
+            "name": "Dimension(W*L*H)",
+            "type": "700(L) x 700(W) x 1,500(H)"
+          },
+          "item9": {
+            "name": "Weight",
+            "type": "80kg (except, fluid)"
+          },
+          "item10": {
+            "name": "Power Source",
+            "type": "DC480V & 12V"
+          },
+          "item11": {
+            "name": "Outlet target temp",
+            "type": "5~50°C"
+          }
+        },
+        "software_section": {
+          "item1": {
+            "name": "Control Method",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "Status Check",
+            "type": "UI/Indicator"
+          }
+        }
+      }
+    },
+    "battery_tms": {
+      "path": "products",
+      "main_path": "Battery TMS",
+      "title": "Electric Bus",
+      "title2": "Thermal Management System",
+      "subtitle": "THERMAL MANAGEMENT SYSTEM",
+      "item1": {
+        "name": "Stable Driving",
+        "description": "Heat generation using a large battery pack",
+        "description2": "The thermal management sys- tems prevent failures caused by overheating and prevent acci- dents while driving"
+      },
+      "item2": {
+        "name": "Extending of Battery Life",
+        "description": "Batty overheating significantly shortens lifespan",
+        "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
+        "description3": "Reduce operational costs"
+      },
+      "item3": {
+        "name": "Improved Stability",
+        "description": "Overheated batteries are at a high risk of fire",
+        "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
+        "description3": "Improve the reliability of public transportation"
+      },
+      "subtitle2": "Benefit of SCS Thermal Management System",
+      "subtitle3": "Electric Bus + A.I. Thermal Management System",
+      "subtitle4": "Specification",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "Electric Vehicle"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP67"
+          },
+          "item3": {
+            "name": "Flow Volume Max",
+            "type": "45~65 LPM"
+          },
+          "item4": {
+            "name": "Heat fulid",
+            "type": "R410 or R134a/EG 50%"
+          },
+          "item5": {
+            "name": "Cooling Volume",
+            "type": "Max. 10kW (Amb.T37°C)"
+          },
+          "item6": {
+            "name": "Heating Volume",
+            "type": "Max. 6kW"
+          },
+          "item7": {
+            "name": "Operating temp",
+            "type": "-10 ~ 55°C"
+          },
+          "item8": {
+            "name": "Dimension(W*L*H)",
+            "type": "870(L) x 450(W) x 300(H)"
+          },
+          "item9": {
+            "name": "Weight",
+            "type": "40kg"
+          },
+          "item10": {
+            "name": "Power Source",
+            "type": "450~750Vdc 7kW/12/24Vdc"
+          },
+          "item11": {
+            "name": "Outlet target temp",
+            "type": "10°C ~20°C"
+          }
+        },
+        "software_section": {
+          "item1": {
+            "name": "Control Method",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "Status Check",
+            "type": "UI/Indicator"
+          }
+        }
+      }
+    },
+    "data_center_cooling": {
+      "path": "products",
+      "main_path": "Data Center Cooling",
+      "title": "DATA CENTER",
+      "title2": "THERMAL MANAGEMENT SYSTEM",
+      "subtitle": "THERMAL MANAGEMENT SYSTEM",
+      "item1": {
+        "name": "SENSOR NETWORK",
+        "description": "Real-time data",
+        "description2": "Temperature/Humidity/Airflow"
+      },
+      "item2": {
+        "name": "ANALYSIS AND OPTIMIZATION",
+        "description": "Pre-optimize systems with ana- lytics and automation"
+      },
+      "item3": {
+        "name": "PREVENTIVE MAINTENANCE",
+        "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
+      },
+      "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
+      "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
+      "subtitle4": "SPECIFICATION",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "Data Center / Big generator and room of turbine"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "Power Supply",
+            "type": "DC480V & 12V"
+          },
+          "item4": {
+            "name": "Power Consumption",
+            "type": "(Cool) 5~8kW, (Heat) 10KW"
+          },
+          "item5": {
+            "name": "Water flow(L/min)",
+            "type": "Max 50LPM"
+          },
+          "item6": {
+            "name": "Heat fluid",
+            "type": "R134a or R1234yf/EG or Iso Oil"
+          },
+          "item7": {
+            "name": "Cooling capacity",
+            "type": "200kW @25°C40%"
+          },
+          "item8": {
+            "name": "Heating capacity",
+            "type": "16kW"
+          },
+          "item9": {
+            "name": "Operating temp",
+            "type": "5-55°C"
+          },
+          "item10": {
+            "name": "Size",
+            "type": "400(L) x 600(W) x 1,500(H)mm"
+          },
+          "item11": {
+            "name": "Weight",
+            "type": "80kg (except, fluid)"
+          }
+        }
+      }
+    }
+  }
 }
