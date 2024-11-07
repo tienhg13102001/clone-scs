@@ -8,7 +8,7 @@ interface NavItem {
 
 export const getNavItems = (t: (key: string) => string): NavItem[] => [
   {
-    title: t("scs"),
+    title: t("scsNav"),
     links: [
       {
         title: t("company-info"),
