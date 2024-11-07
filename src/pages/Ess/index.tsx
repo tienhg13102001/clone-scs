@@ -33,7 +33,7 @@ function EssPage() {
             <h3 className='text-[#444] text-[30px]'>{t("products.ess_tms.subtitle")}</h3>
           </div>
 
-          <div className='grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] space-y-6'>
+          <div className='grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] space-y-6 lg:space-y-0'>
             <div className='space-y-7'>
               <div className='border border-[#4972B8] w-full'>
                 <p className='text-black text-2xl text-center py-[10px] px-12'>{t("products.ess_tms.item1.name")}</p>
