@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-import React, { useEffect } from 'react';
-import Header from '../../components/Molecules/Header';
-import Footer from '../../components/Molecules/Footer';
-import { useTranslation } from 'react-i18next';
-import { Outlet } from 'react-router-dom';
-
-=======
 import { AppSidebar } from "@/components/app-sidebar";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Footer from "../../components/Molecules/Footer";
 import Header from "../../components/Molecules/Header";
->>>>>>> a08c66494cbabbf62d142a97b7e21c085c5a208f
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -155,13 +146,7 @@ const HomePage = () => {
         </section>
         <Footer />
       </div>
-<<<<<<< HEAD
-      <Outlet />
-      <Footer />
-    </div>
-=======
     </SidebarProvider>
->>>>>>> a08c66494cbabbf62d142a97b7e21c085c5a208f
   );
 };
 
