@@ -2,7 +2,7 @@ import { FC } from "react";
 import Devider from "../../../components/Devider";
 import { useTranslation } from "react-i18next";
 
-const ICE: FC = () => {
+const ICEComponent: FC = () => {
   const { t } = useTranslation();
   return (
     <div className="container mx-auto mt-10">
@@ -16,13 +16,13 @@ const ICE: FC = () => {
           />
         </div>
         <div className="flex flex-col items-center w-full md:w-1/2">
-          <p className="text-[#0256D0] font-medium text-2xl">{t("ICEItem.titleImg1")}</p>
-          <img
-            src="/img/geu-rim071730168133.jpg"
-            alt=""
-            className="w-full"
-          />
-          <p className="text-[#D00000] font-medium text-2xl">{t("ICEItem.titleImg2")}</p>
+          <p className="text-[#0256D0] font-medium text-2xl">
+            {t("ICEItem.titleImg1")}
+          </p>
+          <img src="/img/geu-rim071730168133.jpg" alt="" className="w-full" />
+          <p className="text-[#D00000] font-medium text-2xl">
+            {t("ICEItem.titleImg2")}
+          </p>
           <img src="/img/geu-rim081730168231.jpg" alt="" className="w-full2" />
         </div>
       </div>
@@ -31,4 +31,4 @@ const ICE: FC = () => {
   );
 };
 
-export default ICE;
+export default ICEComponent;
