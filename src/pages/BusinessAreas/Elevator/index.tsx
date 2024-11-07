@@ -7,7 +7,7 @@ import ComparisonComponent from "../components/SpecTable";
 const Elevator: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto mt-10">
+    <div className="mx-44 mt-10">
       <div className="flex gap-5 flex-col md:flex-row">
         <img
           src="/img/geu-rim011730166869d1730170224dd1730179229.png"
@@ -16,11 +16,11 @@ const Elevator: FC = () => {
         />
         <img src="/img/ddff1730181276.png" alt="" className="w-full md:w-1/2" />
       </div>
-        <Devider />
-        <SectionTitle title={t("elevatorItem.titleSection1")} />
-        <div>
-          <ComparisonComponent />
-        </div>
+      <Devider />
+      <SectionTitle title={t("elevatorItem.titleSection1")} />
+      <div>
+        <ComparisonComponent />
+      </div>
     </div>
   );
 };

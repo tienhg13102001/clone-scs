@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const ICEComponent: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto mt-10">
+    <div className="mx-44 mt-10">
       <Devider />
       <div className="flex gap-5 flex-col items-center md:flex-row">
         <div className="w-full md:w-1/2">

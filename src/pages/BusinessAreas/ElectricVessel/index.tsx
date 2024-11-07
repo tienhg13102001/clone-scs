@@ -6,7 +6,7 @@ import { BenefitCard, InfoCard, SectionTitle } from "../components";
 const ElectricVessel: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto mt-10">
+    <div className="mx-44 mt-10">
       <div className="flex gap-5 flex-col md:flex-row">
         <img
           src="/img/geu-rim0117301668691730170049.png"
