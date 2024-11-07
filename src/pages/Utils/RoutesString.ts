@@ -1,6 +1,9 @@
 const RoutesString = {
   Home: '/',
-  Admin: '/admin'
+  Admin: '/admin',
+  CompanyInfo: '/company-info',
+  History: '/history',
+  SCSHeat:'/SCSHeat'
 }
 
 export default RoutesString

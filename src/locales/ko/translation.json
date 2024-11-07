@@ -1,4 +1,46 @@
 {
     "welcome": "환영합니다",
-    "description": "이것은 한국어 예제입니다."
+    "description": "이것은 한국어 예제입니다.",
+    "scs": {
+        "companyInfo": {
+            "introductionTitle": "(주)에스씨에스 소개",
+            "workWithSCS": "Let’s work with",
+            "SCSTitle": "회사소개",
+            "SCS": "(주)",
+            "companyInfoTitle": "회사 소개",
+            "companyDescription": "SCS는 Standard Cooling Systems의 약자로, 고효율 열 관리 시스템 설계를 전문으로 하는 AI 컴퓨팅 개발 플랫폼입니다.",
+            "longDescription": "SCS는 고유한 고효율 냉각 시스템 설계 기술과 A.I. 개발 노하우를 통해 혁신을 창출하기 위해 최고의 기술 설계 역량을 사용하는 데 전념합니다. SCS는 2021년 9월 설립 이후 지금까지 13억 원의 투자를 받았으며 전기 충전 시장에 혁신적인 변화를 가져오는 임무를 맡고 있습니다. 비교적 젊은 나이에도 불구하고 SCS는 여러 단계의 성공을 거두었습니다. SCS는 최고의 냉각 시스템을 설계하는 것뿐만 아니라 새로운 기술을 통해 업계에 변화를 가져오는 데 집중하고 있습니다. SCS는 게임 체인저입니다. 당사는 회사 내에서 완벽한 커뮤니케이션을 통해 정보의 원활한 흐름을 보장합니다.",
+            "keyBusinessItems": "에스씨에스 주요 사업",
+            "newsStoriesTitle": "뉴스기사",
+            "growStatement": "저희는 성장하는 기업입니다.",
+            "advancementsTitle": "(주)에스씨에스는 지속적으로 발전을 이루어 그 능력을 입증하고 있습니다.",
+            "techDevelopment": "업계 최고의 기술을 개발하기 위해 노력하고 있습니다.",
+            "paradigmShift": "충전 산업, 전기 보트, 전기 중공업 등 전기화 분야에서 패러다임 전환을",
+            "industries": "선도하고자 합니다."
+        },
+        "history": {
+            "history": "약력"
+        },
+        "heatRAndD": {
+            "title": "열 연구개발센터",
+            "listItems": [
+                {
+                    "content": "인공지능 컨트롤러 개발 완료 (양산 준비 완료)",
+                    "highlight": true
+                },
+                {
+                    "content": "한국과 미국에 각각 공장 설립",
+                    "highlight": false
+                },
+                {
+                    "content": "한국 연구원 설립",
+                    "highlight": false
+                },
+                {
+                    "content": "배터리/데이터 센터 OEM PRE-PJT & 제품 배송 을 SK 온, EDM, 프리미어 로지텍 등에 제공합니다.",
+                    "highlight": false
+                }
+            ]
+        }
+    }
 }

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Header from '../../components/Molecules/Header';
 import Footer from '../../components/Molecules/Footer';
 import { useTranslation } from 'react-i18next';
+import { Outlet } from 'react-router-dom';
 
 
 const HomePage = () => {
@@ -21,6 +22,7 @@ const HomePage = () => {
         <button onClick={() => changeLanguage("en")}>English</button>
         <button onClick={() => changeLanguage("ko")}>한국어</button>
       </div>
+      <Outlet />
       <Footer />
     </div>
   );
