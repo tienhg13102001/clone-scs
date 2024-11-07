@@ -78,3 +78,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+  font-family: "ManumGothic";
+  src: url("/assets/font/NanumGothic-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ManumGothic", sans-serif;
+}

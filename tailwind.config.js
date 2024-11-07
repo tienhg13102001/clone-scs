@@ -59,10 +59,18 @@ export default {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
+  			},
+				boxShadow: {
+					"text-custom": "3px 4px 5px rgba(0, 0, 0, 0.7)",
+				},
+				container: {
+					center: true,
+					padding: {
+						DEFAULT: "16px",
+					},
+				},
   		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
 }
-

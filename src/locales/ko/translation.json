@@ -29,5 +29,257 @@
     "business-areas": "비즈니스 영역",
 
     "media": "고객센터",
-    "media-record": "뉴스"
+    "media-record": "뉴스",
+  "products": {
+    "ess_tms": {
+      "path": "제품",
+      "title": "ESS ",
+      "title2": "(에너지 저장 시스템) 열 관리 시스템",
+      "subtitle": "열 관리 시스템",
+      "item1": {
+        "name": "안정적인 에너지 공급",
+        "description": "발전량의 변동성이 큰 재생에너지원을 안정적으로 공급하는 것이 필수적입니다.",
+        "description2": "배터리와 관련된 전자 부품의 과열을 방지하려면 효과적인 열 관리가 필요합니다."
+      },
+      "item2": {
+        "name": "배터리 수명 연장",
+        "description": "열 관리를 통해 열에 약한 배터리의 수명을 연장할 수 있습니다.",
+        "description2": "에너지 저장 시스템의 전체 수명과 경제적 타당성을 개선합니다."
+      },
+      "item3": {
+        "name": "에너지 효율성 증가",
+        "description": "열 관리 시스템을 통한 열 손실 최소화로 에너지 효율성 증가.",
+        "description2": "에너지 저장 증가."
+      },
+      "subtitle2": "ESS(에너지 저장 시스템) + AI 열 관리 시스템",
+      "subtitle3": "SCS 열 관리 시스템의 이점",
+      "subtitle4": "사양",
+      "table": {
+        "col_span1": "목차",
+        "row_span1": "하드웨어",
+        "col_span2": "사양",
+        "row_span2": "소프트웨어",
+        "hardware_section": {
+          "item1": {
+            "name": "대상",
+            "type": "ESS(에너지 저장 시스템)"
+          },
+          "item2": {
+            "name": "IP 등급",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "최대 유량",
+            "type": "50LPM"
+          },
+          "item4": {
+            "name": "열 충만도",
+            "type": "R134a 또는 R1234yf/EG 또는 Iso Oil"
+          },
+          "item5": {
+            "name": "냉각 용량",
+            "type": "40kW @40°C 40%"
+          },
+          "item6": {
+            "name": "가열 용량",
+            "type": "15kW"
+          },
+          "item7": {
+            "name": "작동 온도",
+            "type": "-20~55°C"
+          },
+          "item8": {
+            "name": "치수(W*L*H)",
+            "type": "700(L) x 700(W) x 1,500(H)"
+          },
+          "item9": {
+            "name": "무게",
+            "type": "80kg(유체 제외)"
+          },
+          "item10": {
+            "name": "전원",
+            "type": "DC480V 및 12V"
+          },
+          "item11": {
+            "name": "출구 대상 온도",
+            "type": "5~50°C"
+          }
+        },
+        "software_section": {
+          "item1": {
+            "name": "제어 방식",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "상태 확인",
+            "type": "UI/표시기"
+          }
+        }
+      }
+    },
+    "battery_tms": {
+      "path": "제품",
+      "main_path": "배터리 TMS",
+      "title": "전기 버스",
+      "title2": "열 관리 시스템",
+      "subtitle": "열 관리 시스템",
+      "item1": {
+        "name": "안정적인 주행",
+        "description": "대용량 배터리 팩을 사용한 열 발생",
+        "description2": "열 관리 시스템은 과열로 인한 고장을 방지하고 주행 중 사고를 방지합니다."
+      },
+      "item2": {
+        "name": "배터리 수명 연장",
+        "description": "배터리 과열은 수명을 크게 단축합니다.",
+        "description2": "열 관리를 통해 배터리의 최적 온도를 유지하여 배터리 수명을 두 배로 늘릴 수 있습니다.",
+        "description3": "운영 비용 절감"
+      },
+      "item3": {
+        "name": "안정성 향상",
+        "description": "과열된 배터리는 화재 위험이 높습니다.",
+        "description2": "효과적인 열 관리를 통해 배터리 과열을 방지하고 승객의 안전을 보장합니다.",
+        "description3": "대중교통의 안정성을 향상합니다."
+      },
+      "subtitle2": "SCS 열 관리 시스템의 이점",
+      "subtitle3": "전기 버스 + AI 열 관리 시스템",
+      "subtitle4": "사양",
+      "table": {
+        "col_span1": "목차",
+        "row_span1": "하드웨어",
+        "col_span2": "사양",
+        "row_span2": "소프트웨어",
+        "hardware_section": {
+          "item1": {
+            "name": "대상",
+            "type": "전기 자동차"
+          },
+          "item2": {
+            "name": "IP 등급",
+            "type": "IP67"
+          },
+          "item3": {
+            "name": "최대 유량",
+            "type": "45~65 LPM"
+          },
+          "item4": {
+            "name": "열 충만도",
+            "type": "R410 또는 R134a/EG 50%"
+          },
+          "item5": {
+            "name": "냉각 용량",
+            "type": "최대 10kW(Amb.T37°C)"
+          },
+          "item6": {
+            "name": "가열 용량",
+            "type": "최대 6kW"
+          },
+          "item7": {
+            "name": "작동 온도",
+            "type": "-10 ~ 55°C"
+          },
+          "item8": {
+            "name": "치수(W*L*H)",
+            "type": "870(L) x 450(W) x 300(H)"
+          },
+          "item9": {
+            "name": "무게",
+            "type": "40kg"
+          },
+          "item10": {
+            "name": "전원",
+            "type": "450~750Vdc 7kW/12/24Vdc"
+          },
+          "item11": {
+            "name": "출구 대상 온도",
+            "type": "10°C ~20°C"
+          }
+        },
+        "software_section": {
+          "item1": {
+            "name": "제어 방식",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "상태 확인",
+            "type": "UI/표시기"
+          }
+        }
+      }
+    },
+    "data_center_cooling": {
+      "path": "제품",
+      "main_path": "Data Center Cooling",
+      "title": "데이터 센터",
+      "title2": "열 관리 시스템",
+      "subtitle": "열 관리 시스템",
+      "item1": {
+        "name": "센서 네트워크",
+        "description": "실시간 데이터",
+        "description2": "온도/습도/공기 흐름"
+      },
+      "item2": {
+        "name": "분석 및 최적화",
+        "description": "분석 및 자동화를 통해 시스템을 사전 최적화"
+      },
+      "item3": {
+        "name": "예방적 유지 관리",
+        "description": "주기적 모니터링 및 유지 관리를 통해 열 관리 시스템의 안정적인 작동 보장"
+      },
+      "subtitle2": "SCS 열 관리 시스템의 이점",
+      "subtitle3": "데이터 센터 + AI 열 관리 시스템",
+      "subtitle4": "사양",
+      "table": {
+        "col_span1": "목차",
+        "row_span1": "하드웨어",
+        "col_span2": "사양",
+        "row_span2": "소프트웨어",
+        "hardware_section": {
+          "item1": {
+            "name": "대상",
+            "type": "데이터 센터 / 대형 발전기 및 터빈실"
+          },
+          "item2": {
+            "name": "IP 등급",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "전원 공급",
+            "type": "DC480V & 12V"
+          },
+          "item4": {
+            "name": "전력 소비",
+            "type": "(냉방) 5~8kW, (난방) 10KW"
+          },
+          "item5": {
+            "name": "물 흐름(L/min)",
+            "type": "최대 50LPM"
+          },
+          "item6": {
+            "name": "열 유체",
+            "type": "R134a 또는 R1234yf/EG 또는 Iso Oil"
+          },
+          "item7": {
+            "name": "냉각 용량",
+            "type": "200kW @25°C40%"
+          },
+          "item8": {
+            "name": "난방 용량",
+            "type": "16kW"
+          },
+          "item9": {
+            "name": "작동 온도",
+            "type": "5-55°C"
+          },
+          "item10": {
+            "name": "크기",
+            "type": "400(L) x 600(W) x 1,500(H)mm"
+          },
+          "item11": {
+            "name": "무게",
+            "type": "80kg(유체 제외)"
+          }
+        }
+      }
+    }
+  }
 }
