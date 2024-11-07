@@ -1,9 +1,9 @@
+import Header from "@/components/Molecules/Header";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { FC } from "react";
 import { Outlet } from "react-router-dom";
 import HeaderNavigation from "../../components/Molecules/HeaderNav";
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import Header from "@/components/Molecules/Header";
+import Footer from "@/components/Molecules/Footer";
 
 type Props = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -13,13 +13,13 @@ type Props = {
 const BusinessAreas: FC<Props> = () => {
   return (
     <SidebarProvider>
-      <AppSidebar />
-      <div className="wrap overflow-x-hidden">
+      <div className="w-full">
         <Header />
         <HeaderNavigation title="Fast Charger Cooling" />
         <div className="mx-44 mt-10">
           <Outlet />
         </div>
+        <Footer />
       </div>
     </SidebarProvider>
   );

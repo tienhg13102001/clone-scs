@@ -26,8 +26,6 @@
 
   "advanced-tech": "Advanced Technology",
 
-  "business-areas": "Business Areas",
-
   "media": "Media",
   "media-record": "Media Record",
   "products": {
@@ -288,6 +286,10 @@
   "ICE": "ICE Bath Chiller/ Heater",
   "electric": "Electric Vessel TMS",
   "elevator": "Elevator AC",
+  "residential": "Residential HVAC",
+  "water-capture": "Water Capture HEX",
+  "USP": "UPS Battery System",
+  "ai-monitoring": "A.I. System Manager",
   "fastChargerCooling": {
     "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
     "infoCards": {
@@ -330,5 +332,14 @@
   },
   "elevatorItem": {
     "titleSection1": "Elevator AC"
+  },
+  "residentialItem": {
+    "titleSection1": "Implementation of Enthalpy Exchange"
+  },
+  "USPItem": {
+    "titleSection1": "UPS(Uninterrupt power Supply) Schematic(10kW)"
+  },
+  "aiMonitoringItem": {
+    "titleSection1": "AI MONITORING SYSTEM"
   }
 }

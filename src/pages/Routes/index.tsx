@@ -10,6 +10,10 @@ import Elevator from "../BusinessAreas/Elevator";
 import EssPage from "../Ess";
 import BatteryPage from "../Battery";
 import DataCoolingCenterPage from "../DataCoolingCenter";
+import Residential from "../BusinessAreas/Residential";
+import WaterCapture from "../BusinessAreas/WaterCapture";
+import USPComponent from "../BusinessAreas/USP";
+import AIMonitoring from "../BusinessAreas/AIMonitoring";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +57,22 @@ const router = createBrowserRouter([
       {
         path: RoutesString.Elevator,
         element: <Elevator />,
+      },
+      {
+        path: RoutesString.Residential,
+        element: <Residential />,
+      },
+      {
+        path: RoutesString.WaterCapture,
+        element: <WaterCapture />,
+      },
+      {
+        path: RoutesString.USP,
+        element: <USPComponent />,
+      },
+      {
+        path: RoutesString.AIMonitoring,
+        element: <AIMonitoring />,
       },
     ],
   },

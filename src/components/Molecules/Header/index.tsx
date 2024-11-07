@@ -37,9 +37,9 @@ function Header() {
     <>
       <div
         className={cn(
-          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 z-10 border-[rgba(255,255,255,.2)] transition-all duration-200 max-lg:hidden",
+          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 z-10 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden",
           {
-            "text-white bg-transparent hover:bg-black/30": !whiteMode,
+            "text-white bg-transparent hover:bg-black/30 shadow-none": !whiteMode,
           }
         )}
       >

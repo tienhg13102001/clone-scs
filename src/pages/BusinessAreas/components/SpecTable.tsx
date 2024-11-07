@@ -112,11 +112,11 @@ const SpecTable: React.FC<{
   </div>
 );
 
-const ComparisonComponent: React.FC = () => (
+const TableComponent: React.FC = () => (
   <div className="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-4 p-4">
     <SpecTable title="Concept Type 1" specs={conceptType1Specs} />
     <SpecTable title="Concept Type 2" specs={conceptType2Specs} />
   </div>
 );
 
-export default ComparisonComponent;
+export default TableComponent;

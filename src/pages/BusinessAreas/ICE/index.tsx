@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const ICEComponent: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="mx-44 mt-10">
+    <>
       <Devider />
       <div className="flex gap-5 flex-col items-center md:flex-row">
         <div className="w-full md:w-1/2">
@@ -27,7 +27,7 @@ const ICEComponent: FC = () => {
         </div>
       </div>
       <Devider />
-    </div>
+    </>
   );
 };
 

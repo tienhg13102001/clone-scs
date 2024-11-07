@@ -2,7 +2,7 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import Devider from "../../../components/Devider";
 import { SectionTitle } from "../components";
-import ComparisonComponent from "../components/SpecTable";
+import TableComponent from "../components/SpecTable";
 
 const Elevator: FC = () => {
   const { t } = useTranslation();
@@ -18,8 +18,8 @@ const Elevator: FC = () => {
       </div>
       <Devider />
       <SectionTitle title={t("elevatorItem.titleSection1")} />
-      <div>
-        <ComparisonComponent />
+      <div className="mb-10">
+        <TableComponent />
       </div>
     </>
   );
