@@ -4,6 +4,7 @@
   "business-areas": "Business Areas",
   "fast-charger-cooling": "Fast Charger Cooling",
   "ICE": "ICE Bath Chiller/ Heater",
+  "electric": "Electric Vessel TMS",
   "fastChargerCooling": {
     "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
     "infoCards": {
@@ -40,5 +41,8 @@
   "ICEItem": {
     "titleImg1": "Cooling Mode",
     "titleImg2": "Heating Mode"
+  },
+  "electricItem": {
+    "titleSection1": "+30% Driving Range 8%↑ Heating Performance"
   }
 }

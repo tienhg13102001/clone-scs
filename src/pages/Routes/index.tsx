@@ -5,6 +5,7 @@ import AdminPage from "../Admin";
 import BusinessAreas from "../BusinessAreas";
 import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
 import ICEComponent from "../BusinessAreas/ICE";
+import ElectricVessel from "../BusinessAreas/ElectricVessel";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
           {
             path: RoutesString.ICE,
             element: <ICEComponent />,
+          },
+          {
+            path: RoutesString.Electric,
+            element: <ElectricVessel />,
           },
         ],
       },
