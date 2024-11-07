@@ -17,27 +17,27 @@ const router = createBrowserRouter([
         path: RoutesString.Admin,
         element: <AdminPage />,
       },
+    ],
+  },
+  {
+    path: RoutesString.BusinessAreas,
+    element: <BusinessAreas />,
+    children: [
       {
-        path: RoutesString.BusinessAreas,
-        element: <BusinessAreas />,
-        children: [
-          {
-            path: RoutesString.FastChargerCooling,
-            element: <FastChargerCooling />,
-          },
-          {
-            path: RoutesString.ICE,
-            element: <ICEComponent />,
-          },
-          {
-            path: RoutesString.Electric,
-            element: <ElectricVessel />,
-          },
-          {
-            path: RoutesString.Elevator,
-            element: <Elevator />,
-          },
-        ],
+        path: RoutesString.FastChargerCooling,
+        element: <FastChargerCooling />,
+      },
+      {
+        path: RoutesString.ICE,
+        element: <ICEComponent />,
+      },
+      {
+        path: RoutesString.Electric,
+        element: <ElectricVessel />,
+      },
+      {
+        path: RoutesString.Elevator,
+        element: <Elevator />,
       },
     ],
   },
