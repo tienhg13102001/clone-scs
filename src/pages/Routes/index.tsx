@@ -7,6 +7,9 @@ import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
 import ICEComponent from "../BusinessAreas/ICE";
 import ElectricVessel from "../BusinessAreas/ElectricVessel";
 import Elevator from "../BusinessAreas/Elevator";
+import EssPage from "../Ess";
+import BatteryPage from "../Battery";
+import DataCoolingCenterPage from "../DataCoolingCenter";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,18 @@ const router = createBrowserRouter([
         element: <AdminPage />,
       },
     ],
+  },
+  {
+    path: RoutesString.Ess,
+    element: <EssPage />,
+  },
+  {
+    path: RoutesString.Battery,
+    element: <BatteryPage />,
+  },
+  {
+    path: RoutesString.DataCoolingCenter,
+    element: <DataCoolingCenterPage />,
   },
   {
     path: RoutesString.BusinessAreas,
