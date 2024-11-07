@@ -6,6 +6,7 @@ import BusinessAreas from "../BusinessAreas";
 import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
 import ICEComponent from "../BusinessAreas/ICE";
 import ElectricVessel from "../BusinessAreas/ElectricVessel";
+import Elevator from "../BusinessAreas/Elevator";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
           {
             path: RoutesString.Electric,
             element: <ElectricVessel />,
+          },
+          {
+            path: RoutesString.Elevator,
+            element: <Elevator />,
           },
         ],
       },

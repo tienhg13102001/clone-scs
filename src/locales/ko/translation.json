@@ -5,6 +5,7 @@
   "fast-charger-cooling": "Fast Charger Cooling",
   "ICE": "ICE Bath Chiller/ Heater",
   "electric": "Electric Vessel TMS",
+  "elevator": "Elevator AC",
   "fastChargerCooling": {
     "titleSection1": "충전 시간 20% 단축, 100% 먼지 및 습기 제거",
     "infoCards": {

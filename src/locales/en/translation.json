@@ -5,6 +5,7 @@
   "fast-charger-cooling": "Fast Charger Cooling",
   "ICE": "ICE Bath Chiller/ Heater",
   "electric": "Electric Vessel TMS",
+  "elevator": "Elevator AC",
   "fastChargerCooling": {
     "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
     "infoCards": {
@@ -44,5 +45,8 @@
   },
   "electricItem": {
     "titleSection1": "+30% Driving Range 8%↑ Heating Performance"
+  },
+  "elevatorItem": {
+    "titleSection1": "Elevator AC"
   }
 }
