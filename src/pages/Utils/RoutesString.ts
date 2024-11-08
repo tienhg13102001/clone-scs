@@ -18,12 +18,16 @@ const RoutesString = {
     AdvanceTechnology: "/advance-technology",
     AITSMControl: "/advance-technology/ai-tsm-control",
     EnergyIntegrationSystem: "/advance-technology/energy-integration-system",
-    HightEfficiencyHeatExchanger: "/advance-technology/high-efficiency-heat-exchanger",
+    HightEfficiencyHeatExchanger:
+        "/advance-technology/high-efficiency-heat-exchanger",
     //scs
     Scs: "/scs",
-    CompanyInfo: '/scs/company-info',
-    History: '/scs/history',
-    SCSHeat:'/scs/heat-rd-center',
+    CompanyInfo: "/scs/company-info",
+    History: "/scs/history",
+    SCSHeat: "/scs/heat-rd-center",
+    // media
+    Contact: "/contact",
+    MediaRecord: "/media-record",
 };
 
 export default RoutesString;

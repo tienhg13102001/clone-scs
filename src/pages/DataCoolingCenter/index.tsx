@@ -7,17 +7,19 @@ import { useTranslation } from 'react-i18next'
 import Header from '@/components/Molecules/Header'
 import Footer from '@/components/Molecules/Footer'
 import { SidebarProvider } from '@/components/ui/sidebar'
+import { AppSidebar } from '@/components/app-sidebar'
 
 
 function DataCoolingCenterPage() {
   const { t } = useTranslation();
   return (
     <SidebarProvider>
+      <AppSidebar />
       <main className='min-h-screen w-full'>
         <Header />
-        <section style={{ backgroundImage: `url(${Banner})` }} className="bg-contain bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]">
-          <div className='flex flex-col items-center justify-center pt-[150px]'>
-            <p className='text-white text-[50px] uppercase text-custom'>{t("products.data_center_cooling.main_path")}</p>
+        <section style={{ backgroundImage: `url(${Banner})` }} className="bg-cover lg:bg-contain bg-no-repeat w-full h-[300px] lg:h-[470px]">
+          <div className='flex flex-col items-center justify-center pt-[120px] lg:pt-[150px]'>
+            <p className='text-white text-3xl lg:text-[50px] text-center uppercase text-custom'>{t("products.data_center_cooling.main_path")}</p>
             <div className='flex gap-[15px] mt-[50px]'>
               <House color='white' className='w-4 h-4 self-center' />
               <ChevronRight color='white' className='w-4 h-4 self-center' />
@@ -28,16 +30,16 @@ function DataCoolingCenterPage() {
           </div>
         </section>
 
-        <section className='mt-[80px]'>
+        <section className='mt-10 lg:mt-[80px]'>
           <Container>
-            <h1 className='text-[#444] text-[40px] flex flex-col'> <span className='text-[#4972B8]'>{t("products.data_center_cooling.title")}</span>{t("products.data_center_cooling.title2")}</h1>
+            <h1 className='text-[#444] text-center lg:text-start text-[40px] flex flex-col'> <span className='text-[#4972B8]'>{t("products.data_center_cooling.title")}</span>{t("products.data_center_cooling.title2")}</h1>
             <hr className='border-t-2 border-[#4972B8] my-5' />
             <div className='flex gap-5 my-10'>
               <ChevronRight color='#4972B8' className='w-[45px] h-[45px] self-center' />
               <h3 className='text-[#444] text-[30px]'>{t("products.data_center_cooling.subtitle")}</h3>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-3 space-x-[25px]'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] px-4 space-y-6 lg:space-y-0'>
               <div className=''>
                 <div className='border border-[#4972B8] w-full'>
                   <p className='text-black text-2xl text-center py-[10px] px-28'>{t("products.data_center_cooling.item1.name")}</p>
@@ -70,7 +72,7 @@ function DataCoolingCenterPage() {
               <ChevronRight color='#4972B8' className='w-[45px] h-[45px] self-center' />
               <h3 className='text-[#444] text-[30px]'>{t("products.data_center_cooling.subtitle2")}</h3>
             </div>
-            <img src={BenefitImg} className='w-[1245px] h-[758px]' />
+            <img src={BenefitImg} className='w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain' />
             <hr className='border-t-2 border-[#4972B8] my-5' />
           </Container>
         </section>
@@ -81,7 +83,7 @@ function DataCoolingCenterPage() {
               <ChevronRight color='#4972B8' className='w-[45px] h-[45px] self-center' />
               <h3 className='text-[#444] text-[30px]'>{t("products.data_center_cooling.subtitle3")}</h3>
             </div>
-            <img src={ManagementImg} className='w-[1245px] h-[758px]' />
+            <img src={ManagementImg} className='w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain' />
             <hr className='border-t-2 border-[#4972B8] my-5' />
           </Container>
         </section>
