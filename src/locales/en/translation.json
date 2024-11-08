@@ -483,49 +483,8 @@
       }
     }
   },
-  "scs": {
-    "companyInfo": {
-      "introductionTitle": "SCS Introduction",
-      "workWithSCS": "Let’s work with",
-      "SCSTitle": "SCS",
-      "SCS": "SCS",
-      "companyInfoTitle": "Company Info",
-      "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
-      "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
-      "keyBusinessItems": "'s Key Business Items",
-      "newsStoriesTitle": "A lot of news stories",
-      "growStatement": "We will always grow",
-      "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
-      "techDevelopment": "We are working to develop the best technology in the industry",
-      "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
-      "industries": "charging industries, electric boats, and electric heavy industries"
-    },
-    "history": {
-      "history": "History"
-    },
-    "heatRAndD": {
-      "title": "Heat R&D Center",
-      "listItems": [
-        {
-          "content": "A.I. Controller Development Complete (Ready for Mass Production)",
-          "highlight": true
-        },
-        {
-          "content": "A Factory in Korea & US each",
-          "highlight": false
-        },
-        {
-          "content": "Research Institute in Korea",
-          "highlight": false
-        },
-        {
-          "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
-          "highlight": false
-        }
-      ]
-    }
-  },
   "business-areas": "Business Areas",
+  "advance-technology": "Advanced Technology",
   "fast-charger-cooling": "Fast Charger Cooling",
   "ICE": "ICE Bath Chiller/ Heater",
   "electric": "Electric Vessel TMS",
@@ -534,6 +493,9 @@
   "water-capture": "Water Capture HEX",
   "USP": "UPS Battery System",
   "ai-monitoring": "A.I. System Manager",
+  "ai-tsm-control": "A.I TSM Control",
+  "energy-integration-system": "Energy Integration System",
+  "high-efficiency-heat-exchanger": "High Efficiency Heat Exchanger",
   "fastChargerCooling": {
     "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
     "infoCards": {
@@ -585,5 +547,60 @@
   },
   "aiMonitoringItem": {
     "titleSection1": "AI MONITORING SYSTEM"
+  },
+  "aiTSMControlItem": {
+    "titleSection1": "Designing a thermal management system suitable for customers by integrating AI's CV and RL techologies from design to control, and developing and manufacturing a high-efficiency, high-safety thermal manaement system"
+  },
+  "energyIntegrationSystemItem": {
+    "solution": "Solution",
+    "content1": "The existing techonology requires manual tuning to adapt to different regions, industries, and climates around the world",
+    "content2": "Reinforcement learning in artfical intelligence enables automatic control of cooling systems through active AI learning, regardless of global regions, industries, climates, or seasons"
+  },
+  "highEfficiencyHeatExchangerItem": {
+    "title1": "High-efficiency artificial intelligence heat pump system → Achieving",
+    "title2": "'high-safety electrified mobility'",
+    "title3": "for customers"
+  },
+  "scs": {
+    "companyInfo": {
+      "introductionTitle": "SCS Introduction",
+      "workWithSCS": "Let’s work with",
+      "SCSTitle": "SCS",
+      "SCS": "SCS",
+      "companyInfoTitle": "Company Info",
+      "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
+      "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
+      "keyBusinessItems": "'s Key Business Items",
+      "newsStoriesTitle": "A lot of news stories",
+      "growStatement": "We will always grow",
+      "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
+      "techDevelopment": "We are working to develop the best technology in the industry",
+      "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
+      "industries": "charging industries, electric boats, and electric heavy industries"
+    },
+    "history": {
+      "history": "History"
+    },
+    "heatRAndD": {
+      "title": "Heat R&D Center",
+      "listItems": [
+        {
+          "content": "A.I. Controller Development Complete (Ready for Mass Production)",
+          "highlight": true
+        },
+        {
+          "content": "A Factory in Korea & US each",
+          "highlight": false
+        },
+        {
+          "content": "Research Institute in Korea",
+          "highlight": false
+        },
+        {
+          "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
+          "highlight": false
+        }
+      ]
+    }
   }
 }
