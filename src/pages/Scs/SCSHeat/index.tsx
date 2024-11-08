@@ -15,7 +15,7 @@ export default function SCSHeat() {
                     backgroundImage: `url(${backgroundImage})`,
                 }}
             >
-                <div className="text-center">
+                <div className="text-center flex flex-col -mb-20">
                     <h2
                         className="text-white font-semibold text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
