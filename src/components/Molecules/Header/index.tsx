@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -39,7 +39,8 @@ function Header() {
         className={cn(
           "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 z-10 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden",
           {
-            "text-white bg-transparent hover:bg-black/30 shadow-none": !whiteMode,
+            "text-white bg-transparent hover:bg-black/30 shadow-none":
+              !whiteMode,
           }
         )}
       >
@@ -55,13 +56,20 @@ function Header() {
               key={index}
             >
               {navItem.title}
-              <ul className="absolute bottom-0 translate-y-full group-hover:flex hidden flex-col justify-center items-center bg-white w-full text-black p-4 cursor-default">
+              <ul className="absolute bottom-0 translate-y-full flex opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 transition-all flex-col justify-center items-center bg-white w-full text-black p-4 cursor-default">
                 {navItem.links.map((link, index) => (
                   <li
                     key={index}
                     className="hover:text-[#7bbbdc] py-1 px-2 cursor-pointer"
                   >
-                    <Link to={link.url}>{link.title}</Link>
+                    <NavLink
+                      to={link.url}
+                      className={({ isActive }) =>
+                        cn({ "text-[#7bbbdc]": isActive })
+                      }
+                    >
+                      {link.title}
+                    </NavLink>
                   </li>
                 ))}
               </ul>
