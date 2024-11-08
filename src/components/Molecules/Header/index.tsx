@@ -1,15 +1,16 @@
-import { useSidebar } from "@/components/ui/sidebar";
 import { getNavItems } from "@/lib/navItem";
 import { cn } from "@/lib/utils";
+import { useSidebarStore } from "@/store/sidebarStore";
 import { Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
-  const { toggleSidebar } = useSidebar();
+
+  const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);
 
   const navItems = getNavItems(t);
 
@@ -37,18 +38,20 @@ function Header() {
     <>
       <div
         className={cn(
-          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 z-10 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden",
+          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden z-50",
           {
             "text-white bg-transparent hover:bg-black/30 shadow-none":
               !whiteMode,
           }
         )}
       >
-        <img
-          src={whiteMode ? "/img/logo.png" : "/img/logo-w.png"}
-          alt=""
-          className="block w-auto max-h-[50px]"
-        />
+        <Link to="/">
+          <img
+            src={whiteMode ? "/img/logo.png" : "/img/logo-w.png"}
+            alt=""
+            className="block w-auto max-h-[50px]"
+          />
+        </Link>
         <div className="flex text-center text-ellipsis text-nowrap w-full max-w-[1200px]">
           {navItems.map((navItem, index) => (
             <div
@@ -65,7 +68,9 @@ function Header() {
                     <NavLink
                       to={link.url}
                       className={({ isActive }) =>
-                        cn({ "text-[#7bbbdc]": isActive })
+                        cn({
+                          "text-[#7bbbdc]": isActive,
+                        })
                       }
                     >
                       {link.title}
@@ -82,12 +87,14 @@ function Header() {
           <button onClick={() => changeLanguage("en")}>EN</button>
         </div>
       </div>
-      <div className="lg:hidden fixed top-0 w-full bg-white">
+      <div className="lg:hidden fixed z-50 top-0 w-full bg-white">
         <div className="relative flex w-full justify-center items-center shadow-[0px_0px_3px_rgba(0,0,0,.5)]">
           <button onClick={toggleSidebar} className="absolute inset-y-0 left-3">
-            <Menu />
+            <Menu size={32} />
           </button>
-          <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+          <Link to="/">
+            <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+          </Link>
         </div>
       </div>
     </>
