@@ -1,5 +1,5 @@
 import React from 'react';
-import History from '../../../assets/images/history.png';
+import History from '../../../../assets/images/history.png';
 const HistoryBackground = () => {
   return (
     <div className="contents_wrap">

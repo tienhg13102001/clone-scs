@@ -1,9 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom'
+import HomePage from '../Home'
 import AdminPage from "../Admin";
 import TSMControl from "../AdvanceTechnology/TSMControl";
 import BatteryPage from "../Battery";
 import BusinessAreas from "../BusinessAreas";
-import AIMonitoring from "../BusinessAreas/AIMonitoring";
 import ElectricVessel from "../BusinessAreas/ElectricVessel";
 import Elevator from "../BusinessAreas/Elevator";
 import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
@@ -11,16 +11,17 @@ import ICEComponent from "../BusinessAreas/ICE";
 import Residential from "../BusinessAreas/Residential";
 import USPComponent from "../BusinessAreas/USP";
 import WaterCapture from "../BusinessAreas/WaterCapture";
-import CompanyInfo from "../CompanyInfo";
 import DataCoolingCenterPage from "../DataCoolingCenter";
 import EssPage from "../Ess";
-import History from "../History";
-import HomePage from "../Home";
-import SCSHeat from "../SCSHeat";
 import RoutesString from "../Utils/RoutesString";
 import AdvanceTechnology from "../AdvanceTechnology";
 import EnergyIntegration from "../AdvanceTechnology/EnergyIntegration";
 import HighEfficiency from "../AdvanceTechnology/HighEfficiency";
+import AIMonitoring from '../BusinessAreas/AIMonitoring';
+import CompanyInfo from '../Scs/CompanyInfo';
+import Scs from '../Scs';
+import History from '../Scs/History';
+import SCSHeat from '../Scs/SCSHeat';
 
 const router = createBrowserRouter([
     {
@@ -84,18 +85,6 @@ const router = createBrowserRouter([
         ],
     },
     {
-        path: RoutesString.CompanyInfo,
-        element: <CompanyInfo />,
-    },
-    {
-        path: RoutesString.History,
-        element: <History />,
-    },
-    {
-        path: RoutesString.SCSHeat,
-        element: <SCSHeat />,
-    },
-    {
         path: RoutesString.AdvanceTechnology,
         element: <AdvanceTechnology />,
         children: [
@@ -113,6 +102,24 @@ const router = createBrowserRouter([
             },
         ],
     },
+    {
+      path: RoutesString.Scs,
+      element: <Scs />,
+      children: [
+        {
+          path: RoutesString.CompanyInfo,
+          element: <CompanyInfo />
+        },
+        {
+          path: RoutesString.History,
+          element: <History />
+        },
+        {
+          path: RoutesString.SCSHeat,
+          element: <SCSHeat />
+        }
+      ]
+    }
 ]);
 
 export default router;

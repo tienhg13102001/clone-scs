@@ -4,9 +4,6 @@ const RoutesString = {
     Ess: "/ess-tms",
     Battery: "/battery-tms",
     DataCoolingCenter: "/data-cooling-center",
-    CompanyInfo: "/company-info",
-    History: "/history",
-    SCSHeat: "/SCSHeat",
     // business-areas
     BusinessAreas: "/business-areas",
     FastChargerCooling: "/business-areas/fast-charger-cooling",
@@ -21,8 +18,12 @@ const RoutesString = {
     AdvanceTechnology: "/advance-technology",
     AITSMControl: "/advance-technology/ai-tsm-control",
     EnergyIntegrationSystem: "/advance-technology/energy-integration-system",
-    HightEfficiencyHeatExchanger:
-        "/advance-technology/high-efficiency-heat-exchanger",
+    HightEfficiencyHeatExchanger: "/advance-technology/high-efficiency-heat-exchanger",
+    //scs
+    Scs: "/scs",
+    CompanyInfo: '/scs/company-info',
+    History: '/scs/history',
+    SCSHeat:'/scs/heat-rd-center',
 };
 
 export default RoutesString;

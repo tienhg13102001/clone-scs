@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import Slide1 from "../../../assets/images/slide1.jpg";
+import Slide1 from "../../../../assets/images/slide1.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -48,19 +48,19 @@ export default function ImageSlide() {
     slidesToShow: 3,
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1450,
         settings: {
           slidesToShow: 3,
         },
       },
       {
-        breakpoint: 1250,
+        breakpoint: 1050,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 900,
+        breakpoint: 870,
         settings: {
           slidesToShow: 1,
         },
@@ -69,23 +69,16 @@ export default function ImageSlide() {
   };
 
   return (
-    <div className="relative my-10 w-full  overflow-hidden">
-      <Slider
-        ref={sliderRef}
-        {...settings}
-        className="w-[1300px] max-[1400px]:w-[1200px] max-[1250px]:w-[800px]"
-      >
+    <div className="relative my-10 w-full mx-auto max-[870px]:overflow-hidden">
+      <Slider ref={sliderRef} {...settings} className="w-full min-w-[1300px] max-[1450px]:min-w-[1200px] max-[1270px]:min-w-[1000px] max-[1050px]:min-w-[800px] max-[870px]:w-full">
         {items.map((item, index) => (
-          <div
-            key={index}
-            className="owl-item max-w-[427.667px] max-[900px]:w-full px-2"
-          >
+          <div key={index} className="max-w-full px-2 ">
             <div className="item">
               <a href={item.href} target="_blank" rel="noopener noreferrer">
                 <img
                   src={item.imgSrc}
                   alt={item.alt}
-                  className="w-full h-[280px] object-cover"
+                  className="w-full h-auto max-h-[280px] object-cover"
                 />
               </a>
             </div>

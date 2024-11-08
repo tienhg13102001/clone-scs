@@ -12,15 +12,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: t("company-info"),
-        url: "/",
+        url: "/scs/company-info",
       },
       {
         title: t("history"),
-        url: "/",
+        url: "/scs/history",
       },
       {
         title: t("heat-rd-center"),
-        url: "/",
+        url: "/scs/heat-rd-center",
       },
     ],
   },
