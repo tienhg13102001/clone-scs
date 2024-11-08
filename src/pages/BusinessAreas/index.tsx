@@ -9,12 +9,17 @@ type Props = {
 
 const BusinessAreas: FC<Props> = () => {
   return (
-    <div className="w-full">
-      <HeaderNavigation title="Fast Charger Cooling" />
-      <div className="container mt-10">
-        <Outlet />
+    <SidebarProvider open={false}>
+      <AppSidebar />
+      <div className="w-full">
+        <Header />
+        <HeaderNavigation title="Fast Charger Cooling" />
+        <div className="container mt-10">
+          <Outlet />
+        </div>
+        <Footer />
       </div>
-    </div>
+    </SidebarProvider>
   );
 };
 
