@@ -10,7 +10,7 @@ export default function SCSHeat() {
     return (
         <div>
             <div
-                className="bg-cover bg-center h-[270px] max-[1023px]:hidden flex items-center justify-center"
+                className="bg-cover bg-center -mt-10 h-[350px] max-[1023px]:hidden flex items-center justify-center"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                 }}
