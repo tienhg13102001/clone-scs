@@ -3,9 +3,10 @@ import backgroundImage2 from '../../../../assets/images/company2.png';
 import backgroundCompany from '../../../../assets/images/backgroundCompany.png';
 import ImageSlide from './ImageSlide';
 import backgroundImage from '../../../../assets/images/company1.png';
-import { ChevronLeft, ChevronRight, House } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { IoMdHome } from 'react-icons/io';
 
 const ContentSection = () => {
     const { t } = useTranslation();
@@ -24,7 +25,6 @@ const ContentSection = () => {
                     viewport={{ once: false }}
                     className="text-center flex flex-col gap-10 -mb-20">
                     <motion.h1
-
                         className="text-white  text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
                         aria-label="Company Info"
@@ -32,7 +32,7 @@ const ContentSection = () => {
                         {t('scs.companyInfo.companyInfoTitle')}
                     </motion.h1>
                     <div className="flex justify-center space-x-2 text-white mt-2">
-                        <span className="home"><House /></span>
+                        <IoMdHome color="white" className="text-white " size={20} />
                         <span><ChevronRight /></span>
                         <span>SCS</span>
                         <span><ChevronRight /></span>
@@ -98,7 +98,7 @@ const ContentSection = () => {
                 {/* Row 2 */}
                 <div className="bg-cover bg-center py-24 max-[600px]:px-2  px-72 mb-16" style={{ backgroundImage: `url(${backgroundImage2})` }}>
                     <div className="flex flex-col items-center">
-                        <h2 className="text-center text-[45px] max-[600px]:text-xl pb-9 -mt-9 text-white font-semibold leading-[57px]">
+                        <h2 className="text-center text-[45px] max-[600px]:text-xl pb-9 -mt-9 text-white  leading-[57px]">
                             <span className='text-[#5191FF]'>{t('scs.companyInfo.SCS')}</span>{t('scs.companyInfo.keyBusinessItems')}
                         </h2>
                         <ImageTile />
@@ -111,7 +111,7 @@ const ContentSection = () => {
                         <div className="w-full max-w-7xl px-4">
                             <div className="flex flex-col md:flex-row w-full">
                                 <div className="md:w-1/2 p-4 w-full">
-                                    <h2 className="text-[45px] max-[600px]:text-2xl max-[800px]:text-center pb-9 -mt-9 text-[#444444] font-semibold leading-[57px]">
+                                    <h2 className="text-[45px] max-[600px]:text-2xl max-[800px]:text-center pb-9 -mt-9 text-[#444444] leading-[57px]">
                                         {t('scs.companyInfo.newsStoriesTitle')}
                                     </h2>
                                     <ImageSlide />

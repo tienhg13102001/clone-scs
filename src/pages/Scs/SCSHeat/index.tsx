@@ -1,9 +1,9 @@
-import React from 'react';
-import { ChevronLeft, ChevronRight, House } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import backgroundImage from '../../../assets/images/company1.png';
 import InfoSection from './components/InfoSection';
 import { motion } from 'framer-motion';
+import { IoMdHome } from 'react-icons/io';
 
 export default function SCSHeat() {
     const { t } = useTranslation();
@@ -21,7 +21,7 @@ export default function SCSHeat() {
                     whileInView={{ translateY: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 0.5 }}
                     viewport={{ once: false }}
-                     className="text-center flex flex-col -mb-20">
+                    className="text-center flex flex-col -mb-20">
                     <h2
                         className="text-white font-semibold text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
@@ -31,7 +31,7 @@ export default function SCSHeat() {
                     </h2>
                     <p className="mt-2 mb-4">ㅤ</p>
                     <div className="flex justify-center space-x-2 text-white mt-2">
-                        <span className="home"><House /></span>
+                        <IoMdHome color="white" className="text-white " size={20} />
                         <span><ChevronRight /></span>
                         <span>{t('scs.companyInfo.SCSTitle')}</span>
                         <span><ChevronRight /></span>

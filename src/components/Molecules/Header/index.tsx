@@ -1,13 +1,23 @@
-import { getNavItems } from "@/lib/navItem";
+import { getNavItems, PageTitles } from "@/lib/navItem";
 import { cn } from "@/lib/utils";
 import { useSidebarStore } from "@/store/sidebarStore";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
+
+
 
 function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
+  const location = useLocation();
+  const titles = PageTitles(t);
+  useEffect(() => {
+    const title = titles[location.pathname] || "SCS";
+    document.title = title === "SCS" ? title : `SCS ${title}`;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location.pathname]);
+
 
   const isOpen = useSidebarStore((state) => state.isOpen);
   const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);
