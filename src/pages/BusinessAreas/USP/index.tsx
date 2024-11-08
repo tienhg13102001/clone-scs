@@ -1,6 +1,6 @@
 import Devider from "@/components/Devider";
 import { FC } from "react";
-import { SectionTitle } from "../components";
+import { SectionTitle } from "../../../components/Molecules/components";
 import { useTranslation } from "react-i18next";
 
 const USPComponent: FC = () => {

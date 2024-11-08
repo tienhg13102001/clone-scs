@@ -1,9 +1,8 @@
-import React from 'react';
 import ImageTile from './ImageTile';
-import backgroundImage2 from '../../../assets/images/company2.png';
-import backgroundCompany from '../../../assets/images/backgroundCompany.png';
+import backgroundImage2 from '../../../../assets/images/company2.png';
+import backgroundCompany from '../../../../assets/images/backgroundCompany.png';
 import ImageSlide from './ImageSlide';
-import backgroundImage from '../../../assets/images/company1.png';
+import backgroundImage from '../../../../assets/images/company1.png';
 import { ChevronLeft, ChevronRight, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -12,20 +11,19 @@ const ContentSection = () => {
     return (
         <div>
             <div
-                className="bg-cover bg-center h-[270px] max-[1023px]:hidden flex items-center justify-center"
+                className="bg-cover bg-center -mt-10 h-[350px] max-[1023px]:hidden flex items-center justify-center"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                 }}
             >
-                <div className="text-center">
+                <div className="text-center flex flex-col gap-10 -mb-20">
                     <h2
-                        className="text-white font-semibold text-[50px] leading-[74px] h-[74px] mb-5"
+                        className="text-white  text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
                         aria-label="Company Info"
                     >
                         {t('scs.companyInfo.companyInfoTitle')}
                     </h2>
-                    <p className="mt-2 mb-4">ㅤ</p>
                     <div className="flex justify-center space-x-2 text-white mt-2">
                         <span className="home"><House /></span>
                         <span><ChevronRight /></span>
@@ -46,7 +44,7 @@ const ContentSection = () => {
                     </div>
                 </button>
             </div>
-            <div className="w-full mx-auto mb-16">
+            <div className="w-full mx-auto ">
                 {/* Row 1 */}
                 <div className="flex flex-wrap justify-center mb-16">
                     <div className="w-full max-w-7xl px-4">
@@ -88,7 +86,7 @@ const ContentSection = () => {
                 {/* Row 2 */}
                 <div className="bg-cover bg-center py-24 max-[600px]:px-2  px-72 mb-16" style={{ backgroundImage: `url(${backgroundImage2})` }}>
                     <div className="flex flex-col items-center">
-                        <h2 className="text-center text-[45px] pb-9 -mt-9 text-white font-semibold leading-[57px]">
+                        <h2 className="text-center text-[45px] max-[600px]:text-xl pb-9 -mt-9 text-white font-semibold leading-[57px]">
                             <span className='text-[#5191FF]'>{t('scs.companyInfo.SCS')}</span>{t('scs.companyInfo.keyBusinessItems')}
                         </h2>
                         <ImageTile />
@@ -101,7 +99,7 @@ const ContentSection = () => {
                         <div className="w-full max-w-7xl px-4">
                             <div className="flex flex-col md:flex-row w-full">
                                 <div className="md:w-1/2 p-4 w-full">
-                                    <h2 className="text-[45px] pb-9 -mt-9 text-[#444444] font-semibold leading-[57px]">
+                                    <h2 className="text-[45px] max-[600px]:text-2xl max-[800px]:text-center pb-9 -mt-9 text-[#444444] font-semibold leading-[57px]">
                                         {t('scs.companyInfo.newsStoriesTitle')}
                                     </h2>
                                     <ImageSlide />
@@ -111,51 +109,45 @@ const ContentSection = () => {
                     </div>
                 </div>
                 <div
-                    className="row row__2608355__ mx-auto mb-0 bg-transparent bg-center bg-repeat"
+                    className=" mx-auto mb-0 bg-transparent bg-center bg-repeat"
                     style={{
                         backgroundImage: `url(${backgroundCompany})`,
                     }}
                 >
-                    <div className="mx-auto max-w-[1000px] whitespace-nowrap  py-[150px]">
+                    <div className="mx-auto max-w-[1200px] whitespace-nowrap   py-[150px]">
                         <div className="mt-0 ml-0">
-                            <div className="col d_col_6 t_col_6 m_col_6 pt-0 pl-0">
-                                <div className="bg-transparent">
-                                    <div className="break-words pb-2 m-0 text-center">
-                                        {/* Title */}
-                                        <div
-                                            className="text-white text-[24px] font-bold title__2608305__ aos-init aos-animate"
-                                        >
-                                            <p>{t('scs.companyInfo.growStatement')}</p>
+                            <div className="bg-transparent">
+                                <div className="break-words pb-2 m-0 text-center">
+                                    {/* Title */}
+                                    <div
+                                        className="text-white text-[24px] font-bold title__2608305__ aos-init aos-animate"
+                                    >
+                                        <p>{t('scs.companyInfo.growStatement')}</p>
+                                    </div>
+                                </div>
+                                <div className=" text-center">
+                                    {/* Long text */}
+                                    <div className="text-white ">
+                                        <div className="text-center mx-auto text-[20px] md:text-[30px] lg:text-[36px] whitespace-normal">
+                                            <p className="text-[#3d7dff] text-center">{t('scs.companyInfo.advancementsTitle')}</p>
+                                            <p className="mt-2">
+                                                {t('scs.companyInfo.techDevelopment')},
+                                                <br />
+                                                {t('scs.companyInfo.paradigmShift')}
+                                                <br />
+                                                {t('scs.companyInfo.industries')}
+                                            </p>
                                         </div>
                                     </div>
-                                    <div className="break-words m-0 text-center">
-                                        {/* Long text */}
-                                        <div className="text-white textarea__2608325__ aos-init aos-animate overflow-hidden">
-                                            <div className="text-center mx-auto break-words text-[24px] md:text-[30px] lg:text-[36px]">
-                                                <p className="text-[#3d7dff]">{t('scs.companyInfo.advancementsTitle')}</p>
-                                                <p className="mt-2">
-                                                    {t('scs.companyInfo.techDevelopment')},
-                                                    <br />
-                                                    {t('scs.companyInfo.paradigmShift')}
-                                                    <br />
-                                                    {t('scs.companyInfo.industries')}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="break-words m-0">
-                                        {/* Blank content */}
-                                        <span className="blank__2608335__"></span>
-                                    </div>
-                                    <div className="break-words m-0 text-center">
-                                        {/* Button */}
-                                        <div
-                                            className="h-[48px] border w-[174px] mx-auto mt-5 hover:bg-white hover:*:text-black duration-300"
-                                        >
-                                            <a href="/page/page13" target="_self" className='text-white text-xl h-full flex items-center justify-center tracking-widest font-semibold'>
-                                                Contact Us
-                                            </a>
-                                        </div>
+                                </div>
+                                <div className="break-words m-0 text-center">
+                                    {/* Button */}
+                                    <div
+                                        className="h-[48px] border w-[174px] mx-auto mt-5 hover:bg-white hover:*:text-black duration-300"
+                                    >
+                                        <a href="/page/page13" target="_self" className='text-white text-xl h-full flex items-center justify-center tracking-widest font-semibold'>
+                                            Contact Us
+                                        </a>
                                     </div>
                                 </div>
                             </div>

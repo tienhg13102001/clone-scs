@@ -1,22 +1,27 @@
 import { createBrowserRouter } from 'react-router-dom'
-import RoutesString from '../Utils/RoutesString'
 import HomePage from '../Home'
-import AdminPage from '../Admin'
-import CompanyInfo from '../CompanyInfo'
-import History from '../History'
-import SCSHeat from '../SCSHeat'
+import AdminPage from "../Admin";
+import TSMControl from "../AdvanceTechnology/TSMControl";
+import BatteryPage from "../Battery";
 import BusinessAreas from "../BusinessAreas";
-import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
-import ICEComponent from "../BusinessAreas/ICE";
 import ElectricVessel from "../BusinessAreas/ElectricVessel";
 import Elevator from "../BusinessAreas/Elevator";
-import EssPage from "../Ess";
-import BatteryPage from "../Battery";
-import DataCoolingCenterPage from "../DataCoolingCenter";
+import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
+import ICEComponent from "../BusinessAreas/ICE";
 import Residential from "../BusinessAreas/Residential";
-import WaterCapture from "../BusinessAreas/WaterCapture";
 import USPComponent from "../BusinessAreas/USP";
-import AIMonitoring from "../BusinessAreas/AIMonitoring";
+import WaterCapture from "../BusinessAreas/WaterCapture";
+import DataCoolingCenterPage from "../DataCoolingCenter";
+import EssPage from "../Ess";
+import RoutesString from "../Utils/RoutesString";
+import AdvanceTechnology from "../AdvanceTechnology";
+import EnergyIntegration from "../AdvanceTechnology/EnergyIntegration";
+import HighEfficiency from "../AdvanceTechnology/HighEfficiency";
+import AIMonitoring from '../BusinessAreas/AIMonitoring';
+import CompanyInfo from '../Scs/CompanyInfo';
+import Scs from '../Scs';
+import History from '../Scs/History';
+import SCSHeat from '../Scs/SCSHeat';
 import ContactPage from '../Contact'
 import MediaRecord from '../MediaRecord'
 
@@ -82,24 +87,48 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: RoutesString.CompanyInfo,
-    element: <CompanyInfo />
+    path: RoutesString.AdvanceTechnology,
+    element: <AdvanceTechnology />,
+    children: [
+      {
+        path: RoutesString.AITSMControl,
+        element: <TSMControl />,
+      },
+      {
+        path: RoutesString.EnergyIntegrationSystem,
+        element: <EnergyIntegration />,
+      },
+      {
+        path: RoutesString.HightEfficiencyHeatExchanger,
+        element: <HighEfficiency />,
+      },
+    ],
   },
   {
-    path: RoutesString.History,
-    element: <History />
-  },
-  {
-    path: RoutesString.SCSHeat,
-    element: <SCSHeat />
-  },
-  {
-    path: RoutesString.Contact,
-    element: <ContactPage />
-  },
-  {
-    path: RoutesString.MediaRecord,
-    element: <MediaRecord />
+    path: RoutesString.Scs,
+    element: <Scs />,
+    children: [
+      {
+        path: RoutesString.CompanyInfo,
+        element: <CompanyInfo />
+      },
+      {
+        path: RoutesString.History,
+        element: <History />
+      },
+      {
+        path: RoutesString.SCSHeat,
+        element: <SCSHeat />
+      },
+      {
+        path: RoutesString.Contact,
+        element: <ContactPage />
+      },
+      {
+        path: RoutesString.MediaRecord,
+        element: <MediaRecord />
+      }
+    ]
   }
 ]);
 

@@ -12,15 +12,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: t("company-info"),
-        url: "/",
+        url: "/scs/company-info",
       },
       {
         title: t("history"),
-        url: "/",
+        url: "/scs/history",
       },
       {
         title: t("heat-rd-center"),
-        url: "/",
+        url: "/scs/heat-rd-center",
       },
     ],
   },
@@ -46,15 +46,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: "A.I TMS control",
-        url: "/",
+        url: "/advance-technology/ai-tsm-control",
       },
       {
         title: "Energy Integration System",
-        url: "/",
+        url: "/advance-technology/energy-integration-system",
       },
       {
         title: "High efficiency heat exchanger",
-        url: "/",
+        url: "/advance-technology/high-efficiency-heat-exchanger",
       },
     ],
   },

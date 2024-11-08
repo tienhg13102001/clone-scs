@@ -1,7 +1,7 @@
 import Devider from "@/components/Devider";
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import { SectionTitle } from "../components";
+import { SectionTitle } from "../../../components/Molecules/components";
 
 const Residential: FC = () => {
   const { t } = useTranslation();

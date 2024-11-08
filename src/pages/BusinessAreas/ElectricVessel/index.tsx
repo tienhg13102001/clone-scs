@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import Devider from "../../../components/Devider";
-import { BenefitCard, InfoCard, SectionTitle } from "../components";
+import { BenefitCard, InfoCard, SectionTitle } from "../../../components/Molecules/components";
 
 const ElectricVessel: FC = () => {
   const { t } = useTranslation();
