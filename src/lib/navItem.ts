@@ -1,3 +1,5 @@
+import RoutesString from "@/pages/Utils/RoutesString";
+
 interface NavItem {
   title: string;
   links: {
@@ -28,15 +30,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     title: t("product"),
     links: [
       {
-        title: "ESS TMS",
+        title: t('products.ess_tms.main_path'),
         url: "/ess-tms",
       },
       {
-        title: "Battery TMS",
+        title: t('products.ess_tms.battery_tms.main_path'),
         url: "/battery-tms",
       },
       {
-        title: "Data Center Cooling",
+        title: t('products.ess_tms.data_center_cooling.main_path'),
         url: "/data-cooling-center",
       },
     ],
@@ -45,15 +47,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     title: t("advanced-tech"),
     links: [
       {
-        title: "A.I TMS control",
+        title: t('ai-tsm-control'),
         url: "/advance-technology/ai-tsm-control",
       },
       {
-        title: "Energy Integration System",
+        title: t("energy-integration-system"),
         url: "/advance-technology/energy-integration-system",
       },
       {
-        title: "High efficiency heat exchanger",
+        title: t('high-efficiency-heat-exchanger'),
         url: "/advance-technology/high-efficiency-heat-exchanger",
       },
     ],
@@ -62,15 +64,15 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     title: t("business-areas"),
     links: [
       {
-        title: "Fast Charger Cooling",
+        title: t('fast-charger-cooling'),
         url: "/business-areas/fast-charger-cooling",
       },
       {
-        title: "ICE Bath Chiller/ Heater",
+        title: t("ICE"),
         url: "/business-areas/ICE",
       },
       {
-        title: "Electric Vessel TMS",
+        title: t('electric'),
         url: "/business-areas/electric",
       },
       // {
@@ -78,23 +80,23 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
       //   url: "/business-areas/elevator",
       // },
       {
-        title: "Elevator AC",
+        title: t("elevator"),
         url: "/business-areas/elevator",
       },
       {
-        title: "Residential HVAC",
+        title: t("residential"),
         url: "/business-areas/residential",
       },
       {
-        title: "Water Capture HEX",
+        title: t("water-capture"),
         url: "/business-areas/water-capture",
       },
       {
-        title: "UPS Battery System",
+        title: t("USP"),
         url: "/business-areas/USP",
       },
       {
-        title: "A.I. System Manager",
+        title: t("ai-monitoring"),
         url: "/business-areas/ai-monitoring",
       },
     ],
@@ -103,7 +105,7 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     title: t("media"),
     links: [
       {
-        title: "Contact",
+        title: t('contact.contact'),
         url: "/contact",
       },
       {
@@ -113,3 +115,30 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     ],
   },
 ];
+
+export const PageTitles = (t: (key: string) => string) => ({
+  [RoutesString.Home]: t("home"),
+  [RoutesString.Admin]: t("admin"),
+  [RoutesString.Ess]: t("ess"),
+  [RoutesString.Battery]: t("battery"),
+  [RoutesString.DataCoolingCenter]: t('products.ess_tms.data_center_cooling.main_path'),
+  [RoutesString.BusinessAreas]: t("business-areas"),
+  [RoutesString.FastChargerCooling]: t("fast-charger-cooling"),
+  [RoutesString.ICE]: t("ICE"),
+  [RoutesString.Electric]: t("electric"),
+  [RoutesString.Elevator]: t("elevator"),
+  [RoutesString.Residential]: t("residential"),
+  [RoutesString.WaterCapture]: t("water-capture"),
+  [RoutesString.USP]: t("USP"),
+  [RoutesString.AIMonitoring]: t("ai-monitoring"),
+  [RoutesString.AdvanceTechnology]: t("advance-technology"),
+  [RoutesString.AITSMControl]: t("ai-tsm-control"),
+  [RoutesString.EnergyIntegrationSystem]: t("energy-integration-system"),
+  [RoutesString.HightEfficiencyHeatExchanger]: t("high-efficiency-heat-exchanger"),
+  [RoutesString.Scs]: t("scs"),
+  [RoutesString.CompanyInfo]: t("company-info"),
+  [RoutesString.History]: t("history"),
+  [RoutesString.SCSHeat]: t("heat-rd-center"),
+  [RoutesString.Contact]: t('contact.contact'),
+  [RoutesString.MediaRecord]: t("media-record"),
+});

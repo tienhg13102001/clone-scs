@@ -27,7 +27,7 @@
     "products": {
         "ess_tms": {
             "path": "products",
-            "main_path": "ess tms",
+            "main_path": "ESS TMS",
             "title": "ESS ",
             "title2": "(ENERGY STORAGE SYSTEM) THERMAL MANAGEMENT SYSTEM",
             "subtitle": "THERMAL MANAGEMENT SYSTEM",
@@ -554,7 +554,8 @@
         "button": "contact us",
         "address": "Address : 9th and 4th floor, Gowundeul 7-gil, Sejong Special Self-Governing City",
         "phone": "Tel : 044 - 715 - 7606",
-        "mail": "E-mail : jspark@scsai.net"
+        "mail": "E-mail : jspark@scsai.net",
+        "contact":"contact"
     },
     "media_record": {
         "path": "media",
