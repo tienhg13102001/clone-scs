@@ -31,7 +31,7 @@ const HeaderNavigation: FC<Props> = ({ title }) => {
         initial={{ translateY: -30, opacity: 0 }}
         whileInView={{ translateY: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
       >
         <IoMdHome color="white" className="text-white relative" />
         {pathnames &&
