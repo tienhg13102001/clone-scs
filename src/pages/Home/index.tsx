@@ -40,7 +40,7 @@ const HomePage = () => {
       <AppSidebar />
       <div className="wrap overflow-x-hidden">
         <Header />
-        <section className="mx-auto mb-0 bg-[url('/img/homepage-bg.png')] bg-repeat bg-transparent lg:object-cover object-[center_center] lg:bg-fixed text-white p-5 lg:p-[100px_300px_150px_300px] max-lg:mt-[50px]">
+        <section className="mx-auto mb-0 bg-[url('/img/homepage-bg.png')] bg-center bg-[length:100%] bg-repeat bg-transparent lg:object-cover object-[center_center] lg:bg-fixed text-white p-5 lg:p-[100px_300px_150px_300px] max-lg:mt-[50px]">
           <div className="lg:h-[200px] h-[35px]" />
           <div className="pb-[75px] lg:pb-[190px] text-center">
             <h1 className="lg:text-xl lg:tracking-[6px] text-base">
@@ -93,7 +93,7 @@ const HomePage = () => {
           </motion.div>
         </section>
         <section className="lg:px-[300px] lg:py-[150px] p-5">
-          <div className="flex flex-col lg:gap-8 gap-2">
+          <div className="flex flex-col lg:gap-6 gap-2">
             <motion.h1
               className="text-[#444444] lg:text-[50px] text-xl"
               initial={{ translateX: 100, opacity: 0 }}
