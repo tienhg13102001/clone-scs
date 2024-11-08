@@ -50,21 +50,22 @@ function Header() {
         />
         <div className="flex text-center text-ellipsis text-nowrap w-full max-w-[1200px]">
           {navItems.map((navItem, index) => (
-            <>
-              <div
-                className="w-1/5 text-base/[80px] text-ellipsis ring-transparent outline-none relative group cursor-pointer before:h-0.5 before:hover:w-[50%] before:inset-x-0 before:mx-auto before:transition-all before:w-0 before:bg-[#7bbbdc] before:absolute before:bottom-0"
-                key={index}
-              >
-                {navItem.title}
-                <ul className="absolute bottom-0 translate-y-full group-hover:flex hidden flex-col justify-center items-center bg-white w-full text-black">
-                  {navItem.links.map((link, index) => (
-                    <li key={index} className="hover:text-[#7bbbdc]">
-                      <Link to={link.url}>{link.title}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </>
+            <div
+              className="w-1/5 min-h-[84px] flex justify-center items-center text-base text-ellipsis ring-transparent outline-none relative group cursor-pointer before:h-0.5 before:hover:w-[50%] before:inset-x-0 before:mx-auto before:transition-all before:w-0 before:bg-[#7bbbdc] before:absolute before:bottom-0"
+              key={index}
+            >
+              {navItem.title}
+              <ul className="absolute bottom-0 translate-y-full group-hover:flex hidden flex-col justify-center items-center bg-white w-full text-black p-4 cursor-default">
+                {navItem.links.map((link, index) => (
+                  <li
+                    key={index}
+                    className="hover:text-[#7bbbdc] py-1 px-2 cursor-pointer"
+                  >
+                    <Link to={link.url}>{link.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ))}
         </div>
         <div className="flex justify-between items-center gap-3 min-h-[80px] p-4 text-[21px]">
