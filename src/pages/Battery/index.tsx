@@ -8,12 +8,14 @@ import { useTranslation } from 'react-i18next'
 import Header from '@/components/Molecules/Header'
 import Footer from '@/components/Molecules/Footer'
 import { SidebarProvider } from '@/components/ui/sidebar'
+import { AppSidebar } from '@/components/app-sidebar'
 
 
 function BatteryPage() {
   const { t } = useTranslation();
   return (
     <SidebarProvider>
+      <AppSidebar />
       <main className='min-h-screen w-full'>
         <Header />
         <section style={{ backgroundImage: `url(${Banner})` }} className="bg-contain bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]">

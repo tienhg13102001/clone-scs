@@ -12,7 +12,7 @@ const HighEfficiency: FC = () => {
                 </span>{" "}
                 {t("highEfficiencyHeatExchangerItem.title3")}
             </div>
-            <div className="flex">
+            <div className="flex flex-col md:flex-row">
                 <div>
                     <img
                         src="/img/221730099153.png"

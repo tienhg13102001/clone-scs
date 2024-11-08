@@ -7,7 +7,7 @@ const EnergyIntegration = () => {
     return (
         <>
             <Devider />
-            <div className="flex justify-center gap-5">
+            <div className="flex justify-center gap-5 mx-2 md:mx-0">
                 <BenefitCard
                     title={<p>{t("energyIntegrationSystemItem.solution")}</p>}
                     content={
