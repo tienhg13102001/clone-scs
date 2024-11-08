@@ -1,7 +1,6 @@
 import { getNavItems } from "@/lib/navItem";
 import { cn } from "@/lib/utils";
 import { useSidebarStore } from "@/store/sidebarStore";
-import { Menu } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink } from "react-router-dom";
@@ -10,6 +9,7 @@ function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
 
+  const isOpen = useSidebarStore((state) => state.isOpen);
   const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);
 
   const navItems = getNavItems(t);
@@ -90,9 +90,25 @@ function Header() {
       <div className="lg:hidden fixed z-50 top-0 w-full bg-white">
         <div className="relative flex w-full justify-center items-center shadow-[0px_0px_3px_rgba(0,0,0,.5)]">
           <button onClick={toggleSidebar} className="absolute inset-y-0 left-3">
-            <Menu size={32} />
+            <div className="flex flex-col justify-center items-center w-6 h-6">
+              <span
+                className={`bg-current absolute h-0.5 w-6 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+                }`}
+              />
+              <span
+                className={`bg-current absolute h-0.5 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "w-0 opacity-0" : "w-6 opacity-100"
+                }`}
+              />
+              <span
+                className={`bg-current absolute h-0.5 w-6 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
+                }`}
+              />
+            </div>
           </button>
-          <Link to="/">
+          <Link to="/" onClick={toggleSidebar}>
             <img src="/img/logo.png" alt="" className="max-h-[50px]" />
           </Link>
         </div>
