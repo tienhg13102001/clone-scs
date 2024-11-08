@@ -3,6 +3,7 @@ import backgroundImage from '../../../assets/images/company1.png';
 import { ChevronLeft, ChevronRight, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import HistoryBackground from './components/HistoryBackground';
+import { motion } from 'framer-motion';
 
 export default function History() {
     const { t } = useTranslation();
@@ -10,12 +11,16 @@ export default function History() {
     return (
         <div>
             <div
-                className="bg-cover bg-center -mt-10 h-[350px] max-[1023px]:hidden flex items-center justify-center"
+                className="bg-cover bg-top  h-[350px] max-[1023px]:hidden flex items-center justify-center"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                 }}
             >
-                <div className="text-center flex flex-col -mb-20">
+                <motion.div
+                    initial={{ translateY: -100, opacity: 0 }}
+                    whileInView={{ translateY: 0, opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: false }}className="text-center flex flex-col -mb-20">
                     <h2
                         className="text-white font-semibold text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
@@ -31,9 +36,9 @@ export default function History() {
                         <span><ChevronRight /></span>
                         <span>{t('scs.history.history')}</span>
                     </div>
-                </div>
+                </motion.div>
             </div>
-            <div id="shgroup" className="relative max-[1023px]:block hidden right-0 left-0 top-0 bg-[#7bbbdc] h-10">
+            <div id="shgroup" className=" max-[1023px]:block hidden mt-[50px] bg-[#7bbbdc] h-10">
                 <button
                     onClick={() => window.history.back()}
                     className="flex items-center h-full space-x-2 w-full text-white overflow-hidden whitespace-nowrap text-ellipsis"

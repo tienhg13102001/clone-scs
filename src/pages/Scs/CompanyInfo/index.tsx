@@ -2,7 +2,7 @@ import ContentSection from "./components/ContentSection"
 
 const CompanyInfo = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
             <ContentSection />
         </div>
     )

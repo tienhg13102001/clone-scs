@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Slide1 from "../../../../assets/images/slide1.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { motion } from 'framer-motion';
 
 export default function ImageSlide() {
   const sliderRef = useRef(null);
@@ -69,7 +70,12 @@ export default function ImageSlide() {
   };
 
   return (
-    <div className="relative my-10 w-full mx-auto max-[870px]:overflow-hidden">
+    <motion.div
+      initial={{ translateY: 100, opacity: 0 }}
+      whileInView={{ translateY: 0, opacity: 1 }}
+      transition={{ duration: 1, delay: 0.5 }}
+      viewport={{ once: false }}
+      className="relative my-10 w-full mx-auto max-[870px]:overflow-hidden">
       <Slider ref={sliderRef} {...settings} className="w-full min-w-[1300px] max-[1450px]:min-w-[1200px] max-[1270px]:min-w-[1000px] max-[1050px]:min-w-[800px] max-[870px]:w-full">
         {items.map((item, index) => (
           <div key={index} className="max-w-full px-2 ">
@@ -85,6 +91,6 @@ export default function ImageSlide() {
           </div>
         ))}
       </Slider>
-    </div>
+    </motion.div>
   );
 }

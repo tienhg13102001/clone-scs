@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 const InfoSection = () => {
     const { t } = useTranslation();
@@ -11,7 +12,7 @@ const InfoSection = () => {
     return (
         <div className="max-w-full mx-auto mb-0 bg-transparent">
             <div className="flex flex-col md:flex-row justify-center items-center">
-                <div className="w-full md:w-[1300px] bg-transparent py-12">
+                <div className="w-full md:w-[1300px] px-2 bg-transparent py-12">
                     <div className="mb-4">
                         {/* Section Block */}
                         <div className="text-center my-2">
@@ -21,10 +22,16 @@ const InfoSection = () => {
                     </div>
 
                     {/* Icon List Section */}
-                    <div className="text_list text-base py-5">
+                    <motion.div
+
+                        className="text_list text-base py-5">
                         <ul className="space-y-2">
                             {itemsArray.map((item, index) => (
-                                <li
+                                <motion.li
+                                    initial={{ translateX: 100, opacity: 0 }}
+                                    whileInView={{ translateX: 0, opacity: 1 }}
+                                    transition={{ duration: 1, delay: 0.5 * index }}
+                                    viewport={{ once: false }}
                                     key={index}
                                     className="flex items-start space-x-2"
                                     data-aos="fade-left"
@@ -35,10 +42,10 @@ const InfoSection = () => {
                                     <p className={`text-xl  ${item.highlight ? 'text-[#4972B8] font-semibold max-w-[400px]' : 'text-[#444444] max-w-[480px]'}`}>
                                         {item.content}
                                     </p>
-                                </li>
+                                </motion.li>
                             ))}
                         </ul>
-                    </div>
+                    </motion.div>
 
                     {/* Second Divider */}
                     <div className="text-center my-2">

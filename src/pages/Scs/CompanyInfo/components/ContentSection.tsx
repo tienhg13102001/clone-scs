@@ -5,25 +5,32 @@ import ImageSlide from './ImageSlide';
 import backgroundImage from '../../../../assets/images/company1.png';
 import { ChevronLeft, ChevronRight, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 
 const ContentSection = () => {
     const { t } = useTranslation();
     return (
-        <div>
+        <div className='overflow-hidden'>
             <div
-                className="bg-cover bg-center -mt-10 h-[350px] max-[1023px]:hidden flex items-center justify-center"
+                className="bg-cover bg-top  h-[350px]  max-[1023px]:hidden flex items-center justify-center"
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                 }}
             >
-                <div className="text-center flex flex-col gap-10 -mb-20">
-                    <h2
+                <motion.div
+                    initial={{ translateY: -100, opacity: 0 }}
+                    whileInView={{ translateY: 0, opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: false }}
+                    className="text-center flex flex-col gap-10 -mb-20">
+                    <motion.h1
+
                         className="text-white  text-[50px] leading-[74px] h-[74px] mb-5"
                         role="heading"
                         aria-label="Company Info"
                     >
                         {t('scs.companyInfo.companyInfoTitle')}
-                    </h2>
+                    </motion.h1>
                     <div className="flex justify-center space-x-2 text-white mt-2">
                         <span className="home"><House /></span>
                         <span><ChevronRight /></span>
@@ -31,9 +38,9 @@ const ContentSection = () => {
                         <span><ChevronRight /></span>
                         <span>{t('scs.companyInfo.companyInfoTitle')}</span>
                     </div>
-                </div>
+                </motion.div>
             </div>
-            <div id="shgroup" className="relative max-[1023px]:block hidden right-0 left-0 top-0 bg-[#7bbbdc] h-10">
+            <div id="shgroup" className=" max-[1023px]:block hidden mt-[50px] bg-[#7bbbdc] h-10">
                 <button
                     onClick={() => window.history.back()}
                     className="flex items-center h-full space-x-2 w-full text-white overflow-hidden whitespace-nowrap text-ellipsis"
@@ -48,8 +55,8 @@ const ContentSection = () => {
                 {/* Row 1 */}
                 <div className="flex flex-wrap justify-center mb-16">
                     <div className="w-full max-w-7xl px-4">
-                        <div className="flex flex-col md:flex-row justify-between pt-[60px]">
-                            <div className="w-full md:w-1/2 p-4">
+                        <div className="flex flex-col lg:flex-row  justify-between pt-[60px]">
+                            <div className="w-full lg:w-1/2 p-4 max-md:p-0">
                                 {/* Custom content */}
                                 <div className="bg-transparent *:text-justify">
                                     <p className='text-[#4972B8] text-[20px] font-medium'>
@@ -64,12 +71,17 @@ const ContentSection = () => {
                                     <p className="text-left font-medium max-[600px]:text-base text-xl text-[#444444]">
                                         {t('scs.companyInfo.companyDescription')}
                                     </p>
-                                    <p className="text-left font-medium text-[15px] leading-[25.5px] text-[#444444]">
+                                    <motion.p
+                                        initial={{ translateX: 100, opacity: 0 }}
+                                        whileInView={{ translateX: 0, opacity: 1 }}
+                                        transition={{ duration: 1, delay: 0.5 }}
+                                        viewport={{ once: false }}
+                                        className="text-left font-medium text-[15px] leading-[25.5px] text-[#444444]">
                                         {t('scs.companyInfo.longDescription')}
-                                    </p>
+                                    </motion.p>
                                 </div>
                             </div>
-                            <div className="w-full md:w-1/2 p-4">
+                            <div className="w-full lg:w-1/2 p-4">
                                 {/* YouTube Video */}
                                 <iframe
                                     className="w-full h-[475px]"
@@ -116,7 +128,12 @@ const ContentSection = () => {
                 >
                     <div className="mx-auto max-w-[1200px] whitespace-nowrap   py-[150px]">
                         <div className="mt-0 ml-0">
-                            <div className="bg-transparent">
+                            <motion.div
+                                initial={{ translateY: 100, opacity: 0 }}
+                                whileInView={{ translateY: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.5 }}
+                                viewport={{ once: false }}
+                                className="bg-transparent">
                                 <div className="break-words pb-2 m-0 text-center">
                                     {/* Title */}
                                     <div
@@ -128,7 +145,7 @@ const ContentSection = () => {
                                 <div className=" text-center">
                                     {/* Long text */}
                                     <div className="text-white ">
-                                        <div className="text-center mx-auto text-[20px] md:text-[30px] lg:text-[36px] whitespace-normal">
+                                        <div className="text-center mx-auto text-[18px] md:text-[30px] lg:text-[36px] whitespace-normal">
                                             <p className="text-[#3d7dff] text-center">{t('scs.companyInfo.advancementsTitle')}</p>
                                             <p className="mt-2">
                                                 {t('scs.companyInfo.techDevelopment')},
@@ -140,17 +157,23 @@ const ContentSection = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="break-words m-0 text-center">
-                                    {/* Button */}
-                                    <div
-                                        className="h-[48px] border w-[174px] mx-auto mt-5 hover:bg-white hover:*:text-black duration-300"
-                                    >
-                                        <a href="/page/page13" target="_self" className='text-white text-xl h-full flex items-center justify-center tracking-widest font-semibold'>
-                                            Contact Us
-                                        </a>
-                                    </div>
+
+                            </motion.div>
+                            <motion.div
+                                initial={{ translateY: 100, opacity: 0 }}
+                                whileInView={{ translateY: 0, opacity: 1 }}
+                                transition={{ duration: 1, delay: 0.7 }}
+                                viewport={{ once: false }}
+                                className="break-words m-0 text-center">
+                                {/* Button */}
+                                <div
+                                    className="h-[48px] border w-[174px] mx-auto mt-5 hover:bg-white hover:*:text-black duration-300"
+                                >
+                                    <a href="/page/page13" target="_self" className='text-white text-xl h-full flex items-center justify-center tracking-widest font-semibold'>
+                                        Contact Us
+                                    </a>
                                 </div>
-                            </div>
+                            </motion.div>
                         </div>
                     </div>
                 </div>
