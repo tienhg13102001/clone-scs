@@ -17,6 +17,8 @@ import Residential from "../BusinessAreas/Residential";
 import WaterCapture from "../BusinessAreas/WaterCapture";
 import USPComponent from "../BusinessAreas/USP";
 import AIMonitoring from "../BusinessAreas/AIMonitoring";
+import ContactPage from '../Contact'
+import MediaRecord from '../MediaRecord'
 
 const router = createBrowserRouter([
   {
@@ -90,6 +92,14 @@ const router = createBrowserRouter([
   {
     path: RoutesString.SCSHeat,
     element: <SCSHeat />
+  },
+  {
+    path: RoutesString.Contact,
+    element: <ContactPage />
+  },
+  {
+    path: RoutesString.MediaRecord,
+    element: <MediaRecord />
   }
 ]);
 

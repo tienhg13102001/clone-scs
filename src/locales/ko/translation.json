@@ -359,5 +359,29 @@
   "ICEItem": {
     "titleImg1": "Cooling Mode",
     "titleImg2": "Heating Mode"
+  },
+  "contact": {
+    "path": "메디아",
+    "main_path": "연락하다",
+    "button": "문의하기",
+    "address": "주소 : 세종특별자치시 고운들7길 9, 4층",
+    "phone": "전화 : 044 - 715 - 7606",
+    "mail": "이메일 : jspark@scsai.net"
+  },
+  "media_record": {
+    "path": "메디아",
+    "main_path": "뉴스",
+    "record1": {
+      "title": "[머니투데이_2024_0605] 미국 시애틀 한국총영사관과 공동으로 '2024 그린테크 비즈니스 컨퍼런스' 개최",
+      "date": "2024.10.29"
+    },
+    "record2": {
+      "title": "★2024_0131_[매일경제]_SCSM, 전기차용 급속충전 열관리 시스템 개발 및 제조기업 대상 서비스 제공",
+      "date": "2024.10.29"
+    },
+    "record3": {
+      "title": "SCS 주식회사, CES에서 새로운 모터 열 관리 모델 공개",
+      "date": "2024.03.15"
+    }
   }
 }

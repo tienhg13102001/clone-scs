@@ -543,5 +543,29 @@
   },
   "aiMonitoringItem": {
     "titleSection1": "AI MONITORING SYSTEM"
+  },
+  "contact": {
+    "path": "media",
+    "main_path": "Contact",
+    "button": "contact us",
+    "address": "Address : 9th and 4th floor, Gowundeul 7-gil, Sejong Special Self-Governing City",
+    "phone": "Tel : 044 - 715 - 7606",
+    "mail": "E-mail : jspark@scsai.net"
+  },
+  "media_record": {
+    "path": "media",
+    "main_path": "Media record",
+    "record1": {
+      "title": "[Money Today_2024_0605] Jointly host '2024 Green Tech Business Conference' with the Korean Consulate General in Seattle, U.S",
+      "date": "2024.10.29"
+    },
+    "record2": {
+      "title": "★2024_0131_[Daily Economy]_SCSM, Development of a rapid charging thermal management system for electric vehicles and provision of services for manufacturing companies",
+      "date": "2024.10.29"
+    },
+    "record3": {
+      "title": "SCS Co., Ltd. to Unveil New Motor Thermal Management Model at CES",
+      "date": "2024.03.15"
+    }
   }
 }

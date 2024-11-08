@@ -104,11 +104,11 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
     links: [
       {
         title: "Contact",
-        url: "/",
+        url: "/contact",
       },
       {
         title: t("media-record"),
-        url: "/",
+        url: "/media-record",
       },
     ],
   },
