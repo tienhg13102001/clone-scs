@@ -2,9 +2,15 @@ import React from 'react';
 import CK1 from '../../../../assets/images/ck_1.png';
 import CK2 from '../../../../assets/images/ck_2.png';
 import CK3 from '../../../../assets/images/ck_3.png';
+import { motion } from 'framer-motion';
 const ImageTile = () => {
     return (
-        <div className="grid grid-cols-3 max-[1350px]:grid-cols-1 gap-4 mt-8 w-full">
+        <motion.div
+            initial={{ scale: 0, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            viewport={{ once: false }}
+            className="grid grid-cols-3 max-[1350px]:grid-cols-1 gap-4 mt-8 w-full">
             <div className="flex justify-center">
                 <a href="/page/page31" target="_self">
                     <div className="relative duration-300 w-64 h-64 hover:scale-110 border-[14px] border-solid border-gray-500 hover:border-gray-100 rounded-full overflow-hidden">
@@ -29,7 +35,7 @@ const ImageTile = () => {
                     <p className="text-center mt-2 text-white font-semibold text-xl pt-3">Data Center</p>
                 </a>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
