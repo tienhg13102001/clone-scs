@@ -25,6 +25,9 @@ const RoutesString = {
     CompanyInfo: "/scs/company-info",
     History: "/scs/history",
     SCSHeat: "/scs/heat-rd-center",
+    // media
+    Contact: "/contact",
+    MediaRecord: "/media-record",
 };
 
 export default RoutesString;

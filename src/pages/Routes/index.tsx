@@ -120,15 +120,15 @@ const router = createBrowserRouter([
         path: RoutesString.SCSHeat,
         element: <SCSHeat />
       },
-      {
-        path: RoutesString.Contact,
-        element: <ContactPage />
-      },
-      {
-        path: RoutesString.MediaRecord,
-        element: <MediaRecord />
-      }
     ]
+  },
+  {
+    path: RoutesString.Contact,
+    element: <ContactPage />
+  },
+  {
+    path: RoutesString.MediaRecord,
+    element: <MediaRecord />
   }
 ]);
 
