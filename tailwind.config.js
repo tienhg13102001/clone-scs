@@ -8,6 +8,7 @@ export default {
         "hero-pattern": "url('/img/117224882771727831332.png')",
       },
       container: {
+        center: true,
         // default breakpoints but with 40px removed
         screens: {
           sm: "600px",
