@@ -1,10 +1,10 @@
 import { useSidebar } from "@/components/ui/sidebar";
 import { getNavItems, PageTitles } from "@/lib/navItem";
 import { cn } from "@/lib/utils";
-import { Menu } from "lucide-react";
+import { useSidebarStore } from "@/store/sidebarStore";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 
 
@@ -20,6 +20,9 @@ function Header() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.pathname]);
 
+
+  const isOpen = useSidebarStore((state) => state.isOpen);
+  const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);
 
   const navItems = getNavItems(t);
 
@@ -47,18 +50,20 @@ function Header() {
     <>
       <div
         className={cn(
-          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 z-10 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden",
+          "fixed top-0 flex justify-between items-center w-full bg-white border-b px-4 border-[rgba(255,255,255,.2)] shadow-md transition-all duration-200 max-lg:hidden z-50",
           {
             "text-white bg-transparent hover:bg-black/30 shadow-none":
               !whiteMode,
           }
         )}
       >
-        <img
-          src={whiteMode ? "/img/logo.png" : "/img/logo-w.png"}
-          alt=""
-          className="block w-auto max-h-[50px]"
-        />
+        <Link to="/">
+          <img
+            src={whiteMode ? "/img/logo.png" : "/img/logo-w.png"}
+            alt=""
+            className="block w-auto max-h-[50px]"
+          />
+        </Link>
         <div className="flex text-center text-ellipsis text-nowrap w-full max-w-[1200px]">
           {navItems.map((navItem, index) => (
             <div
@@ -75,7 +80,9 @@ function Header() {
                     <NavLink
                       to={link.url}
                       className={({ isActive }) =>
-                        cn({ "text-[#7bbbdc]": isActive })
+                        cn({
+                          "text-[#7bbbdc]": isActive,
+                        })
                       }
                     >
                       {link.title}
@@ -92,12 +99,30 @@ function Header() {
           <button onClick={() => changeLanguage("en")}>EN</button>
         </div>
       </div>
-      <div className="lg:hidden fixed top-0 w-full bg-white">
+      <div className="lg:hidden fixed z-50 top-0 w-full bg-white">
         <div className="relative flex w-full justify-center items-center shadow-[0px_0px_3px_rgba(0,0,0,.5)]">
           <button onClick={toggleSidebar} className="absolute inset-y-0 left-3">
-            <Menu />
+            <div className="flex flex-col justify-center items-center w-6 h-6">
+              <span
+                className={`bg-current absolute h-0.5 w-6 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+                }`}
+              />
+              <span
+                className={`bg-current absolute h-0.5 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "w-0 opacity-0" : "w-6 opacity-100"
+                }`}
+              />
+              <span
+                className={`bg-current absolute h-0.5 w-6 transform transition-all duration-300 ease-in-out ${
+                  isOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
+                }`}
+              />
+            </div>
           </button>
-          <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+          <Link to="/" onClick={toggleSidebar}>
+            <img src="/img/logo.png" alt="" className="max-h-[50px]" />
+          </Link>
         </div>
       </div>
     </>
