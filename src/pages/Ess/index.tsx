@@ -1,6 +1,7 @@
 // import React from 'react'
 import { motion } from "framer-motion";
-import { ChevronRight, House } from "lucide-react";
+import { ChevronRight } from "lucide-react";
+import { IoMdHome } from 'react-icons/io';
 import { useTranslation } from "react-i18next";
 import Banner from "../../assets/image/ess-banner.png";
 import BenefitImg from "../../assets/image/ess1.png";
@@ -26,7 +27,7 @@ function EssPage() {
               {t("products.ess_tms.main_path")}
             </p>
             <div className="flex gap-[15px] mt-[50px]">
-              <House color="white" className="w-4 h-4 self-center" />
+              <IoMdHome color="white" className="w-4 h-4 self-center" />
               <ChevronRight color="white" className="w-4 h-4 self-center" />
               <p className="capitalize text-[15px] text-white">
                 {t("products.ess_tms.path")}

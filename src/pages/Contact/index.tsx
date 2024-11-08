@@ -2,7 +2,8 @@ import Footer from '@/components/Molecules/Footer'
 import Header from '@/components/Molecules/Header'
 import Container from '@/components/products/Containers'
 import { SidebarProvider } from '@/components/ui/sidebar'
-import { ChevronRight, House, Mail, MapPin, Phone } from 'lucide-react'
+import { ChevronRight, Mail, MapPin, Phone } from 'lucide-react'
+import { IoMdHome } from 'react-icons/io';
 import Banner from '../../assets/image/contact-banner.png'
 import { useTranslation } from 'react-i18next'
 // import React from 'react'
@@ -18,7 +19,7 @@ function ContactPage() {
           <div className='flex flex-col items-center justify-center pt-[150px]'>
             <p className='text-white text-[50px] text-custom'>{t("contact.main_path")}</p>
             <div className='flex gap-[15px] mt-[50px]'>
-              <House color='white' className='w-4 h-4 self-center' />
+              <IoMdHome color='white' className='w-4 h-4 self-center' />
               <ChevronRight color='white' className='w-4 h-4 self-center' />
               <p className='capitalize text-[15px] text-white'>{t("contact.path")}</p>
               <ChevronRight color='white' className='w-4 h-4 self-center' />
