@@ -34,7 +34,7 @@ export default function Layout() {
         <Accordion type="single" collapsible>
           {navItems.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index}>
-              <AccordionTrigger className="h-[41px] pl-3 pr-[6px] font-bold text-[#666] text-[13px]">
+              <AccordionTrigger className="h-[41px] pl-3 pr-[6px] font-semibold text-[#666] text-[13px]">
                 {item.title}
               </AccordionTrigger>
               <AccordionContent className="flex flex-col pb-0 text-[#666]">
@@ -42,11 +42,12 @@ export default function Layout() {
                   <NavLink
                     to={link.url}
                     key={linkIndex}
+                    onClick={toggleSidebar}
                     className={({ isActive }) =>
                       buttonVariants({
                         variant: "ghost",
                         className: cn(
-                          "!justify-start border-t !font-bold !text-[13px]",
+                          "!justify-start border-t !font-semibold !text-[13px]",
                           {
                             "!text-[#7bbbdc]": isActive,
                           }
