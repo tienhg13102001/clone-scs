@@ -1,4 +1,3 @@
-import { useSidebar } from "@/components/ui/sidebar";
 import { getNavItems, PageTitles } from "@/lib/navItem";
 import { cn } from "@/lib/utils";
 import { useSidebarStore } from "@/store/sidebarStore";
@@ -11,7 +10,6 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
-  const { toggleSidebar } = useSidebar();
   const location = useLocation();
   const titles = PageTitles(t);
   useEffect(() => {
