@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import Devider from "../../../components/Devider";
-import { SectionTitle } from "../components";
-import TableComponent from "../components/SpecTable";
+import { SectionTitle } from "../../../components/Molecules/components";
+import TableComponent from "../../../components/Molecules/components/SpecTable";
 
 const Elevator: FC = () => {
   const { t } = useTranslation();
