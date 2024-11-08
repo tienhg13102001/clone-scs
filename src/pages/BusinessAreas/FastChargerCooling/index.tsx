@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Devider from "../../../components/Devider";
-import { BenefitCard, InfoCard, SectionTitle } from "../components";
+import { BenefitCard, InfoCard, SectionTitle } from "../../../components/Molecules/components";
 import { useTranslation } from "react-i18next";
 
 const FastChargerCooling: FC = () => {

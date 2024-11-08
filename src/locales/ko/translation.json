@@ -319,10 +319,18 @@
     }
   },
   "business-areas": "비즈니스 영역",
+  "advance-technology": "Advanced Technology",
   "fast-charger-cooling": "Fast Charger Cooling",
   "ICE": "ICE Bath Chiller/ Heater",
   "electric": "Electric Vessel TMS",
   "elevator": "Elevator AC",
+  "residential": "Residential HVAC",
+  "water-capture": "Water Capture HEX",
+  "USP": "UPS Battery System",
+  "ai-monitoring": "A.I. System Manager",
+  "ai-tsm-control": "A.I TSM Control",
+  "energy-integration-system": "Energy Integration System",
+  "high-efficiency-heat-exchanger": "High Efficiency Heat Exchanger",
   "fastChargerCooling": {
     "titleSection1": "충전 시간 20% 단축, 100% 먼지 및 습기 제거",
     "infoCards": {
@@ -359,5 +367,33 @@
   "ICEItem": {
     "titleImg1": "Cooling Mode",
     "titleImg2": "Heating Mode"
+  },
+  "electricItem": {
+    "titleSection1": "+30% 주행거리 8%↑ 난방 성능"
+  },
+  "elevatorItem": {
+    "titleSection1": "엘리베이터 AC"
+  },
+  "residentialItem": {
+    "titleSection1": "엔탈피 교환 구현"
+  },
+  "USPItem": {
+    "titleSection1": "UPS(무정전전원장치) 회로도(10kW)"
+  },
+  "aiMonitoringItem": {
+    "titleSection1": "AI 모니터링 시스템"
+  },
+  "aiTSMControlItem": {
+    "titleSection1": "AI의 CV, RL 기술을 융합하여 설계부터 제어까지 고객에게 적합한 열관리 시스템을 설계하고, 고효율, 고안전성 열관리 시스템을 개발, 제작합니다."
+  },
+  "energyIntegrationSystemItem": {
+    "solution": "해결책",
+    "content1": "기존 기술은 전 세계 다양한 지역, 산업, 기후에 적응하기 위해 수동 조정이 필요합니다.",
+    "content2": "인공지능의 강화학습을 통해 전 세계 지역, 산업, 기후, 계절에 관계없이 능동적인 AI 학습을 통해 냉각 시스템을 자동 제어할 수 있습니다."
+  },
+  "highEfficiencyHeatExchangerItem": {
+    "title1": "고효율 인공지능 히트펌프 시스템 → 달성",
+    "title2": "'안전성이 뛰어난 전동 모빌리티'",
+    "title3": "고객을 위한"
   }
 }
