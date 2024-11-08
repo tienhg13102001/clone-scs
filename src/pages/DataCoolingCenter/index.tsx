@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { ChevronRight, House } from "lucide-react";
+import { ChevronRight } from "lucide-react";
+import { IoMdHome } from 'react-icons/io';
 import { useTranslation } from "react-i18next";
 import BenefitImg from "../../assets/image/cooling1.png";
 import ManagementImg from "../../assets/image/cooling2.png";
@@ -25,7 +26,7 @@ function DataCoolingCenterPage() {
               {t("products.data_center_cooling.main_path")}
             </p>
             <div className="flex gap-[15px] mt-[50px]">
-              <House color="white" className="w-4 h-4 self-center" />
+              <IoMdHome color="white" className="w-4 h-4 self-center" />
               <ChevronRight color="white" className="w-4 h-4 self-center" />
               <p className="capitalize text-[15px] text-white">
                 {t("products.data_center_cooling.path")}
