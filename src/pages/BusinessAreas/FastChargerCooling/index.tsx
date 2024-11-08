@@ -6,21 +6,30 @@ import {
     SectionTitle,
 } from "../../../components/Molecules/components";
 import { useTranslation } from "react-i18next";
+import {motion} from "framer-motion"
 
 const FastChargerCooling: FC = () => {
     const { t } = useTranslation();
     return (
         <>
             <div className="flex gap-5 flex-col md:flex-row">
-                <img
+                <motion.img
                     src="/img/geu-rim011730166869.jpg"
                     alt=""
                     className="w-full md:w-1/2"
+                    initial={{ translateX: -100, opacity: 0 }}
+                    whileInView={{ translateX: 0, opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: false }}
                 />
-                <img
+                <motion.img
                     src="/img/geu-rim011730166869.png"
                     alt=""
                     className="w-full md:w-1/2"
+                    initial={{ translateX: 100, opacity: 0 }}
+                    whileInView={{ translateX: 0, opacity: 1 }}
+                    transition={{ duration: 1, delay: 0.5 }}
+                    viewport={{ once: false }}
                 />
             </div>
             <Devider />
@@ -69,6 +78,7 @@ const FastChargerCooling: FC = () => {
                     content={t(
                         "fastChargerCooling.benefitsCard.providesStability.content"
                     )}
+                    delay={0.5}
                 />
                 <BenefitCard
                     title={t(
@@ -77,6 +87,7 @@ const FastChargerCooling: FC = () => {
                     content={t(
                         "fastChargerCooling.benefitsCard.reduceChargingTime.content"
                     )}
+                    delay={0.75}
                 />
                 <BenefitCard
                     title={t(
@@ -85,6 +96,7 @@ const FastChargerCooling: FC = () => {
                     content={t(
                         "fastChargerCooling.benefitsCard.reduceChargingTime.content"
                     )}
+                    delay={1}
                 />
             </div>
             <Devider />
