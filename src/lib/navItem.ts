@@ -117,7 +117,7 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
 ];
 
 export const PageTitles = (t: (key: string) => string) => ({
-  [RoutesString.Home]: t("home"),
+  [RoutesString.Home]: "SCS",
   [RoutesString.Admin]: t("admin"),
   [RoutesString.Ess]: t("ess"),
   [RoutesString.Battery]: t("battery"),
