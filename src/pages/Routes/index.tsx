@@ -2,9 +2,6 @@ import { createBrowserRouter } from 'react-router-dom'
 import RoutesString from '../Utils/RoutesString'
 import HomePage from '../Home'
 import AdminPage from '../Admin'
-import CompanyInfo from '../CompanyInfo'
-import History from '../History'
-import SCSHeat from '../SCSHeat'
 import BusinessAreas from "../BusinessAreas";
 import FastChargerCooling from "../BusinessAreas/FastChargerCooling";
 import ICEComponent from "../BusinessAreas/ICE";
@@ -17,6 +14,10 @@ import Residential from "../BusinessAreas/Residential";
 import WaterCapture from "../BusinessAreas/WaterCapture";
 import USPComponent from "../BusinessAreas/USP";
 import AIMonitoring from "../BusinessAreas/AIMonitoring";
+import Scs from '../Scs/index';
+import CompanyInfo from '../Scs/CompanyInfo';
+import History from '../Scs/History';
+import SCSHeat from '../Scs/SCSHeat';
 
 const router = createBrowserRouter([
   {
@@ -80,16 +81,22 @@ const router = createBrowserRouter([
     ],
   },
   {
-    path: RoutesString.CompanyInfo,
-    element: <CompanyInfo />
-  },
-  {
-    path: RoutesString.History,
-    element: <History />
-  },
-  {
-    path: RoutesString.SCSHeat,
-    element: <SCSHeat />
+    path: RoutesString.Scs,
+    element: <Scs />,
+    children: [
+      {
+        path: RoutesString.CompanyInfo,
+        element: <CompanyInfo />
+      },
+      {
+        path: RoutesString.History,
+        element: <History />
+      },
+      {
+        path: RoutesString.SCSHeat,
+        element: <SCSHeat />
+      }
+    ]
   }
 ]);
 

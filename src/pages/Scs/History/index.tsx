@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '../../assets/images/company1.png';
+import backgroundImage from '../../../assets/images/company1.png';
 import { ChevronLeft, ChevronRight, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import HistoryBackground from './components/HistoryBackground';

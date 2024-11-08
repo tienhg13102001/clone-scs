@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronLeft, ChevronRight, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import backgroundImage from '../../assets/images/company1.png';
+import backgroundImage from '../../../assets/images/company1.png';
 import InfoSection from './components/InfoSection';
 
 export default function SCSHeat() {

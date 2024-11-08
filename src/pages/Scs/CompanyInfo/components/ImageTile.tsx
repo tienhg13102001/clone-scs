@@ -1,7 +1,7 @@
 import React from 'react';
-import CK1 from '../../../assets/images/ck_1.png';
-import CK2 from '../../../assets/images/ck_2.png';
-import CK3 from '../../../assets/images/ck_3.png';
+import CK1 from '../../../../assets/images/ck_1.png';
+import CK2 from '../../../../assets/images/ck_2.png';
+import CK3 from '../../../../assets/images/ck_3.png';
 const ImageTile = () => {
     return (
         <div className="grid grid-cols-3 max-[1350px]:grid-cols-1 gap-4 mt-8 w-full">

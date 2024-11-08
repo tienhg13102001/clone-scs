@@ -5,9 +5,10 @@ const RoutesString = {
   Ess: "/ess-tms",
   Battery: "/battery-tms",
   DataCoolingCenter: "/data-cooling-center",
-  CompanyInfo: '/company-info',
-  History: '/history',
-  SCSHeat:'/SCSHeat',
+  Scs: "/scs",
+  CompanyInfo: '/scs/company-info',
+  History: '/scs/history',
+  SCSHeat:'/scs/heat-rd-center',
   // business-areas
   BusinessAreas: "/business-areas",
   FastChargerCooling: "/business-areas/fast-charger-cooling",
