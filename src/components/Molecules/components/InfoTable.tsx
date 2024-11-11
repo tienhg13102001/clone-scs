@@ -1,9 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { useState } from "react";
+
+type TableValue = {
+  label: string;
+  value: string;
+};
+
 const InfoTable = () => {
   const { t } = useTranslation();
 
-  const data = [
+  const [data] = useState<Array<TableValue>>([
     { label: t("coolingCapacity"), value: t("values.coolingCapacity") },
     { label: t("heatingCapacity"), value: t("values.heatingCapacity") },
     { label: t("dimensions"), value: t("values.dimensions") },
@@ -15,7 +22,7 @@ const InfoTable = () => {
     { label: t("weight"), value: t("values.weight") },
     { label: t("voltage"), value: t("values.voltage") },
     { label: t("refrigerant"), value: t("values.refrigerant") },
-  ];
+  ]);
 
   return (
     <motion.table
