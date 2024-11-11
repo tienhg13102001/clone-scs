@@ -419,5 +419,24 @@
         "title1": "고효율 인공지능 히트펌프 시스템 → 달성",
         "title2": "'안전성이 뛰어난 전동 모빌리티'",
         "title3": "고객을 위한"
-    }
+    },
+    "roof": "Roof (Golf Cart) AC",
+    "coolingCapacity": "냉각 용량",
+    "heatingCapacity": "난방 용량",
+    "dimensions": "치수",
+    "temperatureRange": "온도 범위",
+    "current": "Current",
+    "weight": "무게",
+    "voltage": "전압",
+    "refrigerant": "냉매",
+    "values": {
+        "coolingCapacity": "4kw",
+        "heatingCapacity": "3.8kw",
+        "dimensions": "253H x 736W",
+        "temperatureRange": "+18 ~ 30°C",
+        "current": "28.7Amp",
+        "weight": "50kg",
+        "voltage": "48V",
+        "refrigerant": "R32(550g)"
+      }
 }

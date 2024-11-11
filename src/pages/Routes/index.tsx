@@ -25,6 +25,7 @@ import SCSHeat from "../Scs/SCSHeat";
 import Layout from "@/layout";
 import ContactPage from "../Contact";
 import MediaRecord from "../MediaRecord";
+import RoofComponent from "../BusinessAreas/Roof";
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
           {
             path: RoutesString.Electric,
             element: <ElectricVessel />,
+          },
+          {
+            path: RoutesString.Roof,
+            element: <RoofComponent />,
           },
           {
             path: RoutesString.Elevator,
