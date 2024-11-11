@@ -75,10 +75,10 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
         title: t('electric'),
         url: "/business-areas/electric",
       },
-      // {
-      //   title: "Roof (Golf Cart) AC",
-      //   url: "/business-areas/elevator",
-      // },
+      {
+        title: "Roof (Golf Cart) AC",
+        url: "/business-areas/roof",
+      },
       {
         title: t("elevator"),
         url: "/business-areas/elevator",

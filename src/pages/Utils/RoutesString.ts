@@ -9,6 +9,7 @@ const RoutesString = {
     FastChargerCooling: "/business-areas/fast-charger-cooling",
     ICE: "/business-areas/ICE",
     Electric: "/business-areas/electric",
+    Roof: "/business-areas/roof",
     Elevator: "/business-areas/elevator",
     Residential: "/business-areas/residential",
     WaterCapture: "/business-areas/water-capture",

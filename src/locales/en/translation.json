@@ -627,5 +627,28 @@
                 }
             ]
         }
-    }
+    },
+    "roof": "Roof (Golf Cart) AC",
+    "roofItems": {
+        "titleSection1": "Roof AC"
+    },
+    "coolingCapacity": "Cooling Capacity",
+    "heatingCapacity": "Heating Capacity",
+    "dimensions": "Dimensions",
+    "temperatureRange": "Temperature Range",
+    "current": "Current",
+    "weight": "Weight",
+    "voltage": "Voltage",
+    "refrigerant": "Refrigerant",
+    "values": {
+        "coolingCapacity": "4kw",
+        "heatingCapacity": "3.8kw",
+        "dimensions": "253H x 736W",
+        "temperatureRange": "+18 ~ 30°C",
+        "current": "28.7Amp",
+        "weight": "50kg",
+        "voltage": "48V",
+        "refrigerant": "R32(550g)"
+      }
+
 }
