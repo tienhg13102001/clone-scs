@@ -33,12 +33,12 @@
       "subtitle": "Thermal Management System",
       "item1": {
         "name": "Stable Supply Of Energy",
-        "description": "It is essential to stably supply re- newable energy sources with high variability in power generation.",
-        "description2": "Effective thermal management is required to prevent overheat-ing of electronic components related to batteries."
+        "description": "It is essential to stably supply re-newable energy sources with high variability in power generation.",
+        "description2": "Effective thermal management is required to prevent overheating of electronic components related to batteries life."
       },
       "item2": {
         "name": "Battery Life Extension",
-        "description": "Heat management can extend the life of batteries that are weak to heat.",
+        "description": "Heat management can extend the life of batteries that are weak to the heat.",
         "description2": "It improves the overall lifespan and economic feasibility of the energy storage system."
       },
       "item3": {
@@ -65,7 +65,7 @@
           },
           "item3": {
             "name": "Flow Volume Max",
-            "type": "Max 50LPM"
+            "type": "50LPM"
           },
           "item4": {
             "name": "Heat fulid",
@@ -207,16 +207,16 @@
         "title2": "THERMAL MANAGEMENT SYSTEM",
         "subtitle": "THERMAL MANAGEMENT SYSTEM",
         "item1": {
-          "name": "SENSOR NETWORK",
+          "name": "Sensor Network",
           "description": "Real-time data",
           "description2": "Temperature/Humidity/Airflow"
         },
         "item2": {
-          "name": "ANALYSIS AND OPTIMIZATION",
+          "name": "Analysis And Optimization",
           "description": "Pre-optimize systems with ana- lytics and automation"
         },
         "item3": {
-          "name": "PREVENTIVE MAINTENANCE",
+          "name": "Preventive Maintenance",
           "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
         },
         "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
@@ -285,7 +285,7 @@
       "item1": {
         "name": "Stable Driving",
         "description": "Heat generation using a large battery pack",
-        "description2": "The thermal management sys- tems prevent failures caused by overheating and prevent acci- dents while driving"
+        "description2": "The thermal management systems prevent failures caused by overheating and prevent accidents while driving."
       },
       "item2": {
         "name": "Extending of Battery Life",
@@ -372,17 +372,19 @@
       "title2": "THERMAL MANAGEMENT SYSTEM",
       "subtitle": "THERMAL MANAGEMENT SYSTEM",
       "item1": {
-        "name": "SENSOR NETWORK",
+        "name": "Sensor Network",
         "description": "Real-time data",
         "description2": "Temperature/Humidity/Airflow"
       },
       "item2": {
-        "name": "ANALYSIS AND OPTIMIZATION",
-        "description": "Pre-optimize systems with ana- lytics and automation"
+        "name": "Analysis And Optimization",
+        "description": "Pre-optimize systems with ana- lytics",
+        "description2": "Automation"
       },
       "item3": {
-        "name": "PREVENTIVE MAINTENANCE",
-        "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
+        "name": "Preventive Maintenance",
+        "description": "Ensure stable operation of thermal management",
+        "description2": "Systems through periodic monitoring and mainte-nance"
       },
       "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
       "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",

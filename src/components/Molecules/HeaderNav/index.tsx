@@ -15,7 +15,7 @@ const HeaderNavigation: FC<Props> = ({ title }) => {
   console.log(pathnames);
 
   return (
-    <div className="bg-hero-pattern bg-center pt-36 pb-12">
+    <div className="bg-hero-pattern bg-center bg-cover pt-36 pb-12">
       <motion.h1
         className="text-white text-5xl mb-5 text-center"
         initial={{ translateY: -30, opacity: 0 }}

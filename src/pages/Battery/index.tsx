@@ -60,7 +60,7 @@ function BatteryPage() {
                 <p className="font-semibold">
                   {t("products.battery_tms.item1.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                   {t("products.battery_tms.item1.description")}
                 </p>
               </div>
@@ -88,7 +88,7 @@ function BatteryPage() {
                 <p className="font-semibold">
                   {t("products.battery_tms.item2.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                   {t("products.battery_tms.item2.description")}
                 </p>
               </div>
@@ -121,7 +121,7 @@ function BatteryPage() {
                 <p className="font-semibold">
                   {t("products.battery_tms.item3.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                   {t("products.battery_tms.item3.description")}
                 </p>
               </div>
@@ -261,17 +261,17 @@ function BatteryPage() {
           <thead>
             <tr>
               <th
-                className="bg-[#8db3e2] border border-white text-white py-4 px-6 font-semibold text-lg"
+                className="bg-black border border-white text-white py-4 px-6 font-semibold text-lg"
                 colSpan={1}
               ></th>
               <th
-                className="bg-[#548dd4] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
+                className="bg-[#1060ad] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
                 colSpan={1}
               >
                 {t("products.battery_tms.table.col_span1")}
               </th>
               <th
-                className="bg-[#548dd4] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
+                className="bg-[#24aae1] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
                 colSpan={1}
               >
                 {t("products.battery_tms.table.col_span2")}
@@ -283,7 +283,7 @@ function BatteryPage() {
             <tr>
               <td
                 rowSpan={11}
-                className="bg-[#a5a5a5] border border-white text-white p-4 font-semibold uppercase"
+                className="bg-black border border-white text-white p-4 font-semibold uppercase"
               >
                 {t("products.battery_tms.table.row_span1")}
               </td>
@@ -379,7 +379,7 @@ function BatteryPage() {
             <tr>
               <td
                 rowSpan={2}
-                className="bg-[#a5a5a5] border border-white text-white p-4 font-semibold uppercase"
+                className="bg-black border border-white text-white p-4 font-semibold uppercase"
               >
                 {t("products.battery_tms.table.row_span2")}
               </td>

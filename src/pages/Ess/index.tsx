@@ -18,7 +18,7 @@ function EssPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-contain bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-center bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
             <p className="text-white text-[50px] uppercase text-custom">
@@ -65,7 +65,7 @@ function EssPage() {
                   <p className="font-semibold">
                     {t("products.ess_tms.item1.name")}
                   </p>
-                  <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                     {t("products.ess_tms.item1.description")}
                   </p>
                 </div>
@@ -93,7 +93,7 @@ function EssPage() {
                   <p className="font-semibold">
                     {t("products.ess_tms.item2.name")}
                   </p>
-                  <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                     {t("products.ess_tms.item2.description")}
                   </p>
                 </div>
@@ -121,7 +121,7 @@ function EssPage() {
                   <p className="font-semibold">
                     {t("products.ess_tms.item3.name")}
                   </p>
-                  <p className="text-[25px]/[33px] text-pretty">
+                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
                     {t("products.ess_tms.item3.description")}
                   </p>
                 </div>
