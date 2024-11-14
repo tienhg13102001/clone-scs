@@ -207,16 +207,16 @@
                 "title2": "THERMAL MANAGEMENT SYSTEM",
                 "subtitle": "THERMAL MANAGEMENT SYSTEM",
                 "item1": {
-                    "name": "SENSOR NETWORK",
+                    "name": "Sensor Network",
                     "description": "Real-time data",
                     "description2": "Temperature/Humidity/Airflow"
                 },
                 "item2": {
-                    "name": "ANALYSIS AND OPTIMIZATION",
+                    "name": "Analysis And Optimization",
                     "description": "Pre-optimize systems with ana- lytics and automation"
                 },
                 "item3": {
-                    "name": "PREVENTIVE MAINTENANCE",
+                    "name": "Preventive Maintenance",
                     "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
                 },
                 "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
@@ -372,17 +372,19 @@
             "title2": "THERMAL MANAGEMENT SYSTEM",
             "subtitle": "THERMAL MANAGEMENT SYSTEM",
             "item1": {
-                "name": "SENSOR NETWORK",
+                "name": "Sensor Network",
                 "description": "Real-time data",
                 "description2": "Temperature/Humidity/Airflow"
             },
             "item2": {
-                "name": "ANALYSIS AND OPTIMIZATION",
-                "description": "Pre-optimize systems with ana- lytics and automation"
+                "name": "Analysis And Optimization",
+                "description": "Pre-optimize systems with ana- lytics",
+                "description2": "Automation"
             },
             "item3": {
-                "name": "PREVENTIVE MAINTENANCE",
-                "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
+                "name": "Preventive Maintenance",
+                "description": "Ensure stable operation of thermal management",
+                "description2": "Systems through periodic monitoring and mainte-nance"
             },
             "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
             "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",

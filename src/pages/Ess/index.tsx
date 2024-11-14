@@ -1,15 +1,14 @@
 // import React from 'react'
+import { AppSidebar } from "@/components/app-sidebar";
+import Header from "@/components/Molecules/Header";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import { IoMdHome } from 'react-icons/io';
 import { useTranslation } from "react-i18next";
 import Banner from "../../assets/image/ess-banner.png";
 import BenefitImg from "../../assets/image/ess1.png";
-import ManagementImg from "../../assets/image/ess2.png";
 import Container from "../../components/products/Containers";
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import Header from "@/components/Molecules/Header";
 
 function EssPage() {
   const { t } = useTranslation();
@@ -20,7 +19,7 @@ function EssPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-contain bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-center bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
             <p className="text-white text-[50px] uppercase text-custom">
@@ -176,13 +175,55 @@ function EssPage() {
                 {t("products.ess_tms.subtitle3")}
               </h3>
             </motion.div>
-            <motion.img
-              src={ManagementImg}
-              className="w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, delay: 1 }}
-            />
+            <div className="flex gap-6">
+              <motion.div
+                className="border border-[#1060ad] grow flex flex-col items-center gap-4 justify-between p-10"
+                initial={{ translateX: -100, opacity: 0 }}
+                whileInView={{ translateX: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                viewport={{ once: false }}
+              >
+                <motion.img
+                  src={"/public/img/battery-img-03.webp"}
+                  className="w-full object-contain p-5"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 1 }}
+                />
+                <motion.p
+                  className="text-[#1060ad] font-normal text-3xl text-center"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 1 }}
+                >
+                  Electric Bus
+                </motion.p>
+              </motion.div>
+              <motion.div
+                className="border border-[#1060ad] grow flex flex-col items-center gap-4 justify-between p-10"
+                initial={{ translateX: 100, opacity: 0 }}
+                whileInView={{ translateX: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                viewport={{ once: false }}
+              >
+                <motion.img
+                  src={"/public/img/battery-img-04.webp"}
+                  className="w-full object-contain p-5"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 1 }}
+                />
+                <motion.p
+                  className="text-[#1060ad] font-normal text-3xl text-center"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1, delay: 1 }}
+                >
+                  SCS 10kW Liquid + Air Cooling System
+                </motion.p>
+              </motion.div>
+            </div>
+
             <hr className="border-t-2 border-[#4972B8] my-5" />
           </Container>
         </section>
