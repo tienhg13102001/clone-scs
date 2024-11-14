@@ -1,9 +1,8 @@
 // import React from 'react'
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
-import { IoMdHome } from 'react-icons/io';
 import { useTranslation } from "react-i18next";
-import BenefitImg from "../../assets/image/battery1.png";
+import { IoMdArrowUp, IoMdHome } from "react-icons/io";
 import ManagementImg from "../../assets/image/battery2.png";
 import Banner from "../../assets/image/ess-banner.png";
 import Container from "../../components/products/Containers";
@@ -35,127 +34,195 @@ function BatteryPage() {
       </section>
 
       <section className="mt-10 lg:mt-[80px]]">
-        <Container>
-          <h1 className="text-[#444] text-center lg:text-start text-[40px] flex flex-col">
-            {" "}
-            <span className="text-[#4972B8]">
-              {t("products.battery_tms.title")}
-            </span>
-            {t("products.battery_tms.title2")}
-          </h1>
-          <hr className="border-t-2 border-[#4972B8] my-5" />
+        <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
           <motion.div
-            className="flex gap-5 my-10"
+            className="flex w-full justify-center items-center"
             initial={{ translateX: 100, opacity: 0 }}
             whileInView={{ translateX: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: false }}
           >
-            <ChevronRight
-              color="#4972B8"
-              className="w-[45px] h-[45px] self-center"
-            />
-            <h3 className="text-[#444] text-[30px]">
+            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center">
               {t("products.battery_tms.subtitle")}
             </h3>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] px-4 space-y-6 lg:space-y-0">
+          <div className="grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] space-y-6 lg:space-y-0">
             <motion.div
-              className="space-y-7"
+              className="space-y-[17px]"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border border-[#4972B8] w-full">
-                <p className="text-black text-2xl text-center py-[10px] px-32 lg:px-40">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <p className="text-[#1060ad] font-semibold">01</p>
+                <p className="font-semibold">
                   {t("products.battery_tms.item1.name")}
                 </p>
+                <p className="text-[25px]/[33px] text-pretty">
+                  {t("products.battery_tms.item1.description")}
+                </p>
               </div>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item1.description")}
-              </p>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item1.description2")}
-              </p>
+              <div className="flex flex-col justify-center items-center w-full gap-y-2">
+                {[...Array(4)].map((_, i) => (
+                  <div key={i} className="size-1 rounded-full bg-[#1060ad]" />
+                ))}
+              </div>
+              <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
+                <p className="text-[25px]/[33px]">
+                  {t("products.battery_tms.item1.description2")}
+                </p>
+              </div>
             </motion.div>
 
             <motion.div
-              className="space-y-7"
+              className="space-y-[17px]"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
-              transition={{ duration: 0.75, delay: 0.2 }}
+              transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border border-[#4972B8]">
-                <p className="text-black text-2xl text-center py-[10px] px-24 lg:px-32">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <p className="text-[#1060ad] font-semibold">02</p>
+                <p className="font-semibold">
                   {t("products.battery_tms.item2.name")}
                 </p>
+                <p className="text-[25px]/[33px] text-pretty">
+                  {t("products.battery_tms.item2.description")}
+                </p>
               </div>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item2.description")}
-              </p>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item2.description2")}
-              </p>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item2.description3")}
-              </p>
+              <div className="flex flex-col justify-center items-center w-full gap-y-2">
+                {[...Array(4)].map((_, i) => (
+                  <div key={i} className="size-1 rounded-full bg-[#1060ad]" />
+                ))}
+              </div>
+              <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
+                <p className="text-[25px]/[33px]">
+                  {t("products.battery_tms.item2.description2")}
+                </p>
+              </div>
+              <div className="px-[33px]">
+                <span className="text-[#1060ad] font-semibold text-[25px]/[33px]">
+                  Reduce operational costs
+                </span>
+              </div>
             </motion.div>
 
             <motion.div
-              className="space-y-7"
+              className="space-y-[17px]"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
-              transition={{ duration: 0.75, delay: 0.3 }}
+              transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border border-[#4972B8]">
-                <p className="text-black text-2xl text-center py-[10px] px-32 lg:px-40">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <p className="text-[#1060ad] font-semibold">03</p>
+                <p className="font-semibold">
                   {t("products.battery_tms.item3.name")}
                 </p>
+                <p className="text-[25px]/[33px] text-pretty">
+                  {t("products.battery_tms.item3.description")}
+                </p>
               </div>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item3.description")}
-              </p>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item3.description2")}
-              </p>
-              <p className="text-[#444] text-lg">
-                {t("products.battery_tms.item3.description3")}
-              </p>
+              <div className="flex flex-col justify-center items-center w-full gap-y-2">
+                {[...Array(4)].map((_, i) => (
+                  <div key={i} className="size-1 rounded-full bg-[#1060ad]" />
+                ))}
+              </div>
+              <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
+                <p className="text-[25px]/[33px]">
+                  {t("products.battery_tms.item3.description2")}
+                </p>
+              </div>
+              <div className="px-[33px]">
+                <span className="text-[#1060ad] font-semibold text-[25px]/[33px]">
+                  Improve the reliability of public transportation
+                </span>
+              </div>
             </motion.div>
           </div>
-          <hr className="border-t-2 border-[#4972B8] my-5" />
         </Container>
       </section>
 
       <section>
-        <Container>
+        <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
           <motion.div
-            className="flex gap-5 my-10"
+            className="flex w-full justify-center items-center"
             initial={{ translateX: 100, opacity: 0 }}
             whileInView={{ translateX: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: false }}
           >
-            <ChevronRight
-              color="#4972B8"
-              className="w-[45px] h-[45px] self-center"
-            />
-            <h3 className="text-[#444] text-[30px]">
+            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center max-lg:pt-[100px]">
               {t("products.battery_tms.subtitle2")}
             </h3>
           </motion.div>
-          <motion.img
-            src={BenefitImg}
-            className="w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain"
+          <motion.div
+            className="w-full flex flex-col gap-y-[50px]"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
-          />
-          <hr className="border-t-2 border-[#4972B8] my-5" />
+          >
+            <div className="flex max-lg:flex-col justify-center items-center w-full gap-6">
+              <div className="border-2 border-[#1060ad] flex gap-x-[30px] flex-1 justify-center w-full items-center lg:py-[52px]">
+                <span className="text-[100px]/none font-semibold text-[#1060ad]">
+                  0%
+                </span>
+                <p className="text-[#222] text-[33px]/[50px]">
+                  Battery <br />
+                  Explosion
+                </p>
+              </div>
+              <div className="border-2 border-[#1060ad] flex gap-x-[30px] flex-1 justify-center w-full items-center lg:py-[52px]">
+                <span className="text-[100px]/none font-semibold text-[#1060ad] flex">
+                  <IoMdArrowUp className="size-24" />
+                  15%
+                </span>
+                <p className="text-[#222] text-[33px]/[50px]">
+                  Driving <br />
+                  Extension
+                </p>
+              </div>
+            </div>
+            <div className="flex max-lg:flex-col justify-center items-center lg:gap-[90px] gap-10">
+              <div className="flex justify-center items-center flex-col">
+                <img src="/img/battery-img-01.png" alt="" />
+              </div>
+              <img src="/img/plus.png" alt="" className="max-lg:size-20" />
+              <div className="flex flex-col relative max-lg:min-h-[450px] min-h-[300px]">
+                <div className="flex justify-center items-start gap-[27px]">
+                  <div className="flex flex-col items-center gap-1">
+                    <h1 className="font-semibold text-[25px]/[33px]">TMS</h1>
+                    <p className="text-[17px]/[21px]">
+                      Thermal Management System
+                    </p>
+                    <div className="flex flex-col items-center">
+                      <img src="/img/ic-ess-tms.png" alt="" />
+                      <div className="w-[2px] bg-black h-[49px]" />
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center gap-1">
+                    <h1 className="font-semibold text-[25px]/[33px]">
+                      A.I Controller
+                    </h1>
+                    <p className="text-[17px]/[21px]">
+                      LSTM + RL based control
+                    </p>
+                    <div className="flex flex-col items-center">
+                      <img src="/img/ic-ess-ai.png" alt="" />
+                      <div className="w-[2px] bg-black h-[56px]" />
+                    </div>
+                  </div>
+                </div>
+                <img
+                  className="absolute -z-10 translate-y-[60%]"
+                  src="/img/battery-img-02.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </motion.div>
         </Container>
       </section>
 

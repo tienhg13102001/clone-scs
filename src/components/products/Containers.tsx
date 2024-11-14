@@ -1,14 +1,13 @@
-import { ReactNode } from "react";
+import { cn } from "@/lib/utils";
+import { PropsWithChildren } from "react";
 
-interface ContainerProps {
-  children: ReactNode;
+interface ContainerProps extends PropsWithChildren {
+  className?: string;
 }
 
-export default function Container({ children }: ContainerProps) {
+export default function Container({ className, children }: ContainerProps) {
   return (
-    <div
-      className="container mx-auto max-w-[1320px]"
-    >
+    <div className={cn("container mx-auto max-w-[1320px]", className)}>
       {children}
     </div>
   );

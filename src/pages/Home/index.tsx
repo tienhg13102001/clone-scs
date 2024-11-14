@@ -86,57 +86,82 @@ const HomePage = () => {
         </motion.div>
       </section>
       <section className="lg:px-[300px] lg:py-[150px] p-5">
-        <div className="flex flex-col lg:gap-6 gap-2">
+        <div className="flex flex-col justify-center items-center lg:gap-5 gap-2">
           <motion.h1
-            className="text-[#444444] lg:text-[50px] text-xl"
+            className="text-[#1160ad] text-[15px] font-semibold"
             initial={{ translateX: 100, opacity: 0 }}
             whileInView={{ translateX: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
             viewport={{ once: false }}
           >
-            Why <span className="text-[#150291]">SCS</span>
+            Why SCS
           </motion.h1>
           <motion.p
-            className="text-[#444444] lg:text-[35px] text-xl"
+            className="text-[#222] lg:text-[32px]/[40px] text-xl"
             initial={{ translateX: 100, opacity: 0 }}
             whileInView={{ translateX: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.75 }}
             viewport={{ once: false }}
           >
-            <span className="text-[#150291]">S</span>tandard{" "}
-            <span className="text-[#150291]">C</span>ooling{" "}
-            <span className="text-[#150291]">S</span>ystems
+            <span>Standard Cooling Systems</span>
+          </motion.p>
+          <motion.p
+            className="text-[16px]/[24px] text-center"
+            initial={{ translateY: 100, opacity: 0 }}
+            whileInView={{ translateY: 0, opacity: 1 }}
+            transition={{ duration: 1, delay: 0.75 }}
+            viewport={{ once: false }}
+          >
+            {t("introductory-paragraph")}
           </motion.p>
         </div>
-        <img src="/img/graph.png" alt="" className="pb-5 pt-10 pl-10" />
-        <motion.p
-          className="text-[15px]/[1.5em]"
+        <motion.div
+          className="text-[15px]/[1.5em] mt-[100px]"
           initial={{ translateY: 100, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.75 }}
           viewport={{ once: false }}
         >
-          {t("introductory-paragraph")}
-        </motion.p>
-        <motion.p
-          className="text-[15px]/[1.5em]"
-          initial={{ translateY: 100, opacity: 0 }}
-          whileInView={{ translateY: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.75 }}
-          viewport={{ once: false }}
-        >
-          <ul className="list-decimal pl-4 text-pretty">
-            {descItems.map(({ title, desc }, index) => (
-              <li key={index}>
-                {title}
-                <p>{desc}</p>
-              </li>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-[140px] lg:gap-x-20">
+            {descItems.map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col justify-start items-start"
+              >
+                <img
+                  className="pb-[30px]"
+                  src={`/img/ic-0${index + 1}.png`}
+                  alt=""
+                />
+                <h1 className="text-[#222] text-[28px]/[40px] font-semibold capitalize pb-[32px]">
+                  {item.title}
+                </h1>
+                <p className="text-base/6 text-pretty">{item.desc}</p>
+              </div>
             ))}
-          </ul>
-          <br />
-          <p>{t("conclusion-paragraph")}</p>
-        </motion.p>
+          </div>
+        </motion.div>
       </section>
+      <div className="min-h-[240px] bg-[#f4f4f4] lg:px-[300px] lg:py-[72px]">
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-[140px] lg:gap-x-28 text-base/6 text-[#222]"
+          initial={{ translateY: 100, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.75 }}
+          viewport={{ once: false }}
+        >
+          <p className="text-[#b7b7b7] font-semibold text-[32px]">Conclusion</p>
+          <p>
+            Thermal management companies are crucial in optimizing the
+            production, storage, and use of renewable energy.
+          </p>
+          <p>
+            They help accelerate the energy transition, reduce carbon emissions,
+            and enhance system stability, making them vital partners in the
+            renewable energy market.
+          </p>
+        </motion.div>
+      </div>
     </div>
   );
 };
