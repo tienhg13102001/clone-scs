@@ -1,4 +1,3 @@
-import React from 'react';
 import History from '../../../../assets/images/history.png';
 const HistoryBackground = () => {
   return (

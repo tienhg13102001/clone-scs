@@ -1,8 +1,7 @@
-import React from 'react';
+import { motion } from 'framer-motion';
 import CK1 from '../../../../assets/images/ck_1.png';
 import CK2 from '../../../../assets/images/ck_2.png';
 import CK3 from '../../../../assets/images/ck_3.png';
-import { motion } from 'framer-motion';
 const ImageTile = () => {
     return (
         <motion.div
