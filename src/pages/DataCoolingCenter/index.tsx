@@ -1,13 +1,11 @@
+import { AppSidebar } from "@/components/app-sidebar";
+import Header from "@/components/Molecules/Header";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import { motion } from "framer-motion";
 import { ChevronRight, House } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import BenefitImg from "../../assets/image/cooling1.png";
-import ManagementImg from "../../assets/image/cooling2.png";
 import Banner from "../../assets/image/ess-banner.png";
 import Container from "../../components/products/Containers";
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import Header from "@/components/Molecules/Header";
 
 function DataCoolingCenterPage() {
   const { t } = useTranslation();
@@ -66,56 +64,66 @@ function DataCoolingCenterPage() {
 
             <div className="grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] px-4 space-y-6 lg:space-y-0">
               <motion.div
-                className=""
+                className="h-full"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#4972B8] w-full">
-                  <p className="text-black text-2xl text-center py-[10px] px-28">
+                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
+                  <p className="text-[#1060ad] text-3xl ">01</p>
+                  <p className="text-[#222] text-2xl font-normal">
                     {t("products.data_center_cooling.item1.name")}
                   </p>
+                  <p className="text-black text-2xl font-light my-7">
+                    {t("products.data_center_cooling.item1.description")}
+                  </p>
                 </div>
-                <p className="text-[#444] text-lg mt-7">
-                  {t("products.data_center_cooling.item1.description")}
-                </p>
-                <p className="text-[#444] text-lg">
+
+                <p className="text-[#1060ad] text-center text-2xl p-5">
                   {t("products.data_center_cooling.item1.description2")}
                 </p>
               </motion.div>
 
               <motion.div
-                className="space-y-7"
+                className="h-full"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.2 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#4972B8]">
-                  <p className="text-black text-2xl text-center py-[10px] px-12">
+                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
+                  <p className="text-[#1060ad] text-2xl ">02</p>
+                  <p className="text-[#222] text-2xl font-normal">
                     {t("products.data_center_cooling.item2.name")}
                   </p>
+                  <p className="text-black text-2xl font-light my-7">
+                    {t("products.data_center_cooling.item2.description")}
+                  </p>
                 </div>
-                <p className="text-[#444] text-lg">
+                <p className="text-[#1060ad] text-center text-2xl p-5">
                   {t("products.data_center_cooling.item2.description")}
                 </p>
               </motion.div>
 
               <motion.div
-                className="space-y-7"
+                className="h-full"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.3 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#4972B8]">
-                  <p className="text-black text-2xl text-center py-[10px] px-12">
+                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
+                  <p className="text-[#1060ad] text-2xl ">02</p>
+                  <p className="text-[#222] text-2xl font-normal">
                     {t("products.data_center_cooling.item3.name")}
                   </p>
+                  <p className="text-black text-2xl font-light my-7">
+                    {t("products.data_center_cooling.item3.description")}
+                  </p>
                 </div>
-                <p className="text-[#444] text-lg">
-                  {t("products.data_center_cooling.item3.description")}
+                <p className="text-[#1060ad] text-center text-2xl p-5">
+                  {t("products.data_center_cooling.item3.description2")}
                 </p>
               </motion.div>
             </div>
@@ -134,13 +142,48 @@ function DataCoolingCenterPage() {
                 {t("products.data_center_cooling.subtitle2")}
               </h3>
             </div>
-            <motion.img
-              src={BenefitImg}
-              className="w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1 }}
-            />
+            <div className="flex gap-5 justify-between">
+              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 w-1/2">
+                <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
+                <div className="flex flex-col h-full justify-between text-3xl">
+                  <p>Battery</p>
+                  <p>Explosion</p>
+                </div>
+              </div>
+              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 w-1/2">
+                <p className="text-8xl font-semibold text-[#1060ad]">$7</p>
+                <div className="flex flex-col h-full justify-between ">
+                  <p className="text-5xl text-[#1060ad] font-semibold">
+                    mil saved{" "}
+                  </p>
+                  <p className="text-2xl">Annual Facilities Operation Cost</p>
+                </div>
+              </div>
+            </div>
+            <div className="flex gap-5 w-full justify-around">
+              <motion.img
+                src={"/public/img/data-center-img-01.webp"}
+                className="w-1/3 object-contain"
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }}
+              />
+              <motion.img
+                src={"/public/img/plus.webp"}
+                className="w-1/8 object-contain"
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }}
+              />
+              <motion.img
+                src={"/public/img/Screenshot 2024-11-14 at 14.12.53.png"}
+                className="w-1/3 object-contain"
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1 }}
+              />
+            </div>
+
             <hr className="border-t-2 border-[#4972B8] my-5" />
           </Container>
         </section>
@@ -162,13 +205,32 @@ function DataCoolingCenterPage() {
                 {t("products.data_center_cooling.subtitle3")}
               </h3>
             </motion.div>
-            <motion.img
-              src={ManagementImg}
-              className="w-full h-[400px] lg:w-[1245px] lg:h-[758px] object-contain"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1 }}
-            />
+            <div className="flex gap-5">
+              <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
+                <motion.img
+                  src={"/public/img/data-center-img-03.webp"}
+                  className="h-full object-contain"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1 }}
+                />
+                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
+                  Data Center
+                </p>
+              </div>
+              <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
+                <motion.img
+                  src={"/public/img/data-center-img-04.webp"}
+                  className="h-full object-contain"
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 1 }}
+                />
+                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
+                  SCS 200kW Immersion Cooling system{" "}
+                </p>
+              </div>
+            </div>
             <hr className="border-t-2 border-[#4972B8] my-5" />
           </Container>
         </section>
@@ -198,17 +260,17 @@ function DataCoolingCenterPage() {
             <thead>
               <tr>
                 <th
-                  className="bg-[#8db3e2] border border-white text-white py-4 px-6 font-semibold text-lg"
+                  className="bg-black border border-white text-white py-4 px-6 font-semibold text-lg"
                   colSpan={1}
                 ></th>
                 <th
-                  className="bg-[#548dd4] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
+                  className="bg-[#1060ad] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
                   colSpan={1}
                 >
                   {t("products.data_center_cooling.table.col_span1")}
                 </th>
                 <th
-                  className="bg-[#548dd4] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
+                  className="bg-[#24aae1] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
                   colSpan={1}
                 >
                   {t("products.data_center_cooling.table.col_span2")}
@@ -220,7 +282,7 @@ function DataCoolingCenterPage() {
               <tr>
                 <td
                   rowSpan={11}
-                  className="bg-[#a5a5a5] border border-white text-white p-4 font-semibold uppercase"
+                  className="bg-black border border-white text-white p-4 font-semibold uppercase"
                 >
                   {t("products.data_center_cooling.table.row_span1")}
                 </td>

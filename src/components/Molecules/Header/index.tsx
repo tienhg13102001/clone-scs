@@ -5,8 +5,6 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
-
-
 function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
@@ -17,7 +15,6 @@ function Header() {
     document.title = title === "SCS" ? title : `SCS ${title}`;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.pathname]);
-
 
   const isOpen = useSidebarStore((state) => state.isOpen);
   const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);

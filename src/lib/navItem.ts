@@ -2,6 +2,7 @@ import RoutesString from "@/pages/Utils/RoutesString";
 
 interface NavItem {
   title: string;
+  url: string;
   links: {
     title: string;
     url: string;
@@ -11,6 +12,7 @@ interface NavItem {
 export const getNavItems = (t: (key: string) => string): NavItem[] => [
   {
     title: t("scsNav"),
+    url: "/scs/company-info",
     links: [
       {
         title: t("company-info"),
@@ -28,26 +30,28 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
   },
   {
     title: t("product"),
+    url: "/ess-tms",
     links: [
       {
-        title: t('products.ess_tms.main_path'),
+        title: t("products.ess_tms.main_path"),
         url: "/ess-tms",
       },
       {
-        title: t('products.ess_tms.battery_tms.main_path'),
-        url: "/battery-tms",
+        title: t("products.ess_tms.battery_tms.main_path"),
+        url: RoutesString.Battery,
       },
       {
-        title: t('products.ess_tms.data_center_cooling.main_path'),
+        title: t("products.ess_tms.data_center_cooling.main_path"),
         url: "/data-cooling-center",
       },
     ],
   },
   {
     title: t("advanced-tech"),
+    url: "/advance-technology/ai-tsm-control",
     links: [
       {
-        title: t('ai-tsm-control'),
+        title: t("ai-tsm-control"),
         url: "/advance-technology/ai-tsm-control",
       },
       {
@@ -55,16 +59,17 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
         url: "/advance-technology/energy-integration-system",
       },
       {
-        title: t('high-efficiency-heat-exchanger'),
+        title: t("high-efficiency-heat-exchanger"),
         url: "/advance-technology/high-efficiency-heat-exchanger",
       },
     ],
   },
   {
     title: t("business-areas"),
+    url: "/business-areas/fast-charger-cooling",
     links: [
       {
-        title: t('fast-charger-cooling'),
+        title: t("fast-charger-cooling"),
         url: "/business-areas/fast-charger-cooling",
       },
       {
@@ -72,7 +77,7 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
         url: "/business-areas/ICE",
       },
       {
-        title: t('electric'),
+        title: t("electric"),
         url: "/business-areas/electric",
       },
       {
@@ -103,9 +108,10 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
   },
   {
     title: t("media"),
+    url: "/contact",
     links: [
       {
-        title: t('contact.contact'),
+        title: t("contact.contact"),
         url: "/contact",
       },
       {
@@ -121,7 +127,9 @@ export const PageTitles = (t: (key: string) => string) => ({
   [RoutesString.Admin]: t("admin"),
   [RoutesString.Ess]: t("ess"),
   [RoutesString.Battery]: t("battery"),
-  [RoutesString.DataCoolingCenter]: t('products.ess_tms.data_center_cooling.main_path'),
+  [RoutesString.DataCoolingCenter]: t(
+    "products.ess_tms.data_center_cooling.main_path"
+  ),
   [RoutesString.BusinessAreas]: t("business-areas"),
   [RoutesString.FastChargerCooling]: t("fast-charger-cooling"),
   [RoutesString.ICE]: t("ICE"),
@@ -134,11 +142,13 @@ export const PageTitles = (t: (key: string) => string) => ({
   [RoutesString.AdvanceTechnology]: t("advance-technology"),
   [RoutesString.AITSMControl]: t("ai-tsm-control"),
   [RoutesString.EnergyIntegrationSystem]: t("energy-integration-system"),
-  [RoutesString.HightEfficiencyHeatExchanger]: t("high-efficiency-heat-exchanger"),
+  [RoutesString.HightEfficiencyHeatExchanger]: t(
+    "high-efficiency-heat-exchanger"
+  ),
   [RoutesString.Scs]: t("scs"),
   [RoutesString.CompanyInfo]: t("company-info"),
   [RoutesString.History]: t("history"),
   [RoutesString.SCSHeat]: t("heat-rd-center"),
-  [RoutesString.Contact]: t('contact.contact'),
+  [RoutesString.Contact]: t("contact.contact"),
   [RoutesString.MediaRecord]: t("media-record"),
 });
