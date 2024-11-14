@@ -1,656 +1,655 @@
 {
-    "welcome": "Welcome",
-    "description": "This is an example in English.",
-    "our-mission": "The future of energy management is poised to undergo significant transformations due to advancements in technology, shifting energy demands, and the urgent need to address climate change. Our company explores the emerging trends in energy management, focusing on heat energy management, renewable energy integration, and energy storage solutions. Key innovations include the deployment of artificial intelligence (AI) and machine learning (ML) for predictive analytics, optimizing energy consumption, and reducing operational costs and special Thermal Management Systems. The role of decentralized energy systems, such as microgrids, is also highlighted as a critical driver in the evolution of energy management. Furthermore, the integration of renewable sources like solar, wind, and hydrogen with next-generation storage technologies, including batteries and hydrogen fuel cells, is discussed. Finally, our company addresses the importance of new technology and international cooperation to ensure a sustainable, resilient, and equitable energy future. The convergence of these factors positions energy management as a cornerstone of sustainable development in the 21st century.",
-    "introductory-paragraph": "The reason why thermal management companies are important in the renewable energy market is because thermal management plays a key role in improving the efficiency, stability, and economy of renewable energy. Renewable energy is intermittent and irregular, so technology that can store or effectively utilize energy is required. In this context, thermal management technology plays an important role in several aspects.",
-    "body-1": "Maximizing energy storage efficiency",
-    "body-1-detail": "Renewable energy, like solar and wind power, produces energy in varying amounts depending on the time of day. In order to supply energy stably, energy storage technology is essential, and this is where thermal storage technology plays an important role. For example, in solar power generation systems, the generated thermal energy can be stored in high-temperature materials and converted into electricity when needed. This type of thermal storage technology contributes to maintaining the balance of energy supply and demand in situations where the supply of renewable energy is irregular.",
-    "body-2": "Minimizing energy loss",
-    "body-2-detail": "In order to efficiently utilize renewable energy, the generated energy must be utilized to the maximum extent without being wasted. In this case, thermal management plays a role in minimizing energy loss. By recovering and recycling waste heat generated from solar panels or wind turbines, the energy efficiency of the entire system can be increased. In addition, thermal management devices such as heat exchangers and cooling systems can optimize equipment performance and reduce losses in the energy conversion process.",
-    "body-3": "Improving the stability of renewable energy systems",
-    "body-3-detail": "Renewable energy power generation facilities can greatly change their power generation depending on climate conditions, so effective management of equipment heat is necessary to operate them stably. For example, solar panels or wind turbines can accumulate internal heat when operated for long periods of time, which can lead to equipment performance degradation or failure. Thermal management systems prevent such overheating and help equipment operate at optimal conditions.",
-    "body-4": "Reducing carbon emissions",
-    "body-4-detail": "Thermal management technologies contribute to increasing energy efficiency and reducing carbon emissions across industries. For example, systems such as **Concentrated Solar Power (CSP)** concentrate sunlight to produce high-temperature thermal energy, which is then stored and converted into electricity when needed. Efficient thermal management in this process allows more energy to be stored and used, reducing dependence on fossil fuels. Such thermal management technologies play an important role in reducing carbon emissions and responding to climate change.",
-    "body-5": "Expanding the application of renewable energy systems in industry and households",
-    "body-5-detail": "To make renewable energy more widely used in homes and industries, stable supply and cost efficiency are important, and thermal management technology makes this possible. For example, a solar heating system for households is designed to heat water using sunlight, store it, and use it when needed. This saves energy and makes the use of renewable energy more attractive.",
-    "body-6": "Integrated management of renewable energy and heat",
-    "body-6-detail": "Renewable energy often produces heat as well as electricity. In particular, solar thermal power generation and geothermal power generation are methods of directly generating heat, and if properly managed, they can be used in various fields such as heating, cooling, and industrial processes in addition to power generation. Thermal management companies support the integrated operation of these systems and maximize the utilization of renewable energy.",
-    "conclusion-paragraph": "In conclusion, thermal management companies play an important role in promoting the efficient production, storage, and utilization of renewable energy, thereby helping to develop the renewable energy market. They are essential partners that contribute to accelerating the energy transition and reducing carbon emissions while reducing energy loss and increasing the stability of the system.",
-    "scsNav": "SCS",
-    "company-info": "Company Info",
-    "history": "History",
-    "heat-rd-center": "Heat R&D Center",
-    "product": "Products",
-    "advanced-tech": "Advanced Technology",
-    "media": "Media",
-    "media-record": "Media Record",
-    "products": {
-        "ess_tms": {
-            "path": "products",
-            "main_path": "ESS TMS",
-            "title": "ESS ",
-            "title2": "(ENERGY STORAGE SYSTEM) THERMAL MANAGEMENT SYSTEM",
-            "subtitle": "THERMAL MANAGEMENT SYSTEM",
-            "item1": {
-                "name": "STABLE SUPPLY OF ENERGY",
-                "description": "It is essential to stably supply re- newable energy sources with high variability in power generation.",
-                "description2": "Effective thermal management is required to prevent overheat-ing of electronic components related to batteries."
-            },
-            "item2": {
-                "name": "BATTERY LIFE EXTENSION",
-                "description": "Heat management can extend the life of batteries that are weak to heat.",
-                "description2": "It improves the overall lifespan and economic feasibility of the energy storage system."
-            },
-            "item3": {
-                "name": "INCREASE ENERGY EFFICIENCY",
-                "description": "Minimizing heat loss through thermal management systems increases energy efficiency.",
-                "description2": "Increase in the storage of energy."
-            },
-            "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
-            "subtitle3": "ESS(ENERGY STORAGE SYSTEM) + AI THERMAL MANAGEMENT SYSTEM",
-            "subtitle4": "SPECIFICATION",
-            "table": {
-                "col_span1": "contents",
-                "row_span1": "hardware",
-                "col_span2": "specification",
-                "row_span2": "software",
-                "hardware_section": {
-                    "item1": {
-                        "name": "Target",
-                        "type": "ESS(Energy Storage System)"
-                    },
-                    "item2": {
-                        "name": "IP Grade",
-                        "type": "IP65"
-                    },
-                    "item3": {
-                        "name": "Flow Volume Max",
-                        "type": "50LPM"
-                    },
-                    "item4": {
-                        "name": "Heat fulid",
-                        "type": "R134a or R1234yf/EG or Iso Oil"
-                    },
-                    "item5": {
-                        "name": "Cooling Volume",
-                        "type": "40kW @40°C 40%"
-                    },
-                    "item6": {
-                        "name": "Heating Volume",
-                        "type": "15kW"
-                    },
-                    "item7": {
-                        "name": "Operating temp",
-                        "type": "-20~55°C"
-                    },
-                    "item8": {
-                        "name": "Dimension(W*L*H)",
-                        "type": "700(L) x 700(W) x 1,500(H)"
-                    },
-                    "item9": {
-                        "name": "Weight",
-                        "type": "80kg (except, fluid)"
-                    },
-                    "item10": {
-                        "name": "Power Source",
-                        "type": "DC480V & 12V"
-                    },
-                    "item11": {
-                        "name": "Outlet target temp",
-                        "type": "5~50°C"
-                    }
-                },
-                "software_section": {
-                    "item1": {
-                        "name": "Control Method",
-                        "type": "CAN/RS232"
-                    },
-                    "item2": {
-                        "name": "Status Check",
-                        "type": "UI/Indicator"
-                    }
-                }
-            },
-            "battery_tms": {
-                "path": "products",
-                "main_path": "Battery TMS",
-                "title": "Electric Bus",
-                "title2": "Thermal Management System",
-                "subtitle": "THERMAL MANAGEMENT SYSTEM",
-                "item1": {
-                    "name": "Stable Driving",
-                    "description": "Heat generation using a large battery pack",
-                    "description2": "The thermal management sys- tems prevent failures caused by overheating and prevent acci- dents while driving"
-                },
-                "item2": {
-                    "name": "Extending of Battery Life",
-                    "description": "Batty overheating significantly shortens lifespan",
-                    "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
-                    "description3": "Reduce operational costs"
-                },
-                "item3": {
-                    "name": "Improved Stability",
-                    "description": "Overheated batteries are at a high risk of fire",
-                    "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
-                    "description3": "Improve the reliability of public transportation"
-                },
-                "subtitle2": "Benefit of SCS Thermal Management System",
-                "subtitle3": "Electric Bus + A.I. Thermal Management System",
-                "subtitle4": "Specification",
-                "table": {
-                    "col_span1": "contents",
-                    "row_span1": "hardware",
-                    "col_span2": "specification",
-                    "row_span2": "software",
-                    "hardware_section": {
-                        "item1": {
-                            "name": "Target",
-                            "type": "Electric Vehicle"
-                        },
-                        "item2": {
-                            "name": "IP Grade",
-                            "type": "IP67"
-                        },
-                        "item3": {
-                            "name": "Flow Volume Max",
-                            "type": "45~65 LPM"
-                        },
-                        "item4": {
-                            "name": "Heat fulid",
-                            "type": "R410 or R134a/EG 50%"
-                        },
-                        "item5": {
-                            "name": "Cooling Volume",
-                            "type": "Max. 10kW (Amb.T37°C)"
-                        },
-                        "item6": {
-                            "name": "Heating Volume",
-                            "type": "Max. 6kW"
-                        },
-                        "item7": {
-                            "name": "Operating temp",
-                            "type": "-10 ~ 55°C"
-                        },
-                        "item8": {
-                            "name": "Dimension(W*L*H)",
-                            "type": "870(L) x 450(W) x 300(H)"
-                        },
-                        "item9": {
-                            "name": "Weight",
-                            "type": "40kg"
-                        },
-                        "item10": {
-                            "name": "Power Source",
-                            "type": "450~750Vdc 7kW/12/24Vdc"
-                        },
-                        "item11": {
-                            "name": "Outlet target temp",
-                            "type": "10°C ~20°C"
-                        }
-                    },
-                    "software_section": {
-                        "item1": {
-                            "name": "Control Method",
-                            "type": "CAN/RS232"
-                        },
-                        "item2": {
-                            "name": "Status Check",
-                            "type": "UI/Indicator"
-                        }
-                    }
-                }
-            },
-            "data_center_cooling": {
-                "path": "products",
-                "main_path": "Data Center Cooling",
-                "title": "DATA CENTER",
-                "title2": "THERMAL MANAGEMENT SYSTEM",
-                "subtitle": "THERMAL MANAGEMENT SYSTEM",
-                "item1": {
-                    "name": "Sensor Network",
-                    "description": "Real-time data",
-                    "description2": "Temperature/Humidity/Airflow"
-                },
-                "item2": {
-                    "name": "Analysis And Optimization",
-                    "description": "Pre-optimize systems with ana- lytics and automation"
-                },
-                "item3": {
-                    "name": "Preventive Maintenance",
-                    "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
-                },
-                "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
-                "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
-                "subtitle4": "SPECIFICATION",
-                "table": {
-                    "col_span1": "contents",
-                    "row_span1": "hardware",
-                    "col_span2": "specification",
-                    "row_span2": "software",
-                    "hardware_section": {
-                        "item1": {
-                            "name": "Target",
-                            "type": "Data Center / Big generator and room of turbine"
-                        },
-                        "item2": {
-                            "name": "IP Grade",
-                            "type": "IP65"
-                        },
-                        "item3": {
-                            "name": "Power Supply",
-                            "type": "DC480V & 12V"
-                        },
-                        "item4": {
-                            "name": "Power Consumption",
-                            "type": "(Cool) 5~8kW, (Heat) 10KW"
-                        },
-                        "item5": {
-                            "name": "Water flow(L/min)",
-                            "type": "Max 50LPM"
-                        },
-                        "item6": {
-                            "name": "Heat fluid",
-                            "type": "R134a or R1234yf/EG or Iso Oil"
-                        },
-                        "item7": {
-                            "name": "Cooling capacity",
-                            "type": "200kW @25°C40%"
-                        },
-                        "item8": {
-                            "name": "Heating capacity",
-                            "type": "16kW"
-                        },
-                        "item9": {
-                            "name": "Operating temp",
-                            "type": "5-55°C"
-                        },
-                        "item10": {
-                            "name": "Size",
-                            "type": "400(L) x 600(W) x 1,500(H)mm"
-                        },
-                        "item11": {
-                            "name": "Weight",
-                            "type": "80kg (except, fluid)"
-                        }
-                    }
-                }
-            }
+  "welcome": "Welcome",
+  "description": "This is an example in English.",
+  "our-mission": "The future of energy management is poised to undergo significant transformations due to advancements in technology, shifting energy demands, and the urgent need to address climate change. Our company explores the emerging trends in energy management, focusing on heat energy management, renewable energy integration, and energy storage solutions. Key innovations include the deployment of artificial intelligence (AI) and machine learning (ML) for predictive analytics, optimizing energy consumption, and reducing operational costs and special Thermal Management Systems. The role of decentralized energy systems, such as microgrids, is also highlighted as a critical driver in the evolution of energy management. Furthermore, the integration of renewable sources like solar, wind, and hydrogen with next-generation storage technologies, including batteries and hydrogen fuel cells, is discussed. Finally, our company addresses the importance of new technology and international cooperation to ensure a sustainable, resilient, and equitable energy future. The convergence of these factors positions energy management as a cornerstone of sustainable development in the 21st century.",
+  "introductory-paragraph": "Thermal management is essential for improving the efficiency, stability, and economy of renewable energy systems, which are often intermittent. Effective thermal management helps store and utilize energy more efficiently, especially in renewable energy sources like solar and wind.",
+  "body-1": "Maximizing energy storage efficiency",
+  "body-1-detail": "Renewable energy generation is inconsistent, requiring effective energy storage. Thermal storage technology, such as high-temperature materials in solar systems, stores energy for later use, ensuring a stable energy supply despite fluctuations.",
+  "body-2": "Minimizing energy loss",
+  "body-2-detail": "Thermal management helps prevent energy waste by recovering and recycling heat from systems like solar panels and wind turbines, boosting overall energy efficiency and optimizing equipment performance.",
+  "body-3": "Improving System Stability",
+  "body-3-detail": "Renewable energy systems are vulnerable to fluctuations in weather conditions. Thermal management prevents overheating in solar panels and wind turbines, ensuring stable performance and extending equipment life.",
+  "body-4": "Reducing carbon emissions",
+  "body-4-detail": "By improving energy efficiency, thermal management helps lower carbon emissions. In Concentrated Solar Power (CSP), for example, efficient heat storage and conversion reduce reliance on fossil fuels and mitigate climate change.",
+  "body-5": "Expanding Renewable Energy Use",
+  "body-5-detail": "Stable and cost-efficient thermal management makes renewable energy more accessible for industries and homes, such as solar water heating systems that save energy and reduce costs.",
+  "body-6": "Integrating Heat and Power",
+  "body-6-detail": "Many renewable energy systems, like solar thermal and geothermal, produce both heat and electricity. Thermal management supports the integrated use of this energy in heating, cooling, and industrial processes, maximizing its potential.",
+  "conclusion-paragraph": "In conclusion, thermal management companies play an important role in promoting the efficient production, storage, and utilization of renewable energy, thereby helping to develop the renewable energy market. They are essential partners that contribute to accelerating the energy transition and reducing carbon emissions while reducing energy loss and increasing the stability of the system.",
+  "scsNav": "SCS",
+  "company-info": "Company Info",
+  "history": "History",
+  "heat-rd-center": "Heat R&D Center",
+  "product": "Products",
+  "advanced-tech": "Advanced Technology",
+  "media": "Media",
+  "media-record": "Media Record",
+  "products": {
+    "ess_tms": {
+      "path": "products",
+      "main_path": "ESS TMS",
+      "title": "ESS ",
+      "title2": "(ENERGY STORAGE SYSTEM) THERMAL MANAGEMENT SYSTEM",
+      "subtitle": "Thermal Management System",
+      "item1": {
+        "name": "Stable Supply Of Energy",
+        "description": "It is essential to stably supply re-newable energy sources with high variability in power generation.",
+        "description2": "Effective thermal management is required to prevent overheating of electronic components related to batteries life."
+      },
+      "item2": {
+        "name": "Battery Life Extension",
+        "description": "Heat management can extend the life of batteries that are weak to the heat.",
+        "description2": "It improves the overall lifespan and economic feasibility of the energy storage system."
+      },
+      "item3": {
+        "name": "Increase Energy Effiency",
+        "description": "Minimizing heat loss through thermal management systems increases energy efficiency.",
+        "description2": "Increase in the storage of energy."
+      },
+      "subtitle2": "Benefit Of SCS Thermal Management System",
+      "subtitle3": "ESS(Energy Storage System) + AI Thermal Management System",
+      "subtitle4": "Specification",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "ESS(Energy Storage System)"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "Flow Volume Max",
+            "type": "50LPM"
+          },
+          "item4": {
+            "name": "Heat fulid",
+            "type": "R134a or R1234yf/EG or Iso Oil"
+          },
+          "item5": {
+            "name": "Cooling Volume",
+            "type": "40kW @40°C 40%"
+          },
+          "item6": {
+            "name": "Heating Volume",
+            "type": "15kW"
+          },
+          "item7": {
+            "name": "Operating temp",
+            "type": "-20~55°C"
+          },
+          "item8": {
+            "name": "Dimension(W*L*H)",
+            "type": "700(L) x 700(W) x 1,500(H)"
+          },
+          "item9": {
+            "name": "Weight",
+            "type": "80kg (except, fluid)"
+          },
+          "item10": {
+            "name": "Power Source",
+            "type": "DC480V & 12V"
+          },
+          "item11": {
+            "name": "Outlet target temp",
+            "type": "5~50°C"
+          }
         },
-        "battery_tms": {
-            "path": "products",
-            "main_path": "Battery TMS",
-            "title": "Electric Bus",
-            "title2": "Thermal Management System",
-            "subtitle": "THERMAL MANAGEMENT SYSTEM",
-            "item1": {
-                "name": "Stable Driving",
-                "description": "Heat generation using a large battery pack",
-                "description2": "The thermal management sys- tems prevent failures caused by overheating and prevent acci- dents while driving"
-            },
-            "item2": {
-                "name": "Extending of Battery Life",
-                "description": "Batty overheating significantly shortens lifespan",
-                "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
-                "description3": "Reduce operational costs"
-            },
-            "item3": {
-                "name": "Improved Stability",
-                "description": "Overheated batteries are at a high risk of fire",
-                "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
-                "description3": "Improve the reliability of public transportation"
-            },
-            "subtitle2": "Benefit of SCS Thermal Management System",
-            "subtitle3": "Electric Bus + A.I. Thermal Management System",
-            "subtitle4": "Specification",
-            "table": {
-                "col_span1": "contents",
-                "row_span1": "hardware",
-                "col_span2": "specification",
-                "row_span2": "software",
-                "hardware_section": {
-                    "item1": {
-                        "name": "Target",
-                        "type": "Electric Vehicle"
-                    },
-                    "item2": {
-                        "name": "IP Grade",
-                        "type": "IP67"
-                    },
-                    "item3": {
-                        "name": "Flow Volume Max",
-                        "type": "45~65 LPM"
-                    },
-                    "item4": {
-                        "name": "Heat fulid",
-                        "type": "R410 or R134a/EG 50%"
-                    },
-                    "item5": {
-                        "name": "Cooling Volume",
-                        "type": "Max. 10kW (Amb.T37°C)"
-                    },
-                    "item6": {
-                        "name": "Heating Volume",
-                        "type": "Max. 6kW"
-                    },
-                    "item7": {
-                        "name": "Operating temp",
-                        "type": "-10 ~ 55°C"
-                    },
-                    "item8": {
-                        "name": "Dimension(W*L*H)",
-                        "type": "870(L) x 450(W) x 300(H)"
-                    },
-                    "item9": {
-                        "name": "Weight",
-                        "type": "40kg"
-                    },
-                    "item10": {
-                        "name": "Power Source",
-                        "type": "450~750Vdc 7kW/12/24Vdc"
-                    },
-                    "item11": {
-                        "name": "Outlet target temp",
-                        "type": "10°C ~20°C"
-                    }
-                },
-                "software_section": {
-                    "item1": {
-                        "name": "Control Method",
-                        "type": "CAN/RS232"
-                    },
-                    "item2": {
-                        "name": "Status Check",
-                        "type": "UI/Indicator"
-                    }
-                }
-            }
-        },
-        "data_center_cooling": {
-            "path": "products",
-            "main_path": "Data Center Cooling",
-            "title": "DATA CENTER",
-            "title2": "THERMAL MANAGEMENT SYSTEM",
-            "subtitle": "THERMAL MANAGEMENT SYSTEM",
-            "item1": {
-                "name": "Sensor Network",
-                "description": "Real-time data",
-                "description2": "Temperature/Humidity/Airflow"
-            },
-            "item2": {
-                "name": "Analysis And Optimization",
-                "description": "Pre-optimize systems with ana- lytics",
-                "description2": "Automation"
-            },
-            "item3": {
-                "name": "Preventive Maintenance",
-                "description": "Ensure stable operation of thermal management",
-                "description2": "Systems through periodic monitoring and mainte-nance"
-            },
-            "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
-            "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
-            "subtitle4": "SPECIFICATION",
-            "table": {
-                "col_span1": "contents",
-                "row_span1": "hardware",
-                "col_span2": "specification",
-                "row_span2": "software",
-                "hardware_section": {
-                    "item1": {
-                        "name": "Target",
-                        "type": "Data Center / Big generator and room of turbine"
-                    },
-                    "item2": {
-                        "name": "IP Grade",
-                        "type": "IP65"
-                    },
-                    "item3": {
-                        "name": "Power Supply",
-                        "type": "DC480V & 12V"
-                    },
-                    "item4": {
-                        "name": "Power Consumption",
-                        "type": "(Cool) 5~8kW, (Heat) 10KW"
-                    },
-                    "item5": {
-                        "name": "Water flow(L/min)",
-                        "type": "Max 50LPM"
-                    },
-                    "item6": {
-                        "name": "Heat fluid",
-                        "type": "R134a or R1234yf/EG or Iso Oil"
-                    },
-                    "item7": {
-                        "name": "Cooling capacity",
-                        "type": "200kW @25°C40%"
-                    },
-                    "item8": {
-                        "name": "Heating capacity",
-                        "type": "16kW"
-                    },
-                    "item9": {
-                        "name": "Operating temp",
-                        "type": "5-55°C"
-                    },
-                    "item10": {
-                        "name": "Size",
-                        "type": "400(L) x 600(W) x 1,500(H)mm"
-                    },
-                    "item11": {
-                        "name": "Weight",
-                        "type": "80kg (except, fluid)"
-                    }
-                }
-            }
-        },
-        "scs": {
-            "companyInfo": {
-                "introductionTitle": "SCS Introduction",
-                "workWithSCS": "Let’s work with",
-                "SCSTitle": "SCS",
-                "SCS": "SCS",
-                "companyInfoTitle": "Company Info",
-                "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
-                "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
-                "keyBusinessItems": "'s Key Business Items",
-                "newsStoriesTitle": "A lot of news stories",
-                "growStatement": "We will always grow",
-                "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
-                "techDevelopment": "We are working to develop the best technology in the industry",
-                "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
-                "industries": "charging industries, electric boats, and electric heavy industries"
-            },
-            "history": {
-                "history": "History"
-            },
-            "heatRAndD": {
-                "title": "Heat R&D Center",
-                "listItems": [
-                    {
-                        "content": "A.I. Controller Development Complete (Ready for Mass Production)",
-                        "highlight": true
-                    },
-                    {
-                        "content": "A Factory in Korea & US each",
-                        "highlight": false
-                    },
-                    {
-                        "content": "Research Institute in Korea",
-                        "highlight": false
-                    },
-                    {
-                        "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
-                        "highlight": false
-                    }
-                ]
-            }
+        "software_section": {
+          "item1": {
+            "name": "Control Method",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "Status Check",
+            "type": "UI/Indicator"
+          }
         }
-    },
-    "business-areas": "Business Areas",
-    "advance-technology": "Advanced Technology",
-    "fast-charger-cooling": "Fast Charger Cooling",
-    "ICE": "ICE Bath Chiller/ Heater",
-    "electric": "Electric Vessel TMS",
-    "elevator": "Elevator AC",
-    "residential": "Residential HVAC",
-    "water-capture": "Water Capture HEX",
-    "USP": "UPS Battery System",
-    "ai-monitoring": "A.I. System Manager",
-    "ai-tsm-control": "A.I TSM Control",
-    "energy-integration-system": "Energy Integration System",
-    "high-efficiency-heat-exchanger": "High Efficiency Heat Exchanger",
-    "fastChargerCooling": {
-        "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
-        "infoCards": {
-            "safeguardingBatteryHealth": {
-                "title": "Safeguarding Battery Health",
-                "content": "Effective thermal management is crucial for electric vehicle quick chargers to prevent overheating and protect the vehicle's battery. This ensures the battery maintains optimal performance and extends its lifespan, reducing the need for costly replacements."
+      },
+      "battery_tms": {
+        "path": "products",
+        "main_path": "Battery TMS",
+        "title": "Electric Bus",
+        "title2": "Thermal Management System",
+        "subtitle": "THERMAL MANAGEMENT SYSTEM",
+        "item1": {
+          "name": "Stable Driving",
+          "description": "Heat generation using a large battery pack",
+          "description2": "The thermal management sys- tems prevent failures caused by overheating and prevent acci- dents while driving"
+        },
+        "item2": {
+          "name": "Extending of Battery Life",
+          "description": "Batty overheating significantly shortens lifespan",
+          "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
+          "description3": "Reduce operational costs"
+        },
+        "item3": {
+          "name": "Improved Stability",
+          "description": "Overheated batteries are at a high risk of fire",
+          "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
+          "description3": "Improve the reliability of public transportation"
+        },
+        "subtitle2": "Benefit of SCS Thermal Management System",
+        "subtitle3": "Electric Bus + A.I. Thermal Management System",
+        "subtitle4": "Specification",
+        "table": {
+          "col_span1": "contents",
+          "row_span1": "hardware",
+          "col_span2": "specification",
+          "row_span2": "software",
+          "hardware_section": {
+            "item1": {
+              "name": "Target",
+              "type": "Electric Vehicle"
             },
-            "fasterChargingTimes": {
-                "title": "Faster Charging Times",
-                "content": "Thermal regulation allows quick chargers to operate at their maximum power output without triggering safety shutdowns due to heat buildup. This enables faster charging speeds, reducing the time required to fully replenish an electric vehicle's battery."
+            "item2": {
+              "name": "IP Grade",
+              "type": "IP67"
             },
-            "improvedReliability": {
-                "title": "Improved Reliability",
-                "content": "Robust thermal management systems help maintain the structural integrity and performance of quick charger components, minimizing the risk of failures or malfunctions. This enhances the overall reliability and availability of the charging infrastructure, providing a seamless charging experience for electric vehicle owners."
+            "item3": {
+              "name": "Flow Volume Max",
+              "type": "45~65 LPM"
+            },
+            "item4": {
+              "name": "Heat fulid",
+              "type": "R410 or R134a/EG 50%"
+            },
+            "item5": {
+              "name": "Cooling Volume",
+              "type": "Max. 10kW (Amb.T37°C)"
+            },
+            "item6": {
+              "name": "Heating Volume",
+              "type": "Max. 6kW"
+            },
+            "item7": {
+              "name": "Operating temp",
+              "type": "-10 ~ 55°C"
+            },
+            "item8": {
+              "name": "Dimension(W*L*H)",
+              "type": "870(L) x 450(W) x 300(H)"
+            },
+            "item9": {
+              "name": "Weight",
+              "type": "40kg"
+            },
+            "item10": {
+              "name": "Power Source",
+              "type": "450~750Vdc 7kW/12/24Vdc"
+            },
+            "item11": {
+              "name": "Outlet target temp",
+              "type": "10°C ~20°C"
             }
-        },
-        "titleSection2": "THERMAL MANAGEMENT SYSTEM",
-        "benefitsCard": {
-            "providesStability": {
-                "title": "PROVIDES STABILITY",
-                "content": "High-power fast chargers have overheating problems. \n \n Effective thermal management to prevent fire and explosion. Ensuring user safety."
+          },
+          "software_section": {
+            "item1": {
+              "name": "Control Method",
+              "type": "CAN/RS232"
             },
-            "reduceChargingTime": {
-                "title": "REDUCE CHARGING TIME",
-                "content": "Fast charger thermal management to reduce charging time. Maximum output can be maintained without overheating, providing user convenience."
-            },
-            "improveSystemEfficiency": {
-                "title": "IMPROVE SYSTEM EFFICIENCY",
-                "content": "Thermal management ensures the stability of electronic parts of the fast charger. Increase power conversion efficiency and increase energy efficiency of the entire system."
+            "item2": {
+              "name": "Status Check",
+              "type": "UI/Indicator"
             }
-        },
-        "titleSection3": "BENEFIT OF SCS THERMAL MANGEMENT SYSTEM"
-    },
-    "ICEItem": {
-        "titleImg1": "Cooling Mode",
-        "titleImg2": "Heating Mode"
-    },
-    "electricItem": {
-        "titleSection1": "+30% Driving Range 8%↑ Heating Performance"
-    },
-    "elevatorItem": {
-        "titleSection1": "Elevator AC"
-    },
-    "residentialItem": {
-        "titleSection1": "Implementation of Enthalpy Exchange"
-    },
-    "USPItem": {
-        "titleSection1": "UPS(Uninterrupt power Supply) Schematic(10kW)"
-    },
-    "aiMonitoringItem": {
-        "titleSection1": "AI MONITORING SYSTEM"
-    },
-    "contact": {
-        "path": "media",
-        "main_path": "Contact",
-        "button": "contact us",
-        "address": "Address : 9th and 4th floor, Gowundeul 7-gil, Sejong Special Self-Governing City",
-        "phone": "Tel : 044 - 715 - 7606",
-        "mail": "E-mail : jspark@scsai.net",
-        "contact":"contact"
-    },
-    "media_record": {
-        "path": "media",
-        "main_path": "Media record",
-        "record1": {
-            "title": "[Money Today_2024_0605] Jointly host '2024 Green Tech Business Conference' with the Korean Consulate General in Seattle, U.S",
-            "date": "2024.10.29"
-        },
-        "record2": {
-            "title": "★2024_0131_[Daily Economy]_SCSM, Development of a rapid charging thermal management system for electric vehicles and provision of services for manufacturing companies",
-            "date": "2024.10.29"
-        },
-        "record3": {
-            "title": "SCS Co., Ltd. to Unveil New Motor Thermal Management Model at CES",
-            "date": "2024.03.15"
+          }
         }
+      },
+      "data_center_cooling": {
+        "path": "products",
+        "main_path": "Data Center Cooling",
+        "title": "DATA CENTER",
+        "title2": "THERMAL MANAGEMENT SYSTEM",
+        "subtitle": "THERMAL MANAGEMENT SYSTEM",
+        "item1": {
+          "name": "Sensor Network",
+          "description": "Real-time data",
+          "description2": "Temperature/Humidity/Airflow"
+        },
+        "item2": {
+          "name": "Analysis And Optimization",
+          "description": "Pre-optimize systems with ana- lytics and automation"
+        },
+        "item3": {
+          "name": "Preventive Maintenance",
+          "description": "Ensure stable operation of thermal management systems through periodic monitoring and mainte-nance"
+        },
+        "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
+        "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
+        "subtitle4": "SPECIFICATION",
+        "table": {
+          "col_span1": "contents",
+          "row_span1": "hardware",
+          "col_span2": "specification",
+          "row_span2": "software",
+          "hardware_section": {
+            "item1": {
+              "name": "Target",
+              "type": "Data Center / Big generator and room of turbine"
+            },
+            "item2": {
+              "name": "IP Grade",
+              "type": "IP65"
+            },
+            "item3": {
+              "name": "Power Supply",
+              "type": "DC480V & 12V"
+            },
+            "item4": {
+              "name": "Power Consumption",
+              "type": "(Cool) 5~8kW, (Heat) 10KW"
+            },
+            "item5": {
+              "name": "Water flow(L/min)",
+              "type": "Max 50LPM"
+            },
+            "item6": {
+              "name": "Heat fluid",
+              "type": "R134a or R1234yf/EG or Iso Oil"
+            },
+            "item7": {
+              "name": "Cooling capacity",
+              "type": "200kW @25°C40%"
+            },
+            "item8": {
+              "name": "Heating capacity",
+              "type": "16kW"
+            },
+            "item9": {
+              "name": "Operating temp",
+              "type": "5-55°C"
+            },
+            "item10": {
+              "name": "Size",
+              "type": "400(L) x 600(W) x 1,500(H)mm"
+            },
+            "item11": {
+              "name": "Weight",
+              "type": "80kg (except, fluid)"
+            }
+          }
+        }
+      }
     },
-    "aiTSMControlItem": {
-        "titleSection1": "Designing a thermal management system suitable for customers by integrating AI's CV and RL techologies from design to control, and developing and manufacturing a high-efficiency, high-safety thermal manaement system"
+    "battery_tms": {
+      "path": "products",
+      "main_path": "Battery TMS",
+      "title": "Electric Bus",
+      "title2": "Thermal Management System",
+      "subtitle": "Thermal Management System",
+      "item1": {
+        "name": "Stable Driving",
+        "description": "Heat generation using a large battery pack",
+        "description2": "The thermal management systems prevent failures caused by overheating and prevent accidents while driving."
+      },
+      "item2": {
+        "name": "Extending of Battery Life",
+        "description": "Batty overheating significantly shortens lifespan",
+        "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
+        "description3": "Reduce operational costs"
+      },
+      "item3": {
+        "name": "Improved Stability",
+        "description": "Overheated batteries are at a high risk of fire",
+        "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
+        "description3": "Improve the reliability of public transportation"
+      },
+      "subtitle2": "Benefit of SCS Thermal Management System",
+      "subtitle3": "Electric Bus + A.I. Thermal Management System",
+      "subtitle4": "Specification",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "Electric Vehicle"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP67"
+          },
+          "item3": {
+            "name": "Flow Volume Max",
+            "type": "45~65 LPM"
+          },
+          "item4": {
+            "name": "Heat fulid",
+            "type": "R410 or R134a/EG 50%"
+          },
+          "item5": {
+            "name": "Cooling Volume",
+            "type": "Max. 10kW (Amb.T37°C)"
+          },
+          "item6": {
+            "name": "Heating Volume",
+            "type": "Max. 6kW"
+          },
+          "item7": {
+            "name": "Operating temp",
+            "type": "-10 ~ 55°C"
+          },
+          "item8": {
+            "name": "Dimension(W*L*H)",
+            "type": "870(L) x 450(W) x 300(H)"
+          },
+          "item9": {
+            "name": "Weight",
+            "type": "40kg"
+          },
+          "item10": {
+            "name": "Power Source",
+            "type": "450~750Vdc 7kW/12/24Vdc"
+          },
+          "item11": {
+            "name": "Outlet target temp",
+            "type": "10°C ~20°C"
+          }
+        },
+        "software_section": {
+          "item1": {
+            "name": "Control Method",
+            "type": "CAN/RS232"
+          },
+          "item2": {
+            "name": "Status Check",
+            "type": "UI/Indicator"
+          }
+        }
+      }
     },
-    "energyIntegrationSystemItem": {
-        "solution": "Solution",
-        "content1": "The existing techonology requires manual tuning to adapt to different regions, industries, and climates around the world",
-        "content2": "Reinforcement learning in artfical intelligence enables automatic control of cooling systems through active AI learning, regardless of global regions, industries, climates, or seasons"
-    },
-    "highEfficiencyHeatExchangerItem": {
-        "title1": "High-efficiency artificial intelligence heat pump system → Achieving",
-        "title2": "'high-safety electrified mobility'",
-        "title3": "for customers"
+    "data_center_cooling": {
+      "path": "products",
+      "main_path": "Data Center Cooling",
+      "title": "DATA CENTER",
+      "title2": "THERMAL MANAGEMENT SYSTEM",
+      "subtitle": "THERMAL MANAGEMENT SYSTEM",
+      "item1": {
+        "name": "Sensor Network",
+        "description": "Real-time data",
+        "description2": "Temperature/Humidity/Airflow"
+      },
+      "item2": {
+        "name": "Analysis And Optimization",
+        "description": "Pre-optimize systems with ana- lytics",
+        "description2": "Automation"
+      },
+      "item3": {
+        "name": "Preventive Maintenance",
+        "description": "Ensure stable operation of thermal management",
+        "description2": "Systems through periodic monitoring and mainte-nance"
+      },
+      "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
+      "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
+      "subtitle4": "SPECIFICATION",
+      "table": {
+        "col_span1": "contents",
+        "row_span1": "hardware",
+        "col_span2": "specification",
+        "row_span2": "software",
+        "hardware_section": {
+          "item1": {
+            "name": "Target",
+            "type": "Data Center / Big generator and room of turbine"
+          },
+          "item2": {
+            "name": "IP Grade",
+            "type": "IP65"
+          },
+          "item3": {
+            "name": "Power Supply",
+            "type": "DC480V & 12V"
+          },
+          "item4": {
+            "name": "Power Consumption",
+            "type": "(Cool) 5~8kW, (Heat) 10KW"
+          },
+          "item5": {
+            "name": "Water flow(L/min)",
+            "type": "Max 50LPM"
+          },
+          "item6": {
+            "name": "Heat fluid",
+            "type": "R134a or R1234yf/EG or Iso Oil"
+          },
+          "item7": {
+            "name": "Cooling capacity",
+            "type": "200kW @25°C40%"
+          },
+          "item8": {
+            "name": "Heating capacity",
+            "type": "16kW"
+          },
+          "item9": {
+            "name": "Operating temp",
+            "type": "5-55°C"
+          },
+          "item10": {
+            "name": "Size",
+            "type": "400(L) x 600(W) x 1,500(H)mm"
+          },
+          "item11": {
+            "name": "Weight",
+            "type": "80kg (except, fluid)"
+          }
+        }
+      }
     },
     "scs": {
-        "companyInfo": {
-            "introductionTitle": "SCS Introduction",
-            "workWithSCS": "Let’s work with",
-            "SCSTitle": "SCS",
-            "SCS": "SCS",
-            "companyInfoTitle": "Company Info",
-            "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
-            "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
-            "keyBusinessItems": "'s Key Business Items",
-            "newsStoriesTitle": "A lot of news stories",
-            "growStatement": "We will always grow",
-            "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
-            "techDevelopment": "We are working to develop the best technology in the industry",
-            "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
-            "industries": "charging industries, electric boats, and electric heavy industries"
-        },
-        "history": {
-            "history": "History"
-        },
-        "heatRAndD": {
-            "title": "Heat R&D Center",
-            "listItems": [
-                {
-                    "content": "A.I. Controller Development Complete (Ready for Mass Production)",
-                    "highlight": true
-                },
-                {
-                    "content": "A Factory in Korea & US each",
-                    "highlight": false
-                },
-                {
-                    "content": "Research Institute in Korea",
-                    "highlight": false
-                },
-                {
-                    "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
-                    "highlight": false
-                }
-            ]
-        }
-    },
-    "roof": "Roof (Golf Cart) AC",
-    "roofItems": {
-        "titleSection1": "Roof AC"
-    },
-    "coolingCapacity": "Cooling Capacity",
-    "heatingCapacity": "Heating Capacity",
-    "dimensions": "Dimensions",
-    "temperatureRange": "Temperature Range",
-    "current": "Current",
-    "weight": "Weight",
-    "voltage": "Voltage",
-    "refrigerant": "Refrigerant",
-    "values": {
-        "coolingCapacity": "4kw",
-        "heatingCapacity": "3.8kw",
-        "dimensions": "253H x 736W",
-        "temperatureRange": "+18 ~ 30°C",
-        "current": "28.7Amp",
-        "weight": "50kg",
-        "voltage": "48V",
-        "refrigerant": "R32(550g)"
+      "companyInfo": {
+        "introductionTitle": "SCS Introduction",
+        "workWithSCS": "Let’s work with",
+        "SCSTitle": "SCS",
+        "SCS": "SCS",
+        "companyInfoTitle": "Company Info",
+        "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
+        "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
+        "keyBusinessItems": "'s Key Business Items",
+        "newsStoriesTitle": "A lot of news stories",
+        "growStatement": "We will always grow",
+        "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
+        "techDevelopment": "We are working to develop the best technology in the industry",
+        "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
+        "industries": "charging industries, electric boats, and electric heavy industries"
+      },
+      "history": {
+        "history": "History"
+      },
+      "heatRAndD": {
+        "title": "Heat R&D Center",
+        "listItems": [
+          {
+            "content": "A.I. Controller Development Complete (Ready for Mass Production)",
+            "highlight": true
+          },
+          {
+            "content": "A Factory in Korea & US each",
+            "highlight": false
+          },
+          {
+            "content": "Research Institute in Korea",
+            "highlight": false
+          },
+          {
+            "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
+            "highlight": false
+          }
+        ]
       }
-
+    }
+  },
+  "business-areas": "Business Areas",
+  "advance-technology": "Advanced Technology",
+  "fast-charger-cooling": "Fast Charger Cooling",
+  "ICE": "ICE Bath Chiller/ Heater",
+  "electric": "Electric Vessel TMS",
+  "elevator": "Elevator AC",
+  "residential": "Residential HVAC",
+  "water-capture": "Water Capture HEX",
+  "USP": "UPS Battery System",
+  "ai-monitoring": "A.I. System Manager",
+  "ai-tsm-control": "A.I TSM Control",
+  "energy-integration-system": "Energy Integration System",
+  "high-efficiency-heat-exchanger": "High Efficiency Heat Exchanger",
+  "fastChargerCooling": {
+    "titleSection1": "20% Reduce Charging Time 100% Dust & Humidity removed",
+    "infoCards": {
+      "safeguardingBatteryHealth": {
+        "title": "Safeguarding Battery Health",
+        "content": "Effective thermal management is crucial for electric vehicle quick chargers to prevent overheating and protect the vehicle's battery. This ensures the battery maintains optimal performance and extends its lifespan, reducing the need for costly replacements."
+      },
+      "fasterChargingTimes": {
+        "title": "Faster Charging Times",
+        "content": "Thermal regulation allows quick chargers to operate at their maximum power output without triggering safety shutdowns due to heat buildup. This enables faster charging speeds, reducing the time required to fully replenish an electric vehicle's battery."
+      },
+      "improvedReliability": {
+        "title": "Improved Reliability",
+        "content": "Robust thermal management systems help maintain the structural integrity and performance of quick charger components, minimizing the risk of failures or malfunctions. This enhances the overall reliability and availability of the charging infrastructure, providing a seamless charging experience for electric vehicle owners."
+      }
+    },
+    "titleSection2": "THERMAL MANAGEMENT SYSTEM",
+    "benefitsCard": {
+      "providesStability": {
+        "title": "PROVIDES STABILITY",
+        "content": "High-power fast chargers have overheating problems. \n \n Effective thermal management to prevent fire and explosion. Ensuring user safety."
+      },
+      "reduceChargingTime": {
+        "title": "REDUCE CHARGING TIME",
+        "content": "Fast charger thermal management to reduce charging time. Maximum output can be maintained without overheating, providing user convenience."
+      },
+      "improveSystemEfficiency": {
+        "title": "IMPROVE SYSTEM EFFICIENCY",
+        "content": "Thermal management ensures the stability of electronic parts of the fast charger. Increase power conversion efficiency and increase energy efficiency of the entire system."
+      }
+    },
+    "titleSection3": "BENEFIT OF SCS THERMAL MANGEMENT SYSTEM"
+  },
+  "ICEItem": {
+    "titleImg1": "Cooling Mode",
+    "titleImg2": "Heating Mode"
+  },
+  "electricItem": {
+    "titleSection1": "+30% Driving Range 8%↑ Heating Performance"
+  },
+  "elevatorItem": {
+    "titleSection1": "Elevator AC"
+  },
+  "residentialItem": {
+    "titleSection1": "Implementation of Enthalpy Exchange"
+  },
+  "USPItem": {
+    "titleSection1": "UPS(Uninterrupt power Supply) Schematic(10kW)"
+  },
+  "aiMonitoringItem": {
+    "titleSection1": "AI MONITORING SYSTEM"
+  },
+  "contact": {
+    "path": "media",
+    "main_path": "Contact",
+    "button": "contact us",
+    "address": "Address : 9th and 4th floor, Gowundeul 7-gil, Sejong Special Self-Governing City",
+    "phone": "Tel : 044 - 715 - 7606",
+    "mail": "E-mail : jspark@scsai.net",
+    "contact": "contact"
+  },
+  "media_record": {
+    "path": "media",
+    "main_path": "Media record",
+    "record1": {
+      "title": "[Money Today_2024_0605] Jointly host '2024 Green Tech Business Conference' with the Korean Consulate General in Seattle, U.S",
+      "date": "2024.10.29"
+    },
+    "record2": {
+      "title": "★2024_0131_[Daily Economy]_SCSM, Development of a rapid charging thermal management system for electric vehicles and provision of services for manufacturing companies",
+      "date": "2024.10.29"
+    },
+    "record3": {
+      "title": "SCS Co., Ltd. to Unveil New Motor Thermal Management Model at CES",
+      "date": "2024.03.15"
+    }
+  },
+  "aiTSMControlItem": {
+    "titleSection1": "Designing a thermal management system suitable for customers by integrating AI's CV and RL techologies from design to control, and developing and manufacturing a high-efficiency, high-safety thermal manaement system"
+  },
+  "energyIntegrationSystemItem": {
+    "solution": "Solution",
+    "content1": "The existing techonology requires manual tuning to adapt to different regions, industries, and climates around the world",
+    "content2": "Reinforcement learning in artfical intelligence enables automatic control of cooling systems through active AI learning, regardless of global regions, industries, climates, or seasons"
+  },
+  "highEfficiencyHeatExchangerItem": {
+    "title1": "High-efficiency artificial intelligence heat pump system → Achieving",
+    "title2": "'high-safety electrified mobility'",
+    "title3": "for customers"
+  },
+  "scs": {
+    "companyInfo": {
+      "introductionTitle": "SCS Introduction",
+      "workWithSCS": "Let’s work with",
+      "SCSTitle": "SCS",
+      "SCS": "SCS",
+      "companyInfoTitle": "Company Info",
+      "companyDescription": "SCS, short for Standard Cooling Systems, is an A.I. computing development platform specializing in the design of high efficiency Thermal Management Systems.",
+      "longDescription": " SCS is committed to using the highest technical design capabilities to create innovations with unique high-efficiency cooling system design technologies and A.I. development know-how. Since its establishment in September 2021, SCS has received 1.3 billion won in investment so far, and is tasked with bringing innovative changes to the Electric charging market. Despite its relatively young age, SCS has achieved numerous degrees of success. SCS is not just about designing the best cooling systems but with new technologies we are focused to make a difference in the industry. SCS is a game changer. We believe in complete communication within our company to ensure a smooth flow of information from top to bottom.",
+      "keyBusinessItems": "'s Key Business Items",
+      "newsStoriesTitle": "A lot of news stories",
+      "growStatement": "We will always grow",
+      "advancementsTitle": "SCS is continually proving its ability by conducting advancements in",
+      "techDevelopment": "We are working to develop the best technology in the industry",
+      "paradigmShift": "We want to lead a paradigm shift in the electrification sector such as ",
+      "industries": "charging industries, electric boats, and electric heavy industries"
+    },
+    "history": {
+      "history": "History"
+    },
+    "heatRAndD": {
+      "title": "Heat R&D Center",
+      "listItems": [
+        {
+          "content": "A.I. Controller Development Complete (Ready for Mass Production)",
+          "highlight": true
+        },
+        {
+          "content": "A Factory in Korea & US each",
+          "highlight": false
+        },
+        {
+          "content": "Research Institute in Korea",
+          "highlight": false
+        },
+        {
+          "content": "Battery/Data center OEM PRE-PJT & Product delivery to SK on, EDOM, Premier Logitech, etc.",
+          "highlight": false
+        }
+      ]
+    }
+  },
+  "roof": "Roof (Golf Cart) AC",
+  "roofItems": {
+    "titleSection1": "Roof AC"
+  },
+  "coolingCapacity": "Cooling Capacity",
+  "heatingCapacity": "Heating Capacity",
+  "dimensions": "Dimensions",
+  "temperatureRange": "Temperature Range",
+  "current": "Current",
+  "weight": "Weight",
+  "voltage": "Voltage",
+  "refrigerant": "Refrigerant",
+  "values": {
+    "coolingCapacity": "4kw",
+    "heatingCapacity": "3.8kw",
+    "dimensions": "253H x 736W",
+    "temperatureRange": "+18 ~ 30°C",
+    "current": "28.7Amp",
+    "weight": "50kg",
+    "voltage": "48V",
+    "refrigerant": "R32(550g)"
+  }
 }
