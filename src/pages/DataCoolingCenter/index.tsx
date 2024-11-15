@@ -20,7 +20,7 @@ function DataCoolingCenterPage() {
           className="bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
-            <p className="text-white text-[50px] uppercase text-custom">
+          <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
               {t("products.data_center_cooling.main_path")}
             </p>
             <div className="flex gap-[15px] mt-[50px]">
@@ -133,15 +133,15 @@ function DataCoolingCenterPage() {
                 {t("products.data_center_cooling.subtitle2")}
               </h3>
             </motion.div>
-            <div className="flex gap-5 justify-between w-full">
-              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 w-1/2">
+            <div className="flex max-lg:flex-col gap-5 justify-between w-full">
+              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
                 <div className="flex flex-col h-full justify-between text-3xl">
                   <p>Battery</p>
                   <p>Explosion</p>
                 </div>
               </div>
-              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 w-1/2">
+              <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">$7</p>
                 <div className="flex flex-col h-full justify-between ">
                   <p className="text-5xl text-[#1060ad] font-semibold">
@@ -151,24 +151,24 @@ function DataCoolingCenterPage() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-5 w-full justify-around">
+            <div className="flex gap-5 w-full justify-around items-center max-lg:flex-col">
               <motion.img
                 src={"/img/data-center-img-01.webp"}
-                className="w-1/3 object-contain"
+                className="max-lg:w-full w-1/3 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
               />
               <motion.img
                 src={"/img/plus.webp"}
-                className="w-1/8 object-contain"
+                className="max-lg:w-1/2 w-1/8 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
               />
               <motion.img
                 src={"/img/Screenshot 2024-11-14 at 14.12.53.png"}
-                className="w-1/3 object-contain"
+                className="max-lg:w-full w-1/3 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
@@ -192,8 +192,8 @@ function DataCoolingCenterPage() {
                 {t("products.data_center_cooling.subtitle3")}
               </h3>
             </motion.div>
-            <div className="flex gap-5 w-fl">
-              <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
+            <div className="flex gap-5 w-full max-lg:flex-col">
+              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
                 <motion.img
                   src={"/img/data-center-img-03.webp"}
                   className="h-full object-contain"
@@ -205,7 +205,7 @@ function DataCoolingCenterPage() {
                   Data Center
                 </p>
               </div>
-              <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
+              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
                 <motion.img
                   src={"/img/data-center-img-04.webp"}
                   className="h-full object-contain"

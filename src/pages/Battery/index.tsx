@@ -12,7 +12,7 @@ function BatteryPage() {
     <main className="min-h-screen w-full">
       <section
         style={{ backgroundImage: `url(${Banner})` }}
-        className="bg-fixed bg-cover lg:bg-contain bg-no-repeat w-full h-[300px] lg:h-[470px]"
+        className="bg-fixed bg-cover bg-no-repeat w-full h-[300px] lg:h-[470px]"
       >
         <div className="flex flex-col items-center justify-center pt-[120px] lg:pt-[150px]">
           <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
@@ -238,17 +238,17 @@ function BatteryPage() {
               {t("products.battery_tms.subtitle3")}
             </h3>
           </motion.div>
-          <div className="flex gap-5 justify-around mt-[71px]">
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
+          <div className="flex flex-col gap-5 justify-around mt-[71px] px-2 lg:px-0 lg:flex-row">
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
               <motion.img src={"/img/battery-img-03.webp"} className="w-2/3" />
               <p className="text-[33px] text-[#1060ad] font-medium">
                 Electric Bus
               </p>
               {""}
             </div>
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
               <motion.img src={"/img/battery-img-04.webp"} className="w-2/3" />
-              <p className="text-[33px] text-[#1060ad] font-medium">
+              <p className="text-[33px] text-[#1060ad] text-center font-medium">
                 SCS 10kW Liquid + Air Cooling System
               </p>
             </div>
