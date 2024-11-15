@@ -9,10 +9,10 @@ import Container from "../../components/products/Containers";
 function BatteryPage() {
   const { t } = useTranslation();
   return (
-    <main className="min-h-screen w-full">
+    <main className="min-h-screen w-full overflow-hidden">
       <section
         style={{ backgroundImage: `url(${Banner})` }}
-        className="bg-fixed bg-cover lg:bg-contain bg-no-repeat w-full h-[300px] lg:h-[470px]"
+        className="bg-fixed bg-cover bg-no-repeat w-full h-[300px] lg:h-[470px]"
       >
         <div className="flex flex-col items-center justify-center pt-[120px] lg:pt-[150px]">
           <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
@@ -46,20 +46,20 @@ function BatteryPage() {
             </h3>
           </motion.div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] space-y-6 lg:space-y-0">
+          <div className="flex justify-between max-lg:flex-col lg:space-x-[25px] space-y-6 lg:space-y-0 max-lg:px-5">
             <motion.div
-              className="space-y-[17px]"
+              className="space-y-[17px] flex-1"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                 <p className="text-[#1060ad] font-semibold">01</p>
                 <p className="font-semibold">
                   {t("products.battery_tms.item1.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                   {t("products.battery_tms.item1.description")}
                 </p>
               </div>
@@ -69,25 +69,25 @@ function BatteryPage() {
                 ))}
               </div>
               <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                <p className="text-[25px]/[33px]">
+                <p className="2xl:text-[25px]/[33px] text-xl">
                   {t("products.battery_tms.item1.description2")}
                 </p>
               </div>
             </motion.div>
 
             <motion.div
-              className="space-y-[17px]"
+              className="space-y-[17px] flex-1"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                 <p className="text-[#1060ad] font-semibold">02</p>
                 <p className="font-semibold">
                   {t("products.battery_tms.item2.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                   {t("products.battery_tms.item2.description")}
                 </p>
               </div>
@@ -97,30 +97,30 @@ function BatteryPage() {
                 ))}
               </div>
               <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                <p className="text-[25px]/[33px]">
+                <p className="2xl:text-[25px]/[33px] text-xl">
                   {t("products.battery_tms.item2.description2")}
                 </p>
               </div>
               <div className="px-[33px]">
-                <span className="text-[#1060ad] font-semibold text-[25px]/[33px]">
+                <span className="text-[#1060ad] font-semibold 2xl:text-[25px]/[33px] text-xl">
                   Reduce operational costs
                 </span>
               </div>
             </motion.div>
 
             <motion.div
-              className="space-y-[17px]"
+              className="space-y-[17px] flex-1"
               initial={{ translateY: 100, opacity: 0 }}
               whileInView={{ translateY: 0, opacity: 1 }}
               transition={{ duration: 0.75, delay: 0.1 }}
               viewport={{ once: false }}
             >
-              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+              <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                 <p className="text-[#1060ad] font-semibold">03</p>
                 <p className="font-semibold">
                   {t("products.battery_tms.item3.name")}
                 </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                   {t("products.battery_tms.item3.description")}
                 </p>
               </div>
@@ -130,12 +130,12 @@ function BatteryPage() {
                 ))}
               </div>
               <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                <p className="text-[25px]/[33px]">
+                <p className="2xl:text-[25px]/[33px] text-xl">
                   {t("products.battery_tms.item3.description2")}
                 </p>
               </div>
               <div className="px-[33px]">
-                <span className="text-[#1060ad] font-semibold text-[25px]/[33px]">
+                <span className="text-[#1060ad] font-semibold 2xl:text-[25px]/[33px] text-xl">
                   Improve the reliability of public transportation
                 </span>
               </div>
@@ -238,22 +238,17 @@ function BatteryPage() {
               {t("products.battery_tms.subtitle3")}
             </h3>
           </motion.div>
-          <div className="flex gap-5 justify-around mt-[71px]">
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
-              <motion.img
-                src={"/public/img/battery-img-03.webp"}
-                className="w-2/3"
-              />
+          <div className="flex flex-col gap-5 justify-around mt-[71px] px-2 lg:px-0 lg:flex-row">
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
+              <motion.img src={"/img/battery-img-03.webp"} className="w-2/3" />
               <p className="text-[33px] text-[#1060ad] font-medium">
                 Electric Bus
               </p>
+              {""}
             </div>
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
-              <motion.img
-                src={"/public/img/battery-img-04.webp"}
-                className="w-2/3"
-              />
-              <p className="text-[33px] text-[#1060ad] font-medium">
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
+              <motion.img src={"/img/battery-img-04.webp"} className="w-2/3" />
+              <p className="text-[33px] text-[#1060ad] text-center font-medium">
                 SCS 10kW Liquid + Air Cooling System
               </p>
             </div>
