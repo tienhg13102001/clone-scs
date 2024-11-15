@@ -244,6 +244,7 @@ function BatteryPage() {
               <p className="text-[33px] text-[#1060ad] font-medium">
                 Electric Bus
               </p>
+              {""}
             </div>
             <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
               <motion.img src={"/img/battery-img-04.webp"} className="w-2/3" />
