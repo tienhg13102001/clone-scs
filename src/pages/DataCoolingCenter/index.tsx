@@ -13,7 +13,7 @@ function DataCoolingCenterPage() {
   return (
     <SidebarProvider open={false}>
       <AppSidebar />
-      <main className="min-h-screen w-full">
+      <main className="min-h-screen w-screen overflow-hidden">
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
