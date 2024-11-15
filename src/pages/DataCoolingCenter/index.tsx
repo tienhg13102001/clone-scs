@@ -3,7 +3,7 @@ import Header from "@/components/Molecules/Header";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
-import { IoMdHome } from 'react-icons/io';
+import { IoMdHome } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 import Banner from "../../assets/image/ess-banner.png";
 import Container from "../../components/products/Containers";
@@ -38,27 +38,15 @@ function DataCoolingCenterPage() {
         </section>
 
         <section className="mt-10 lg:mt-[80px]">
-          <Container>
-            <h1 className="text-[#444] text-center lg:text-start text-[40px] flex flex-col">
-              {" "}
-              <span className="text-[#4972B8]">
-                {t("products.data_center_cooling.title")}
-              </span>
-              {t("products.data_center_cooling.title2")}
-            </h1>
-            <hr className="border-t-2 border-[#4972B8] my-5" />
+          <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
             <motion.div
-              className="flex gap-5 my-10"
+              className="flex w-full justify-center items-center"
               initial={{ translateX: 100, opacity: 0 }}
               whileInView={{ translateX: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: false }}
             >
-              <ChevronRight
-                color="#4972B8"
-                className="w-[45px] h-[45px] self-center"
-              />
-              <h3 className="text-[#444] text-[30px]">
+              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center">
                 {t("products.data_center_cooling.subtitle")}
               </h3>
             </motion.div>
@@ -71,9 +59,9 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
-                  <p className="text-[#1060ad] text-3xl ">01</p>
-                  <p className="text-[#222] text-2xl font-normal">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px] ">
+                  <p className="text-[#1060ad] font-semibold">01</p>
+                  <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item1.name")}
                   </p>
                   <p className="text-black text-2xl font-light my-7">
@@ -93,9 +81,9 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.2 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
-                  <p className="text-[#1060ad] text-2xl ">02</p>
-                  <p className="text-[#222] text-2xl font-normal">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                  <p className="text-[#1060ad] font-semibold">02</p>
+                  <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item2.name")}
                   </p>
                   <p className="text-black text-2xl font-light my-7">
@@ -114,9 +102,9 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.3 }}
                 viewport={{ once: false }}
               >
-                <div className="border border-[#24aae1] w-full flex flex-col items-start p-8 h-4/5">
-                  <p className="text-[#1060ad] text-2xl ">02</p>
-                  <p className="text-[#222] text-2xl font-normal">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                  <p className="text-[#1060ad] font-semibold">02</p>
+                  <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item3.name")}
                   </p>
                   <p className="text-black text-2xl font-light my-7">
@@ -133,17 +121,19 @@ function DataCoolingCenterPage() {
         </section>
 
         <section>
-          <Container>
-            <div className="flex gap-5 my-10">
-              <ChevronRight
-                color="#4972B8"
-                className="w-[45px] h-[45px] self-center"
-              />
-              <h3 className="text-[#444] text-[30px]">
+          <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
+            <motion.div
+              className="flex w-full justify-center items-center"
+              initial={{ translateX: 100, opacity: 0 }}
+              whileInView={{ translateX: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              viewport={{ once: false }}
+            >
+              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center">
                 {t("products.data_center_cooling.subtitle2")}
               </h3>
-            </div>
-            <div className="flex gap-5 justify-between">
+            </motion.div>
+            <div className="flex gap-5 justify-between w-full">
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
                 <div className="flex flex-col h-full justify-between text-3xl">
@@ -190,23 +180,19 @@ function DataCoolingCenterPage() {
         </section>
 
         <section>
-          <Container>
+          <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
             <motion.div
-              className="flex gap-5 my-10"
+              className="flex w-full justify-center items-center"
               initial={{ translateX: 100, opacity: 0 }}
               whileInView={{ translateX: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: false }}
             >
-              <ChevronRight
-                color="#4972B8"
-                className="w-[45px] h-[45px] self-center"
-              />
-              <h3 className="text-[#444] text-[30px]">
+              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center">
                 {t("products.data_center_cooling.subtitle3")}
               </h3>
             </motion.div>
-            <div className="flex gap-5">
+            <div className="flex gap-5 w-fl">
               <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
                 <motion.img
                   src={"/public/img/data-center-img-03.webp"}
@@ -236,20 +222,16 @@ function DataCoolingCenterPage() {
           </Container>
         </section>
 
-        <section className="">
+        <section className="mb-10">
           <Container>
             <motion.div
-              className="flex gap-5 my-10"
+              className="flex w-full justify-center items-center"
               initial={{ translateX: 100, opacity: 0 }}
               whileInView={{ translateX: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: false }}
             >
-              <ChevronRight
-                color="#4972B8"
-                className="w-[45px] h-[45px] self-center"
-              />
-              <h3 className="text-[#444] text-[30px] text-start">
+              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center">
                 {t("products.data_center_cooling.subtitle4")}
               </h3>
             </motion.div>

@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { IoMdArrowUp, IoMdHome } from "react-icons/io";
-import ManagementImg from "../../assets/image/battery2.png";
 import Banner from "../../assets/image/ess-banner.png";
 import Container from "../../components/products/Containers";
 
@@ -228,31 +227,53 @@ function BatteryPage() {
 
       <section>
         <Container>
-          <div className="flex gap-5 my-10">
-            <ChevronRight
-              color="#4972B8"
-              className="w-[45px] h-[45px] self-center"
-            />
-            <h3 className="text-[#444] text-[30px]">
+          <motion.div
+            className="flex w-full justify-center items-center"
+            initial={{ translateX: 100, opacity: 0 }}
+            whileInView={{ translateX: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            viewport={{ once: false }}
+          >
+            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center max-lg:pt-[100px]">
               {t("products.battery_tms.subtitle3")}
             </h3>
+          </motion.div>
+          <div className="flex gap-5 justify-around mt-[71px]">
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
+              <motion.img
+                src={"/public/img/battery-img-03.webp"}
+                className="w-2/3"
+              />
+              <p className="text-[33px] text-[#1060ad] font-medium">
+                Electric Bus
+              </p>
+            </div>
+            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
+              <motion.img
+                src={"/public/img/battery-img-04.webp"}
+                className="w-2/3"
+              />
+              <p className="text-[33px] text-[#1060ad] font-medium">
+                SCS 10kW Liquid + Air Cooling System
+              </p>
+            </div>
           </div>
-          <img src={ManagementImg} className="w-[1245px] h-[758px]" />
-          <hr className="border-t-2 border-[#4972B8] my-5" />
         </Container>
       </section>
 
-      <section className="">
+      <section className="mt-24">
         <Container>
-          <div className="flex gap-5 my-10">
-            <ChevronRight
-              color="#4972B8"
-              className="w-[45px] h-[45px] self-center"
-            />
-            <h3 className="text-[#444] text-[30px] text-start">
+          <motion.div
+            className="flex w-full justify-center items-center"
+            initial={{ translateX: 100, opacity: 0 }}
+            whileInView={{ translateX: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+            viewport={{ once: false }}
+          >
+            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center max-lg:pt-[100px]">
               {t("products.battery_tms.subtitle4")}
             </h3>
-          </div>
+          </motion.div>
         </Container>
       </section>
 
