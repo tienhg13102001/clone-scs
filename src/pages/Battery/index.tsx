@@ -241,7 +241,7 @@ function BatteryPage() {
           <div className="flex gap-5 justify-around mt-[71px]">
             <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
               <motion.img
-                src={"/public/img/battery-img-03.webp"}
+                src={"/img/battery-img-03.webp"}
                 className="w-2/3"
               />
               <p className="text-[33px] text-[#1060ad] font-medium">
@@ -250,7 +250,7 @@ function BatteryPage() {
             </div>
             <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-1/2">
               <motion.img
-                src={"/public/img/battery-img-04.webp"}
+                src={"/img/battery-img-04.webp"}
                 className="w-2/3"
               />
               <p className="text-[33px] text-[#1060ad] font-medium">

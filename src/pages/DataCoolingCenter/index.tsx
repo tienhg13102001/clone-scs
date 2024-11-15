@@ -17,7 +17,7 @@ function DataCoolingCenterPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-contain bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
             <p className="text-white text-[50px] uppercase text-custom">
@@ -153,21 +153,21 @@ function DataCoolingCenterPage() {
             </div>
             <div className="flex gap-5 w-full justify-around">
               <motion.img
-                src={"/public/img/data-center-img-01.webp"}
+                src={"/img/data-center-img-01.webp"}
                 className="w-1/3 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
               />
               <motion.img
-                src={"/public/img/plus.webp"}
+                src={"/img/plus.webp"}
                 className="w-1/8 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1 }}
               />
               <motion.img
-                src={"/public/img/Screenshot 2024-11-14 at 14.12.53.png"}
+                src={"/img/Screenshot 2024-11-14 at 14.12.53.png"}
                 className="w-1/3 object-contain"
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -195,7 +195,7 @@ function DataCoolingCenterPage() {
             <div className="flex gap-5 w-fl">
               <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
                 <motion.img
-                  src={"/public/img/data-center-img-03.webp"}
+                  src={"/img/data-center-img-03.webp"}
                   className="h-full object-contain"
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -207,7 +207,7 @@ function DataCoolingCenterPage() {
               </div>
               <div className="flex flex-col items-center w-1/2 p-10 border border-[#1060ad]">
                 <motion.img
-                  src={"/public/img/data-center-img-04.webp"}
+                  src={"/img/data-center-img-04.webp"}
                   className="h-full object-contain"
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
