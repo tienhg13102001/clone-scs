@@ -9,7 +9,7 @@ import Container from "../../components/products/Containers";
 function BatteryPage() {
   const { t } = useTranslation();
   return (
-    <main className="min-h-screen w-full">
+    <main className="min-h-screen w-full overflow-hidden">
       <section
         style={{ backgroundImage: `url(${Banner})` }}
         className="bg-fixed bg-cover bg-no-repeat w-full h-[300px] lg:h-[470px]"
