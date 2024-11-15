@@ -52,20 +52,20 @@ function EssPage() {
               </h3>
             </motion.div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 lg:space-x-[25px] space-y-6 lg:space-y-0">
+            <div className="flex justify-between max-lg:flex-col lg:space-x-[25px] space-y-6 lg:space-y-0 max-lg:px-5">
               <motion.div
-                className="space-y-[25px]"
+                className="space-y-[25px] flex-1"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                   <p className="text-[#1060ad] font-semibold">01</p>
                   <p className="font-semibold">
                     {t("products.ess_tms.item1.name")}
                   </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                     {t("products.ess_tms.item1.description")}
                   </p>
                 </div>
@@ -75,25 +75,25 @@ function EssPage() {
                   ))}
                 </div>
                 <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                  <p className="text-[25px]/[33px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl">
                     {t("products.ess_tms.item1.description2")}
                   </p>
                 </div>
               </motion.div>
 
               <motion.div
-                className="space-y-[25px]"
+                className="space-y-[25px] flex-1"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                   <p className="text-[#1060ad] font-semibold">02</p>
                   <p className="font-semibold">
                     {t("products.ess_tms.item2.name")}
                   </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                     {t("products.ess_tms.item2.description")}
                   </p>
                 </div>
@@ -103,25 +103,25 @@ function EssPage() {
                   ))}
                 </div>
                 <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                  <p className="text-[25px]/[33px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl">
                     {t("products.ess_tms.item2.description2")}
                   </p>
                 </div>
               </motion.div>
 
               <motion.div
-                className="space-y-[25px]"
+                className="space-y-[25px] flex-1"
                 initial={{ translateY: 100, opacity: 0 }}
                 whileInView={{ translateY: 0, opacity: 1 }}
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] text-[33px]/[50px] text-black">
+                <div className="border-2 border-[#4972B8] w-full min-h-[288px] p-[33px] 2xl:text-[33px]/[50px] text-2xl text-black">
                   <p className="text-[#1060ad] font-semibold">03</p>
                   <p className="font-semibold">
                     {t("products.ess_tms.item3.name")}
                   </p>
-                <p className="text-[25px]/[33px] text-pretty pt-[38px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl text-pretty pt-[38px]">
                     {t("products.ess_tms.item3.description")}
                   </p>
                 </div>
@@ -131,7 +131,7 @@ function EssPage() {
                   ))}
                 </div>
                 <div className="bg-[#1060ad] text-white min-h-[197px] w-full p-[33px]">
-                  <p className="text-[25px]/[33px]">
+                  <p className="2xl:text-[25px]/[33px] text-xl">
                     {t("products.ess_tms.item3.description2")}
                   </p>
                 </div>
