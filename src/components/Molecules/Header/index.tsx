@@ -66,12 +66,16 @@ function Header() {
               className="w-1/5 min-h-[84px] flex justify-center items-center text-base text-ellipsis ring-transparent outline-none relative group cursor-pointer before:h-0.5 before:hover:w-[50%] before:inset-x-0 before:mx-auto before:transition-all before:w-0 before:bg-[#7bbbdc] before:absolute before:bottom-0"
               key={index}
             >
-              <p
+              <Link
+                to={navItem.url}
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                  navigate(navItem.url);
+                }}
                 className="w-full h-full flex items-center justify-center"
-                onClick={() => navigate(navItem.url)}
               >
                 {navItem.title}
-              </p>
+              </Link>
               <ul className="absolute bottom-0 translate-y-full flex opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 transition-all flex-col justify-center items-center bg-white w-full text-black p-4 cursor-default">
                 {navItem.links.map((link, index) => (
                   <li
@@ -79,6 +83,10 @@ function Header() {
                     className="hover:text-[#7bbbdc] py-1 px-2 cursor-pointer"
                   >
                     <NavLink
+                      onClick={() => {
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                        navigate(link.url);
+                      }}
                       to={link.url}
                       className={({ isActive }) =>
                         cn({
