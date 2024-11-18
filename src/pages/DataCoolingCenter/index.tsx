@@ -401,6 +401,12 @@ function DataCoolingCenterPage() {
                     "products.data_center_cooling.table.hardware_section.item6.type"
                   )}
                 </td>
+                <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.hardware_section.item8.name")}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.hardware_section.item8.type")}
+              </td>
               </tr>
               {/*  */}
             </tbody>

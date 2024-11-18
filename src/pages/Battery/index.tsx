@@ -391,6 +391,8 @@ function BatteryPage() {
               <td className="border p-4 font-semibold">
                 {t("products.battery_tms.table.hardware_section.item6.type")}
               </td>
+              <td className="border p-4 font-semibold"></td>
+              <td className="border p-4 font-semibold"></td>
             </tr>
 
             {/* Software Section */}
