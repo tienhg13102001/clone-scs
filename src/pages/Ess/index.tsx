@@ -225,7 +225,7 @@ function EssPage() {
               transition={{ duration: 0.5, delay: 0.5 }}
               viewport={{ once: false }}
             >
-              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center max-lg:pt-[100px]">
+              <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[47px]/none text-3xl text-center max-lg:pt-[100px] ">
                 {t("products.ess_tms.subtitle3")}
               </h3>
             </motion.div>
@@ -270,10 +270,7 @@ export function SpecificationsTable() {
       <table className="w-full border-collapse text-center min-h-[624px] max-w-[1464px] max-lg:hidden">
         <thead>
           <tr>
-            <th
-              className="w-[140px] bg-black text-white p-2"
-              rowSpan={2}
-            ></th>
+            <th className="w-[140px] bg-black text-white p-2" rowSpan={2}></th>
           </tr>
           <tr className="capitalize text-[33px]/[54px] font-semibold">
             <th className="max-w-[324px] bg-[#1060ad] text-white p-2">
