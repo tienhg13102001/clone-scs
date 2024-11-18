@@ -59,12 +59,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px] ">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">01</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item1.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item1.description")}
                   </p>
                 </div>
@@ -81,12 +81,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.2 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">02</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item2.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item2.description")}
                   </p>
                 </div>
@@ -102,12 +102,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.3 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">03</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item3.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item3.description")}
                   </p>
                 </div>
@@ -200,30 +200,15 @@ function DataCoolingCenterPage() {
               </h3>
             </motion.div>
             <div className="flex gap-5 w-full max-lg:flex-col">
-              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
-                <motion.img
-                  src={"/img/data-center-img-03.webp"}
-                  className="h-full object-contain"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                />
-                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  {t("data_center")}
-                </p>
-              </div>
-              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
-                <motion.img
-                  src={"/img/data-center-img-04.webp"}
-                  className="h-full object-contain"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                />
-                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  {t("system_info")}
-                </p>
-              </div>
+              <motion.img
+                src={"/img/box-data-center-01.webp"}
+                className="w-2/3"
+              />
+
+              <motion.img
+                src={"/img/box-data-center-02.webp"}
+                className="w-2/3"
+              />
             </div>
             <hr className="border-t-2 border-[#4972B8] my-5" />
           </Container>
