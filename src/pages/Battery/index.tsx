@@ -12,7 +12,7 @@ function BatteryPage() {
     <main className="min-h-screen w-full overflow-hidden">
       <section
         style={{ backgroundImage: `url(${Banner})` }}
-        className="bg-fixed bg-cover bg-no-repeat w-full h-[300px] lg:h-[470px]"
+        className="bg-cover bg-center bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
       >
         <div className="flex flex-col items-center justify-center pt-[120px] lg:pt-[150px]">
           <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
@@ -32,7 +32,7 @@ function BatteryPage() {
         </div>
       </section>
 
-      <section className="mt-10 lg:mt-[80px]]">
+      <section className="mt-10">
         <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
           <motion.div
             className="flex w-full justify-center items-center"
