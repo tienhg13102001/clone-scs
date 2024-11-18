@@ -143,11 +143,16 @@ function DataCoolingCenterPage() {
                 </div>
               </div>
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
-                <p className="text-8xl leading-[1em] font-semibold text-[#1060ad]">$7</p>
+                <p className="text-8xl leading-[1em] font-semibold text-[#1060ad]">
+                  $7
+                </p>
                 <div className="flex flex-col h-full justify-between ">
-                <p className="text-[#222] text-[33px] font-light">
-                    <span className="text-[#1060ad] font-semibold text-[40px]/[50px]">{t("mil_save")}</span>  <br />
-                    {t('cost')}
+                  <p className="text-[#222] text-[33px] font-light">
+                    <span className="text-[#1060ad] font-semibold text-[40px]/[50px]">
+                      {t("mil_save")}
+                    </span>{" "}
+                    <br />
+                    {t("cost")}
                   </p>
                   <p className="text-2xl"></p>
                 </div>
@@ -195,30 +200,15 @@ function DataCoolingCenterPage() {
               </h3>
             </motion.div>
             <div className="flex gap-5 w-full max-lg:flex-col">
-              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
-                <motion.img
-                  src={"/img/data-center-img-03.webp"}
-                  className="h-full object-contain"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                />
-                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  {t("data_center")}
-                </p>
-              </div>
-              <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
-                <motion.img
-                  src={"/img/data-center-img-04.webp"}
-                  className="h-full object-contain"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                />
-                <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  {t("system_info")}
-                </p>
-              </div>
+              <motion.img
+                src={"/img/box-data-center-01.webp"}
+                className="w-2/3"
+              />
+
+              <motion.img
+                src={"/img/box-data-center-02.webp"}
+                className="w-2/3"
+              />
             </div>
             <hr className="border-t-2 border-[#4972B8] my-5" />
           </Container>

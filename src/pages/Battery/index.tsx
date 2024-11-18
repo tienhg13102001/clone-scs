@@ -239,19 +239,15 @@ function BatteryPage() {
             </h3>
           </motion.div>
           <div className="flex flex-col gap-5 justify-around mt-[71px] px-2 lg:px-0 lg:flex-row">
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
-              <motion.img src={"/img/battery-img-03.webp"} className="w-2/3" />
-              <p className="text-[33px] text-[#1060ad] font-medium">
-                {t("electric_bus")}
-              </p>
-              {""}
-            </div>
-            <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
-              <motion.img src={"/img/battery-img-04.webp"} className="w-2/3" />
-              <p className="text-[33px] text-[#1060ad] text-center font-medium">
-                {t("performance_info")}
-              </p>
-            </div>
+            <motion.img
+              src={"/img/box-data-center-01.webp"}
+              className="w-2/3"
+            />
+
+            <motion.img
+              src={"/img/box-data-center-02.webp"}
+              className="w-2/3"
+            />
           </div>
         </Container>
       </section>
