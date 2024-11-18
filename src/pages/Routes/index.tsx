@@ -26,6 +26,7 @@ import Layout from "@/layout";
 import ContactPage from "../Contact";
 import MediaRecord from "../MediaRecord";
 import RoofComponent from "../BusinessAreas/Roof";
+import ProductPage from "../Product";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
             element: <AdminPage />,
           },
         ],
+      },
+      {
+        path: RoutesString.Product,
+        element: <ProductPage />,
       },
       {
         path: RoutesString.Ess,

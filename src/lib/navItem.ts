@@ -30,7 +30,7 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
   },
   {
     title: t("product"),
-    url: RoutesString.Ess,
+    url: RoutesString.Product,
     links: [
       {
         title: t("products.ess_tms.main_path"),
