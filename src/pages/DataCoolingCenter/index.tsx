@@ -137,17 +137,19 @@ function DataCoolingCenterPage() {
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
                 <div className="flex flex-col h-full justify-between text-3xl">
-                  <p>{t("battery")}</p>
-                  <p>{t("explosion")}</p>
+                  <p className="text-[#222] text-[33px]/[50px]">
+                    {t("battery")} <br /> {t("explosion")}
+                  </p>
                 </div>
               </div>
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
-                <p className="text-8xl font-semibold text-[#1060ad]">$7</p>
+                <p className="text-8xl leading-[1em] font-semibold text-[#1060ad]">$7</p>
                 <div className="flex flex-col h-full justify-between ">
-                  <p className="text-5xl text-[#1060ad] font-semibold">
-                    {t("mil_save")}
+                <p className="text-[#222] text-[33px] font-light">
+                    <span className="text-[#1060ad] font-semibold text-[40px]/[50px]">{t("mil_save")}</span>  <br />
+                    {t('cost')}
                   </p>
-                  <p className="text-2xl">{t("cost")}</p>
+                  <p className="text-2xl"></p>
                 </div>
               </div>
             </div>
@@ -402,11 +404,11 @@ function DataCoolingCenterPage() {
                   )}
                 </td>
                 <td className="border p-4 font-semibold">
-                {t("products.battery_tms.table.hardware_section.item8.name")}
-              </td>
-              <td className="border p-4 font-semibold">
-                {t("products.battery_tms.table.hardware_section.item8.type")}
-              </td>
+                  {t("products.battery_tms.table.hardware_section.item8.name")}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t("products.battery_tms.table.hardware_section.item8.type")}
+                </td>
               </tr>
               {/*  */}
             </tbody>
