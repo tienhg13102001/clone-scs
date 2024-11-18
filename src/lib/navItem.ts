@@ -12,29 +12,29 @@ interface NavItem {
 export const getNavItems = (t: (key: string) => string): NavItem[] => [
   {
     title: t("scsNav"),
-    url: "/scs/company-info",
+    url: RoutesString.CompanyInfo,
     links: [
       {
         title: t("company-info"),
-        url: "/scs/company-info",
+        url: RoutesString.CompanyInfo,
       },
       {
         title: t("history"),
-        url: "/scs/history",
+        url: RoutesString.History,
       },
       {
         title: t("heat-rd-center"),
-        url: "/scs/heat-rd-center",
+        url: RoutesString.SCSHeat,
       },
     ],
   },
   {
     title: t("product"),
-    url: "/ess-tms",
+    url: RoutesString.Ess,
     links: [
       {
         title: t("products.ess_tms.main_path"),
-        url: "/ess-tms",
+        url: RoutesString.Ess,
       },
       {
         title: t("products.ess_tms.battery_tms.main_path"),
@@ -42,81 +42,81 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
       },
       {
         title: t("products.ess_tms.data_center_cooling.main_path"),
-        url: "/data-cooling-center",
+        url: RoutesString.DataCoolingCenter,
       },
     ],
   },
   {
     title: t("advanced-tech"),
-    url: "/advance-technology/ai-tsm-control",
+    url: RoutesString.AITSMControl,
     links: [
       {
         title: t("ai-tsm-control"),
-        url: "/advance-technology/ai-tsm-control",
+        url: RoutesString.AITSMControl,
       },
       {
         title: t("energy-integration-system"),
-        url: "/advance-technology/energy-integration-system",
+        url: RoutesString.EnergyIntegrationSystem,
       },
       {
         title: t("high-efficiency-heat-exchanger"),
-        url: "/advance-technology/high-efficiency-heat-exchanger",
+        url: RoutesString.HightEfficiencyHeatExchanger,
       },
     ],
   },
   {
     title: t("business-areas"),
-    url: "/business-areas/fast-charger-cooling",
+    url: RoutesString.FastChargerCooling,
     links: [
       {
         title: t("fast-charger-cooling"),
-        url: "/business-areas/fast-charger-cooling",
+        url: RoutesString.FastChargerCooling,
       },
       {
         title: t("ICE"),
-        url: "/business-areas/ICE",
+        url: RoutesString.ICE,
       },
       {
         title: t("electric"),
-        url: "/business-areas/electric",
+        url: RoutesString.Electric,
       },
       {
         title: "Roof (Golf Cart) AC",
-        url: "/business-areas/roof",
+        url: RoutesString.Roof,
       },
       {
         title: t("elevator"),
-        url: "/business-areas/elevator",
+        url: RoutesString.Elevator,
       },
       {
         title: t("residential"),
-        url: "/business-areas/residential",
+        url: RoutesString.Elevator,
       },
       {
         title: t("water-capture"),
-        url: "/business-areas/water-capture",
+        url: RoutesString.WaterCapture,
       },
       {
         title: t("USP"),
-        url: "/business-areas/USP",
+        url: RoutesString.USP,
       },
       {
         title: t("ai-monitoring"),
-        url: "/business-areas/ai-monitoring",
+        url: RoutesString.AIMonitoring,
       },
     ],
   },
   {
     title: t("media"),
-    url: "/contact",
+    url: RoutesString.Contact,
     links: [
       {
         title: t("contact.contact"),
-        url: "/contact",
+        url: RoutesString.Contact,
       },
       {
         title: t("media-record"),
-        url: "/media-record",
+        url: RoutesString.MediaRecord,
       },
     ],
   },

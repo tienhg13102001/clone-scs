@@ -3,13 +3,14 @@ import { cn } from "@/lib/utils";
 import { useSidebarStore } from "@/store/sidebarStore";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
 function Header() {
   const { t, i18n } = useTranslation();
   const [whiteMode, setWhiteMode] = useState(false);
   const location = useLocation();
   const titles = PageTitles(t);
+  const navigate = useNavigate();
   useEffect(() => {
     const title = titles[location.pathname] || "SCS";
     document.title = title === "SCS" ? title : `SCS ${title}`;
@@ -65,7 +66,12 @@ function Header() {
               className="w-1/5 min-h-[84px] flex justify-center items-center text-base text-ellipsis ring-transparent outline-none relative group cursor-pointer before:h-0.5 before:hover:w-[50%] before:inset-x-0 before:mx-auto before:transition-all before:w-0 before:bg-[#7bbbdc] before:absolute before:bottom-0"
               key={index}
             >
-              {navItem.title}
+              <p
+                className="w-full h-full flex items-center justify-center"
+                onClick={() => navigate(navItem.url)}
+              >
+                {navItem.title}
+              </p>
               <ul className="absolute bottom-0 translate-y-full flex opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 transition-all flex-col justify-center items-center bg-white w-full text-black p-4 cursor-default">
                 {navItem.links.map((link, index) => (
                   <li
