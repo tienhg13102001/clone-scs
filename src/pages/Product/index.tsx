@@ -1,4 +1,3 @@
-import React from "react";
 import { AppSidebar } from "@/components/app-sidebar";
 import Header from "@/components/Molecules/Header";
 import { SidebarProvider } from "@/components/ui/sidebar";
