@@ -91,7 +91,7 @@ function DataCoolingCenterPage() {
                   </p>
                 </div>
                 <p className="text-[#1060ad] text-center text-2xl p-5">
-                  {t("products.data_center_cooling.item2.description")}
+                  {t("products.data_center_cooling.item2.description2")}
                 </p>
               </motion.div>
 
@@ -137,17 +137,17 @@ function DataCoolingCenterPage() {
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
                 <div className="flex flex-col h-full justify-between text-3xl">
-                  <p>Battery</p>
-                  <p>Explosion</p>
+                  <p>{t('battery')}</p>
+                  <p>{t('explosion')}</p>
                 </div>
               </div>
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">$7</p>
                 <div className="flex flex-col h-full justify-between ">
                   <p className="text-5xl text-[#1060ad] font-semibold">
-                    mil saved{" "}
+                    {t('mil_save')}
                   </p>
-                  <p className="text-2xl">Annual Facilities Operation Cost</p>
+                  <p className="text-2xl">{t('cost')}</p>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@ function DataCoolingCenterPage() {
                   transition={{ duration: 1 }}
                 />
                 <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  Data Center
+                  {t('data_center')}
                 </p>
               </div>
               <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
@@ -214,7 +214,7 @@ function DataCoolingCenterPage() {
                   transition={{ duration: 1 }}
                 />
                 <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  SCS 200kW Immersion Cooling system{" "}
+                  {t('system_info')}
                 </p>
               </div>
             </div>

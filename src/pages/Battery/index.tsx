@@ -103,7 +103,7 @@ function BatteryPage() {
               </div>
               <div className="px-[33px]">
                 <span className="text-[#1060ad] font-semibold 2xl:text-[25px]/[33px] text-xl">
-                  Reduce operational costs
+                  {t("products.battery_tms.item2.description3")}
                 </span>
               </div>
             </motion.div>
@@ -136,7 +136,7 @@ function BatteryPage() {
               </div>
               <div className="px-[33px]">
                 <span className="text-[#1060ad] font-semibold 2xl:text-[25px]/[33px] text-xl">
-                  Improve the reliability of public transportation
+                  {t("products.battery_tms.item3.description3")}
                 </span>
               </div>
             </motion.div>
@@ -169,8 +169,8 @@ function BatteryPage() {
                   0%
                 </span>
                 <p className="text-[#222] text-[33px]/[50px]">
-                  Battery <br />
-                  Explosion
+                  {t("battery")} <br />
+                  {t("explosion")}
                 </p>
               </div>
               <div className="border-2 border-[#1060ad] flex gap-x-[30px] flex-1 justify-center w-full items-center lg:py-[52px]">
@@ -179,8 +179,8 @@ function BatteryPage() {
                   15%
                 </span>
                 <p className="text-[#222] text-[33px]/[50px]">
-                  Driving <br />
-                  Extension
+                  {t("driving")} <br />
+                  {t("extension")}
                 </p>
               </div>
             </div>
@@ -194,7 +194,7 @@ function BatteryPage() {
                   <div className="flex flex-col items-center gap-1">
                     <h1 className="font-semibold text-[25px]/[33px]">TMS</h1>
                     <p className="text-[17px]/[21px]">
-                      Thermal Management System
+                      {t('products.battery_tms.subtitle')}
                     </p>
                     <div className="flex flex-col items-center">
                       <img src="/img/ic-ess-tms.png" alt="" />
@@ -203,10 +203,10 @@ function BatteryPage() {
                   </div>
                   <div className="flex flex-col items-center gap-1">
                     <h1 className="font-semibold text-[25px]/[33px]">
-                      A.I Controller
+                      {t('products.battery_tms.controller')}
                     </h1>
                     <p className="text-[17px]/[21px]">
-                      LSTM + RL based control
+                      {t('products.battery_tms.subtitle5')}
                     </p>
                     <div className="flex flex-col items-center">
                       <img src="/img/ic-ess-ai.png" alt="" />
@@ -242,14 +242,14 @@ function BatteryPage() {
             <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
               <motion.img src={"/img/battery-img-03.webp"} className="w-2/3" />
               <p className="text-[33px] text-[#1060ad] font-medium">
-                Electric Bus
+                {t('electric_bus')}
               </p>
               {""}
             </div>
             <div className="p-8 border-2 border-[#1060ad] flex flex-col justify-between items-center gap-10 w-full lg:w-1/2">
               <motion.img src={"/img/battery-img-04.webp"} className="w-2/3" />
               <p className="text-[33px] text-[#1060ad] text-center font-medium">
-                SCS 10kW Liquid + Air Cooling System
+                {t('performance_info')}
               </p>
             </div>
           </div>
