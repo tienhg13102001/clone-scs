@@ -35,6 +35,30 @@
   "media": "Media",
   "media-record": "Media Record",
   "products": {
+    "main_path": "products",
+    "title": "Why SCS?",
+    "description": "The reason why thermal management is necessary for batteries is because it has a significant impact on the performance, lifespan, safety, and efficiency of the battery. The battery generates heat during the charging and discharging process, and if this heat is not properly managed, various problems can occur.",
+    "item1": {
+      "name": "1. Ensuring safety",
+      "content": "If the battery overheats, it can lead to fire or explosion. In particular, thermal runaw ay can occur in high-energy density batteries such as lithium-ion batteries, which is a phenomenon in which the temperature of the battery rapidly increases and beco mes uncontrollable. A thermal management system is essential to prevent this. Saf ety can be secured by maintaining the temperature of the battery at an appropriat e level."
+    },
+    "item2": {
+      "name": "2. Extending battery life",
+      "content": "The performance and lifespan of a battery are greatly affected by temperature. If th e battery is too hot or too cold, the chemical reaction speed changes, which deteri orates the battery performance, and repeated thermal stress can damage the che mical components of the battery, shortening its lifespan. For example, lithium-ion batteries operate most efficiently in the 20-30°C range, and beyond this range, perf ormance degradation and shortened lifespan accelerate. Therefore, thermal mana gement is very important for maintaining the long-term performance of the batter y."
+    },
+    "item3": {
+      "name": "3. Maintaining Efficiency",
+      "content": "If the temperature of the battery is too high or too low, the charging and dischargin g efficiency decreases. At low temperatures, the electrolyte inside the battery does not move well, so the electrical resistance increases, which slows down the chargi ng and discharging speed and reduces the energy density. On the other hand, at hi gh temperatures, the chemical reaction inside the battery becomes too fast, resulti ng in inefficient energy consumption. Thermal management prevents this situatio n and helps the battery maintain optimal efficiency."
+    },
+    "item4": {
+      "name": "4. Ensuring Performance Uniformity",
+      "content": "It is important for a battery pack composed of multiple battery cells to maintain th e temperature of each cell evenly. If the temperature difference between battery ce Ils becomes large, the performance and lifespan of the cells become uneven, whic h leads to a decrease in the performance of the entire battery pack. By maintaining the temperature of each cell evenly through thermal management, the performanc e of the battery pack can be maintained stably."
+    },
+    "item5": {
+      "name": "5. Optimizing Performance under High-Load Conditions",
+      "content1": "In high-load applications such as electric vehicles or energy storage devices, the battery must handle high curre nts, which generates a lot of heat. If proper thermal management is not implemented at this time, the battery may overheat, resulting in reduced performance or abnormal system shutdown. Effective thermal managemen t is essential to maintain stable performance even under high load conditions.",
+      "content2": "In conclusion, battery thermal management is a key factor in ensuring safety, performance, life, and efficiency. I t is important to optimize battery performance and ensure long-term safe use by maintaining the battery's oper ating temperature appropriately."
+    },
     "ess_tms": {
       "path": "products",
       "main_path": "ESS TMS",
