@@ -18,10 +18,10 @@ function EssPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-center bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-cover bg-center bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
-          <div className="flex flex-col items-center justify-center pt-[150px]">
-            <p className="text-white text-[50px] uppercase text-custom">
+          <div className="flex flex-col items-center justify-center pt-[120px] lg:pt-[150px]">
+            <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
               {t("products.ess_tms.main_path")}
             </p>
             <div className="flex gap-[15px] mt-[50px]">

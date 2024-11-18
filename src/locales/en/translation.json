@@ -1,5 +1,15 @@
 {
+  "battery": "Battery",
+  "explosion": "Explosion",
+  "driving": "Driving",
+  "extension": "Extension",
   "welcome": "Welcome",
+  "mil_save": "Mil save",
+  "electric_bus": "Electric Bus",
+  "cost": "Annual Facilities Operation Cost",
+  "data_center": "Data Center",
+  "system_info": "SCS 200kW Immersion Cooling system",
+  "performance_info": "SCS 10kW Liquid + Air Cooling System",
   "description": "This is an example in English.",
   "our-mission": "The future of energy management is poised to undergo significant transformations due to advancements in technology, shifting energy demands, and the urgent need to address climate change. Our company explores the emerging trends in energy management, focusing on heat energy management, renewable energy integration, and energy storage solutions. Key innovations include the deployment of artificial intelligence (AI) and machine learning (ML) for predictive analytics, optimizing energy consumption, and reducing operational costs and special Thermal Management Systems. The role of decentralized energy systems, such as microgrids, is also highlighted as a critical driver in the evolution of energy management. Furthermore, the integration of renewable sources like solar, wind, and hydrogen with next-generation storage technologies, including batteries and hydrogen fuel cells, is discussed. Finally, our company addresses the importance of new technology and international cooperation to ensure a sustainable, resilient, and equitable energy future. The convergence of these factors positions energy management as a cornerstone of sustainable development in the 21st century.",
   "introductory-paragraph": "Thermal management is essential for improving the efficiency, stability, and economy of renewable energy systems, which are often intermittent. Effective thermal management helps store and utilize energy more efficiently, especially in renewable energy sources like solar and wind.",
@@ -227,9 +237,9 @@
       "data_center_cooling": {
         "path": "products",
         "main_path": "Data Center Cooling",
-        "title": "DATA CENTER",
-        "title2": "THERMAL MANAGEMENT SYSTEM",
-        "subtitle": "THERMAL MANAGEMENT SYSTEM",
+        "title": "Data center",
+        "title2": "Thermal Management System",
+        "subtitle": "Thermal Management System",
         "item1": {
           "name": "Sensor Network",
           "description": "Real-time data",
@@ -237,7 +247,8 @@
         },
         "item2": {
           "name": "Analysis And Optimization",
-          "description": "Pre-optimize systems with ana- lytics and automation"
+          "description": "Pre-optimize systems with ana- lytics and automation",
+          "description2": "Automation"
         },
         "item3": {
           "name": "Preventive Maintenance",
@@ -306,6 +317,8 @@
       "title": "Electric Bus",
       "title2": "Thermal Management System",
       "subtitle": "Thermal Management System",
+      "subtitle5": "LSTM + RL based control",
+      "controller": "A.I Controller",
       "item1": {
         "name": "Stable Driving",
         "description": "Heat generation using a large battery pack",
@@ -393,8 +406,8 @@
       "path": "products",
       "main_path": "Data Center Cooling",
       "title": "DATA CENTER",
-      "title2": "THERMAL MANAGEMENT SYSTEM",
-      "subtitle": "THERMAL MANAGEMENT SYSTEM",
+      "title2": "Thermal Management System",
+      "subtitle": "Thermal Management System",
       "item1": {
         "name": "Sensor Network",
         "description": "Real-time data",
@@ -410,8 +423,8 @@
         "description": "Ensure stable operation of thermal management",
         "description2": "Systems through periodic monitoring and mainte-nance"
       },
-      "subtitle2": "BENEFIT OF SCS THERMAL MANAGEMENT SYSTEM",
-      "subtitle3": "DATA CENTER + AI THERMAL MANAGEMENT SYSTEM",
+      "subtitle2": "Benefit Of SCS Thermal Management System",
+      "subtitle3": "Data Center + AI Thermal Management System",
       "subtitle4": "SPECIFICATION",
       "table": {
         "col_span1": "contents",

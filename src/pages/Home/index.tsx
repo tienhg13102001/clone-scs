@@ -106,7 +106,7 @@ const HomePage = () => {
             <span>Standard Cooling Systems</span>
           </motion.p>
           <motion.p
-            className="text-[16px]/[24px] text-center"
+            className="text-[16px]/[24px] text-center max-w-[930px] w-full text-pretty"
             initial={{ translateY: 100, opacity: 0 }}
             whileInView={{ translateY: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 0.75 }}
@@ -115,8 +115,16 @@ const HomePage = () => {
             {t("introductory-paragraph")}
           </motion.p>
         </div>
+        <motion.img
+          src="/img/main-img.png"
+          className="mt-[70px]"
+          initial={{ translateY: 100, opacity: 0 }}
+          whileInView={{ translateY: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.75 }}
+          viewport={{ once: false }}
+        ></motion.img>
         <motion.div
-          className="text-[15px]/[1.5em] mt-[100px]"
+          className="text-[15px]/[1.5em] mt-[80px]"
           initial={{ translateY: 100, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.75 }}

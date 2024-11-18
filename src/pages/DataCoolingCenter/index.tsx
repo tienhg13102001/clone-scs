@@ -17,10 +17,10 @@ function DataCoolingCenterPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-cover bg-center bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
-          <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
+            <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
               {t("products.data_center_cooling.main_path")}
             </p>
             <div className="flex gap-[15px] mt-[50px]">
@@ -91,7 +91,7 @@ function DataCoolingCenterPage() {
                   </p>
                 </div>
                 <p className="text-[#1060ad] text-center text-2xl p-5">
-                  {t("products.data_center_cooling.item2.description")}
+                  {t("products.data_center_cooling.item2.description2")}
                 </p>
               </motion.div>
 
@@ -137,17 +137,17 @@ function DataCoolingCenterPage() {
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">0%</p>
                 <div className="flex flex-col h-full justify-between text-3xl">
-                  <p>Battery</p>
-                  <p>Explosion</p>
+                  <p>{t("battery")}</p>
+                  <p>{t("explosion")}</p>
                 </div>
               </div>
               <div className="border border-[#1060ad] flex py-12 items-center justify-center gap-7 max-lg:w-full w-1/2">
                 <p className="text-8xl font-semibold text-[#1060ad]">$7</p>
                 <div className="flex flex-col h-full justify-between ">
                   <p className="text-5xl text-[#1060ad] font-semibold">
-                    mil saved{" "}
+                    {t("mil_save")}
                   </p>
-                  <p className="text-2xl">Annual Facilities Operation Cost</p>
+                  <p className="text-2xl">{t("cost")}</p>
                 </div>
               </div>
             </div>
@@ -202,7 +202,7 @@ function DataCoolingCenterPage() {
                   transition={{ duration: 1 }}
                 />
                 <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  Data Center
+                  {t("data_center")}
                 </p>
               </div>
               <div className="flex flex-col items-center max-lg:w-full w-1/2 p-10 border border-[#1060ad]">
@@ -214,7 +214,7 @@ function DataCoolingCenterPage() {
                   transition={{ duration: 1 }}
                 />
                 <p className="py-5 text-2xl font-semibold text-[#1060ad]">
-                  SCS 200kW Immersion Cooling system{" "}
+                  {t("system_info")}
                 </p>
               </div>
             </div>
@@ -258,6 +258,18 @@ function DataCoolingCenterPage() {
                 >
                   {t("products.data_center_cooling.table.col_span2")}
                 </th>
+                <th
+                  className="bg-[#1060ad] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
+                  colSpan={1}
+                >
+                  {t("products.data_center_cooling.table.col_span1")}
+                </th>
+                <th
+                  className="bg-[#24aae1] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
+                  colSpan={1}
+                >
+                  {t("products.data_center_cooling.table.col_span2")}
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -279,68 +291,6 @@ function DataCoolingCenterPage() {
                     "products.data_center_cooling.table.hardware_section.item1.type"
                   )}
                 </td>
-              </tr>
-              <tr>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item2.name"
-                  )}
-                </td>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item2.type"
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item3.name"
-                  )}
-                </td>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item3.type"
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item4.name"
-                  )}
-                </td>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item4.type"
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item5.name"
-                  )}
-                </td>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item5.type"
-                  )}
-                </td>
-              </tr>
-              <tr>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item6.name"
-                  )}
-                </td>
-                <td className="border p-4 font-semibold">
-                  {t(
-                    "products.data_center_cooling.table.hardware_section.item6.type"
-                  )}
-                </td>
-              </tr>
-              <tr>
                 <td className="border p-4 font-semibold">
                   {t(
                     "products.data_center_cooling.table.hardware_section.item7.name"
@@ -355,6 +305,16 @@ function DataCoolingCenterPage() {
               <tr>
                 <td className="border p-4 font-semibold">
                   {t(
+                    "products.data_center_cooling.table.hardware_section.item2.name"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item2.type"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
                     "products.data_center_cooling.table.hardware_section.item8.name"
                   )}
                 </td>
@@ -365,6 +325,16 @@ function DataCoolingCenterPage() {
                 </td>
               </tr>
               <tr>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item3.name"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item3.type"
+                  )}
+                </td>
                 <td className="border p-4 font-semibold">
                   {t(
                     "products.data_center_cooling.table.hardware_section.item9.name"
@@ -379,6 +349,16 @@ function DataCoolingCenterPage() {
               <tr>
                 <td className="border p-4 font-semibold">
                   {t(
+                    "products.data_center_cooling.table.hardware_section.item4.name"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item4.type"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
                     "products.data_center_cooling.table.hardware_section.item10.name"
                   )}
                 </td>
@@ -391,6 +371,16 @@ function DataCoolingCenterPage() {
               <tr>
                 <td className="border p-4 font-semibold">
                   {t(
+                    "products.data_center_cooling.table.hardware_section.item5.name"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item5.type"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
                     "products.data_center_cooling.table.hardware_section.item11.name"
                   )}
                 </td>
@@ -400,6 +390,20 @@ function DataCoolingCenterPage() {
                   )}
                 </td>
               </tr>
+              <tr>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item6.name"
+                  )}
+                </td>
+                <td className="border p-4 font-semibold">
+                  {t(
+                    "products.data_center_cooling.table.hardware_section.item6.type"
+                  )}
+                </td>
+
+              </tr>
+              {/*  */}
             </tbody>
           </table>
         </section>
