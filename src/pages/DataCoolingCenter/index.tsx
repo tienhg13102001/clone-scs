@@ -59,12 +59,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.1 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px] ">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">01</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item1.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item1.description")}
                   </p>
                 </div>
@@ -81,12 +81,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.2 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">02</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item2.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item2.description")}
                   </p>
                 </div>
@@ -102,12 +102,12 @@ function DataCoolingCenterPage() {
                 transition={{ duration: 0.75, delay: 0.3 }}
                 viewport={{ once: false }}
               >
-                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[30px]/[50px]">
+                <div className="border-2 border-[#4972B8] w-full flex flex-col items-start p-5 h-4/5 text-[33px]/[50px]">
                   <p className="text-[#1060ad] font-semibold">03</p>
                   <p className="text-[#222] font-semibold">
                     {t("products.data_center_cooling.item3.name")}
                   </p>
-                  <p className="text-black text-2xl font-light my-7">
+                  <p className="text-black text-[25px] font-normal my-7">
                     {t("products.data_center_cooling.item3.description")}
                   </p>
                 </div>
