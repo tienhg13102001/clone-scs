@@ -272,8 +272,8 @@ function BatteryPage() {
         </Container>
       </section>
 
-      <section className="overflow-x-auto w-full max-w-7xl mx-auto p-4">
-        <table className="min-w-full break-words text-center">
+      <section className="overflow-x-auto w-full max-w-7xl mx-auto p-4 flex flex-col items-center">
+        <table className=" break-words text-center max-lg:hidden">
           <thead>
             <tr>
               <th
@@ -412,6 +412,169 @@ function BatteryPage() {
               </td>
               <td className="border p-4 font-semibold">
                 {t("products.battery_tms.table.software_section.item2.type")}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <table className=" break-words text-center hidden max-lg:block">
+          <thead>
+            <tr>
+              <th
+                className="bg-black border border-white text-white py-4 px-6 font-semibold text-lg"
+                colSpan={1}
+              ></th>
+              <th
+                className="bg-[#1060ad] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
+                colSpan={1}
+              >
+                {t("products.data_center_cooling.table.col_span1")}
+              </th>
+              <th
+                className="bg-[#24aae1] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
+                colSpan={1}
+              >
+                {t("products.data_center_cooling.table.col_span2")}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {/* Hardware Section */}
+            <tr>
+              <td
+                rowSpan={11}
+                className="bg-black border border-white text-white p-4 font-semibold uppercase"
+              >
+                {t("products.data_center_cooling.table.row_span1")}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item1.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item1.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item2.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item2.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item3.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item3.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item4.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item4.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item5.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item5.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item6.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item6.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item7.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item7.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item8.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item8.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item9.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item9.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item10.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item10.type"
+                )}
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item11.name"
+                )}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t(
+                  "products.data_center_cooling.table.hardware_section.item11.type"
+                )}
               </td>
             </tr>
           </tbody>
