@@ -13,7 +13,7 @@ function Footer() {
         </Link>
       </div>
       <div className="flex flex-col w-full max-w-[1500px] mx-auto p-[10px_20px_20px]">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-start max-sm:flex-col gap-y-5">
           <div className="text-left">
             <div className="flex flex-col mb-4 w-[238px] text-5">
               <img src="/img/logo-w.png" alt="" className="w-3/5" />
