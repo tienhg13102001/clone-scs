@@ -327,11 +327,11 @@
       "item2": {
         "name": "Extending of Battery Life",
         "description": "Batty overheating significantly shortens lifespan",
-        "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera- ture of the battery",
+        "description2": "Thermal management can dou- ble the life of the battery by main- taining the optimum tempera-ture of the battery",
         "description3": "Reduce operational costs"
       },
       "item3": {
-        "name": "Improved Stability",
+        "name": "Extending of Battery Life",
         "description": "Overheated batteries are at a high risk of fire",
         "description2": "Effective thermal management prevents battery overheating and ensures passenger safety",
         "description3": "Improve the reliability of public transportation"
@@ -411,11 +411,11 @@
       "item1": {
         "name": "Sensor Network",
         "description": "Real-time data",
-        "description2": "Temperature/Humidity/Airflow"
+        "description2": "Temperature / Humidity / Airflow"
       },
       "item2": {
         "name": "Analysis And Optimization",
-        "description": "Pre-optimize systems with ana- lytics",
+        "description": "Pre-optimize systems with analytics",
         "description2": "Automation"
       },
       "item3": {
@@ -594,7 +594,7 @@
     "address": "Address : 9th and 4th floor, Gowundeul 7-gil, Sejong Special Self-Governing City",
     "phone": "Tel : 044 - 715 - 7606",
     "mail": "E-mail : jspark@scsai.net",
-    "contact": "contact"
+    "contact": "Contact"
   },
   "media_record": {
     "path": "media",
