@@ -17,7 +17,7 @@ function DataCoolingCenterPage() {
         <Header />
         <section
           style={{ backgroundImage: `url(${Banner})` }}
-          className="bg-cover bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
+          className="bg-cover bg-center bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
         >
           <div className="flex flex-col items-center justify-center pt-[150px]">
           <p className="text-white text-4xl lg:text-[50px] uppercase text-custom">
