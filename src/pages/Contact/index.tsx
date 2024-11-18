@@ -1,4 +1,4 @@
-import Footer from '@/components/Molecules/Footer'
+// import Footer from '@/components/Molecules/Footer'
 import Header from '@/components/Molecules/Header'
 import Container from '@/components/products/Containers'
 import { SidebarProvider } from '@/components/ui/sidebar'
@@ -61,7 +61,7 @@ function ContactPage() {
             </div>
           </Container>
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </SidebarProvider>
   )

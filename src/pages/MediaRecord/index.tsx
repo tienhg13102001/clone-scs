@@ -1,4 +1,4 @@
-import Footer from '@/components/Molecules/Footer'
+// import Footer from '@/components/Molecules/Footer'
 import Header from '@/components/Molecules/Header'
 import { SidebarProvider } from '@/components/ui/sidebar'
 import { useTranslation } from 'react-i18next'
@@ -37,7 +37,7 @@ function MediaRecord() {
             </div>
           </Container>
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </SidebarProvider>
   )
