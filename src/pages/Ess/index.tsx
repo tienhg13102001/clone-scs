@@ -271,7 +271,7 @@ export function SpecificationsTable() {
         <thead>
           <tr>
             <th
-              className="max-w-[140px] bg-black text-white p-2"
+              className="w-[140px] bg-black text-white p-2"
               rowSpan={2}
             ></th>
           </tr>
@@ -399,7 +399,7 @@ export function SpecificationsTable() {
       <table className="w-fit border-collapse text-center min-h-[624px] hidden max-lg:block">
         <thead>
           <tr>
-            <th className="bg-black text-white p-2" rowSpan={2}></th>
+            <th className="w-[100px] bg-black text-white p-2" rowSpan={2}></th>
           </tr>
           <tr className="capitalize text-[33px]/[54px] font-semibold">
             <th className="max-w-[324px] bg-[#1060ad] text-white max-lg:text-lg p-2">
