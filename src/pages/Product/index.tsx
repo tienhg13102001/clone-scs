@@ -1,11 +1,11 @@
-import React from "react";
 import { AppSidebar } from "@/components/app-sidebar";
 import Header from "@/components/Molecules/Header";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { ChevronRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { IoMdHome } from "react-icons/io";
-import SubBanner from "../../assets/image/product-banner.png";
+import SubBanner1 from "../../assets/image/product-banner1.png";
+import SubBanner2 from "../../assets/image/product-banner2.png";
 import Banner from "../../assets/image/ess-banner.png";
 import Product1 from "../../assets/image/product0.png";
 import Product2 from "../../assets/image/product1.png";
@@ -75,10 +75,13 @@ function ProductPage() {
 
         <section>
           <Container>
-            <img
-              src={SubBanner}
-              className=" h-[300px] w-full md:h-[400px] lg:h-[470px]"
-            />
+            <div className='flex flex-col lg:flex-row'>
+              <img src={SubBanner1} className=' h-[300px] w-full md:h-[400px] lg:h-[470px]' />
+              <img
+                src={SubBanner2}
+                className=" h-[300px] w-full md:h-[400px] lg:h-[470px]"
+              />
+            </div>
             <h1 className="2xl:text-[25px]/[33px] text-xl font-semibold mt-[50px]">
               {t("products.title")}
             </h1>
@@ -94,7 +97,7 @@ function ProductPage() {
               {ProductList.map((product, index) => (
                 <li
                   key={product.name}
-                  className="flex lg:flex-row flex-col gap-6"
+                  className="flex lg:flex-row flex-col-reverse gap-6"
                 >
                   <img
                     src={product.image}
@@ -109,7 +112,7 @@ function ProductPage() {
                       <p className="2xl:text-4xl text-xl font-semibold">
                         {product.name}
                       </p>
-                      <span className="border-t-4 flex-grow border-black mt-4"></span>
+                      <span className="hidden lg:block border-t-4 flex-grow border-black mt-4"></span>
                     </div>
                     <p className="text-[#444] text-xl" key={product.content}>
                       {product.content}
