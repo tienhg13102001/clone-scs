@@ -273,16 +273,16 @@ export function SpecificationsTable() {
             <th className="w-[140px] bg-black text-white p-2" rowSpan={2}></th>
           </tr>
           <tr className="capitalize text-[33px]/[54px] font-semibold">
-            <th className="max-w-[324px] bg-[#1060ad] text-white p-2">
+            <th className="w-[324px] bg-[#1060ad] text-white p-2">
               {t("products.ess_tms.table.col_span1")}
             </th>
-            <th className="max-w-[340px] bg-[#24aae1] text-white p-2">
+            <th className="w-[340px] bg-[#24aae1] text-white p-2">
               {t("products.ess_tms.table.col_span2")}
             </th>
-            <th className="max-w-[324px] bg-[#1060ad] text-white p-2">
+            <th className="w-[324px] bg-[#1060ad] text-white p-2">
               {t("products.ess_tms.table.col_span1")}
             </th>
-            <th className="max-w-[340px] bg-[#24aae1] text-white p-2">
+            <th className="w-[340px] bg-[#24aae1] text-white p-2">
               {t("products.ess_tms.table.col_span2")}
             </th>
           </tr>
@@ -396,13 +396,16 @@ export function SpecificationsTable() {
       <table className="w-fit border-collapse text-center min-h-[624px] hidden max-lg:block">
         <thead>
           <tr>
-            <th className="w-[100px] bg-black text-white p-2" rowSpan={2}></th>
+            <th
+              className="bg-black w-[140px] text-white py-4 px-6 font-semibold text-lg"
+              rowSpan={2}
+            ></th>
           </tr>
           <tr className="capitalize text-[33px]/[54px] font-semibold">
-            <th className="max-w-[324px] bg-[#1060ad] text-white max-lg:text-lg p-2">
+            <th className="bg-[#1060ad] w-[324px] text-white py-4 px-8 font-semibold text-lg">
               {t("products.ess_tms.table.col_span1")}
             </th>
-            <th className="max-w-[340px] bg-[#24aae1] text-white max-lg:text-lg p-2">
+            <th className="w-[340px] bg-[#24aae1] text-white py-4 px-8 font-semibold text-lg">
               {t("products.ess_tms.table.col_span2")}
             </th>
           </tr>
@@ -410,7 +413,7 @@ export function SpecificationsTable() {
         <tbody>
           <tr>
             <td
-              className="bg-black text-white align-middle uppercase font-semibold text-[25px]/[33px] max-lg:text-lg p-3"
+              className="bg-black text-white align-middle uppercase font-semibold text-[25px]/[33px]"
               rowSpan={11}
             >
               {t("products.ess_tms.table.row_span1")}
@@ -504,7 +507,7 @@ export function SpecificationsTable() {
           </tr>
           <tr>
             <td
-              className="bg-black text-white uppercase font-semibold text-[25px]/[33px] max-lg:text-lg"
+              className="bg-black text-white align-middle uppercase font-semibold text-[25px]/[33px]"
               rowSpan={2}
             >
               {t("products.ess_tms.table.row_span2")}
