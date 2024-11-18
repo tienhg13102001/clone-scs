@@ -9,7 +9,7 @@ import Container from "../../components/products/Containers";
 function BatteryPage() {
   const { t } = useTranslation();
   return (
-    <main className="min-h-screen w-full overflow-hidden">
+    <main className="min-h-screen w-full overflow-hidden mx-auto">
       <section
         style={{ backgroundImage: `url(${Banner})` }}
         className="bg-cover bg-center bg-no-repeat h-[300px] w-full md:h-[400px] lg:h-[470px]"
@@ -272,8 +272,8 @@ function BatteryPage() {
         </Container>
       </section>
 
-      <section className="overflow-x-auto w-full max-w-7xl mx-auto p-4 flex flex-col items-center">
-        <table className=" break-words text-center max-lg:hidden">
+      <section className="overflow-x-auto w-full max-w-7xl mx-auto p-4 flex flex-col justify-center items-center">
+        <table className="break-words text-center max-lg:hidden">
           <thead>
             <tr>
               <th
@@ -418,7 +418,7 @@ function BatteryPage() {
             </tr>
           </tbody>
         </table>
-        <table className=" break-words text-center hidden max-lg:block">
+        <table className="hidden break-words text-center max-lg:block">
           <thead>
             <tr>
               <th
@@ -429,13 +429,13 @@ function BatteryPage() {
                 className="bg-[#1060ad] border border-white text-white py-4 px-8 font-semibold text-lg uppercase"
                 colSpan={1}
               >
-                {t("products.data_center_cooling.table.col_span1")}
+                {t("products.battery_tms.table.col_span1")}
               </th>
               <th
                 className="bg-[#24aae1] border border-white text-white py-4 px-16 font-semibold text-lg uppercase"
                 colSpan={1}
               >
-                {t("products.data_center_cooling.table.col_span2")}
+                {t("products.battery_tms.table.col_span2")}
               </th>
             </tr>
           </thead>
@@ -446,137 +446,118 @@ function BatteryPage() {
                 rowSpan={11}
                 className="bg-black border border-white text-white p-4 font-semibold uppercase"
               >
-                {t("products.data_center_cooling.table.row_span1")}
+                {t("products.battery_tms.table.row_span1")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item1.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item1.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item1.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item1.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item2.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item2.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item2.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item2.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item3.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item3.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item3.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item3.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item4.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item4.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item4.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item4.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item5.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item5.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item5.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item5.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item6.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item6.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item6.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item6.type")}
+              </td>
+              <td className="border p-4 font-semibold"></td>
+              <td className="border p-4 font-semibold"></td>
+            </tr>
+            <tr>
+              <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.hardware_section.item7.name")}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.hardware_section.item7.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item7.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item8.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item7.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item8.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item8.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item9.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item8.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item9.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item9.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item10.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item9.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item10.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item10.name"
-                )}
+                {t("products.battery_tms.table.hardware_section.item11.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item10.type"
-                )}
+                {t("products.battery_tms.table.hardware_section.item11.type")}
+              </td>
+            </tr>
+            {/* Software Section */}
+            <tr>
+              <td
+                rowSpan={2}
+                className="bg-black border border-white text-white p-4 font-semibold uppercase"
+              >
+                {t("products.battery_tms.table.row_span2")}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.software_section.item1.name")}
+              </td>
+              <td className="border p-4 font-semibold">
+                {t("products.battery_tms.table.software_section.item1.type")}
               </td>
             </tr>
             <tr>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item11.name"
-                )}
+                {t("products.battery_tms.table.software_section.item2.name")}
               </td>
               <td className="border p-4 font-semibold">
-                {t(
-                  "products.data_center_cooling.table.hardware_section.item11.type"
-                )}
+                {t("products.battery_tms.table.software_section.item2.type")}
               </td>
             </tr>
           </tbody>
