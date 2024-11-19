@@ -235,7 +235,7 @@ function BatteryPage() {
             viewport={{ once: false }}
           >
             <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[47px]/none text-3xl text-center max-lg:pt-[100px] ">
-              {t("products.ess_tms.subtitle3")}
+              {t("products.battery_tms.subtitle3")}
             </h3>
           </motion.div>
           <motion.div
