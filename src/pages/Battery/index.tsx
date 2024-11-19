@@ -226,7 +226,7 @@ function BatteryPage() {
       </section>
 
       <section>
-        <Container>
+        <Container className="max-w-[1464px] min-h-screen flex flex-col justify-center items-center gap-y-[71px] overflow-hidden">
           <motion.div
             className="flex w-full justify-center items-center"
             initial={{ translateX: 100, opacity: 0 }}
@@ -234,14 +234,20 @@ function BatteryPage() {
             transition={{ duration: 0.5, delay: 0.5 }}
             viewport={{ once: false }}
           >
-            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[50px]/none text-3xl text-center max-lg:pt-[100px]">
-              {t("products.battery_tms.subtitle3")}
+            <h3 className="text-[#1060ad] capitalize font-semibold lg:text-[47px]/none text-3xl text-center max-lg:pt-[100px] ">
+              {t("products.ess_tms.subtitle3")}
             </h3>
           </motion.div>
-          <div className="flex max-xl:flex-col gap-6 w-full justify-center items-center">
-            <img src="/img/box-battery-01.png" alt="" />
-            <img src="/img/box-battery-02.png" alt="" />
-          </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 1 }}
+          >
+            <div className="flex max-xl:flex-col gap-6 w-full justify-center items-center">
+              <img src="/img/box-battery-01.png" alt="" />
+              <img src="/img/box-battery-02.png" alt="" />
+            </div>
+          </motion.div>
         </Container>
       </section>
 

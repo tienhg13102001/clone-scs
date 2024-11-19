@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -115,14 +116,15 @@ const HomePage = () => {
             {t("introductory-paragraph")}
           </motion.p>
         </div>
-        <motion.img
-          src="/img/main-img.png"
-          className="mt-[70px]"
+        <motion.div
+          className="mt-[70px] w-full flex justify-center items-center"
           initial={{ translateY: 100, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.75 }}
           viewport={{ once: false }}
-        ></motion.img>
+        >
+          <img src="/img/main-img.png" alt="main img" />
+        </motion.div>
         <motion.div
           className="text-[15px]/[1.5em] mt-[80px]"
           initial={{ translateY: 100, opacity: 0 }}
@@ -130,7 +132,7 @@ const HomePage = () => {
           transition={{ duration: 1, delay: 0.75 }}
           viewport={{ once: false }}
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-[140px] lg:gap-x-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-y-[140px] xl:gap-x-20 gap-8">
             {descItems.map((item, index) => (
               <div
                 key={index}
@@ -141,7 +143,18 @@ const HomePage = () => {
                   src={`/img/ic-0${index + 1}.png`}
                   alt=""
                 />
-                <h1 className="text-[#222] text-[28px]/[40px] font-semibold capitalize pb-[32px]">
+                <h1
+                  className={cn(
+                    "text-[#222] text-[28px]/[40px] font-semibold capitalize pb-[32px] w-full",
+                    {
+                      "max-w-[185px]": index == 0,
+                      "max-w-[130px]": index == 1 || index == 3,
+                      "max-w-[235px]": index == 2,
+                      "max-w-[270px]": index == 4,
+                      "max-w-[167px]": index == 5,
+                    }
+                  )}
+                >
                   {item.title}
                 </h1>
                 <p className="text-base/6 text-pretty">{item.desc}</p>
@@ -150,24 +163,17 @@ const HomePage = () => {
           </div>
         </motion.div>
       </section>
-      <div className="min-h-[240px] bg-[#f4f4f4] lg:px-[300px] lg:py-[72px]">
+      <div className="min-h-[240px] bg-[#f4f4f4] lg:px-[300px] lg:py-[72px] py-10 px-5">
         <motion.div
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-y-[140px] lg:gap-x-28 text-base/6 text-[#222]"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-y-[140px] xl:gap-x-20 text-base/6 gap-8 text-[#222]"
           initial={{ translateY: 100, opacity: 0 }}
           whileInView={{ translateY: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.75 }}
           viewport={{ once: false }}
         >
           <p className="text-[#b7b7b7] font-semibold text-[32px]">Conclusion</p>
-          <p>
-            Thermal management companies are crucial in optimizing the
-            production, storage, and use of renewable energy.
-          </p>
-          <p>
-            They help accelerate the energy transition, reduce carbon emissions,
-            and enhance system stability, making them vital partners in the
-            renewable energy market.
-          </p>
+          <p>{t("conclusion-paragraph")}</p>
+          <p>{t("conclusion-paragraph-2")}</p>
         </motion.div>
       </div>
     </div>
