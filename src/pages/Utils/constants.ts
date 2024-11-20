@@ -1,0 +1,2 @@
+export const EMBEDDED_GOOGLE_MAPS =
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.7195333698915!2d127.23793347646111!3d36.51263178385601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357acbbdadb415eb%3A0x549cb1168bd91902!2s9%20Gountteul%207-gil%2C%20Sejong-si%2C%20South%20Korea!5e0!3m2!1sen!2s!4v1732085129808!5m2!1sen!2s";
