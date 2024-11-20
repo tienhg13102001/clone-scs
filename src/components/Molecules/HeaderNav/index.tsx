@@ -12,7 +12,6 @@ type Props = {
 const HeaderNavigation: FC<Props> = ({ title }) => {
   const { t } = useTranslation();
   const { pathnames } = useBreadcrumb();
-  console.log(pathnames);
 
   return (
     <div className="bg-hero-pattern bg-center bg-cover pt-36 pb-12">
