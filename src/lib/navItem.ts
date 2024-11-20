@@ -90,7 +90,7 @@ export const getNavItems = (t: (key: string) => string): NavItem[] => [
       },
       {
         title: t("residential"),
-        url: RoutesString.Elevator,
+        url: RoutesString.Residential,
       },
       {
         title: t("water-capture"),
